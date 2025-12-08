@@ -149,6 +149,35 @@ This is research in progress. The hypotheses are falsifiable. Some may turn out 
 
 ---
 
+## Why This Repository Is Now Public
+
+In December 2025, two papers from Google Research independently arrived at theoretical frameworks with striking parallels to AKIRA's core concepts:
+
+**1. "Mathematical Framing for Different Agent Strategies"** (Stephens & Salawu, Google Cloud AI, arXiv:2512.04469v1)
+- Frames agentic behavior as chains of probabilities using Markov/POMDP mathematics (validates AKIRA's POMDP foundation)
+- Introduces "Degrees of Freedom" - distinct optimizable parameters at different levels (parallels AKIRA's 7+1 spectral band hierarchy with differential learning rates)
+- Formalizes inter-agent communication as P(c_L | a_L) probability terms (structurally similar to AKIRA's wormhole attention for cross-band communication)
+- Cost-regularized objectives balancing collaboration richness vs. efficiency (parallels AKIRA's tension-collapse dynamics and synergy-to-redundancy conversion)
+
+**2. "Nested Learning: The Illusion of Deep Learning Architecture"** (Behrouz, Razaviyayn, Zhong, & Mirrokni, Google Research, NeurIPS 2025)
+- Proposes "Nested Learning" with multi-level optimization problems, each with its own "context flow" (parallels AKIRA's spectral bands as parallel processing channels)
+- Shows that optimizers (Adam, SGD with Momentum) are associative memory modules that compress gradient information (aligns with AKIRA's view of learning as information transformation)
+- Introduces "continuum memory system" generalizing long-term/short-term memory (parallels AKIRA's frequency-based knowledge hierarchy: low-freq = stable/identity, high-freq = transient/detail)
+- Multi-timescale updates for different components (directly validates AKIRA's 3000x learning rate ratio between bands)
+- Their "Hope" module for continual learning shares more than just a name with AKIRA's "Hope" concept
+
+They've independently arrived at many of the same structural insights:
+
+- Hierarchical decomposition with different timescales
+- Probabilistic/Bayesian framing of agent behavior  
+- Cross-component communication as explicit information flow
+- Tradeoffs between exploration richness and commitment efficiency
+- Memory and learning as information compression/transformation
+
+This convergence from independent research teams at Google suggests that AKIRA's theoretical framework captures real principles about how information systems should be organized. We've made this repository public so others can evaluate, critique, and build upon these ideas.
+
+---
+
 ## A Note on Rigor
 
 We try to be precise about what we know vs. what we believe vs. what we hope.
