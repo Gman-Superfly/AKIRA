@@ -1,0 +1,40 @@
+{
+  "models": {
+    "sbm": {
+      "final_loss": 0.06045858270954341,
+      "training_time": 17.369529724121094
+    },
+    "flat": {
+      "final_loss": 0.0012206219453219092,
+      "training_time": 31.033956289291382
+    },
+    "four_band": {
+      "final_loss": 0.006421400459657889,
+      "training_time": 18.986369371414185
+    },
+    "spectral_only": {
+      "final_loss": 0.02171987105975859,
+      "training_time": 37.978331089019775
+    }
+  },
+  "control": {
+    "adam": {
+      "final_error": 0.4856560528278351,
+      "mean_error": 0.38196483815088866,
+      "final_centroid": 7.737206935882568
+    },
+    "homeostat": {
+      "final_error": 0.7151799201965332,
+      "mean_error": 0.6264805283397437,
+      "final_centroid": 8.438859939575195
+    }
+  },
+  "analysis": {
+    "entropy_error_correlation": -0.9865379129290851,
+    "mean_entropy": 53.469339587024805,
+    "mean_error": 0.5393435905889138,
+    "num_collapses": 0,
+    "mean_magnitude": 0.0,
+    "collapse_rate": 0.0
+  }
+}
