@@ -1,5 +1,5 @@
 # A.K.I.R.A.
-## Adaptive Knowledge Integration via Resonant Attention
+## Adaptive Knowledge Integration via Resonant Architectures
 
 ---
 

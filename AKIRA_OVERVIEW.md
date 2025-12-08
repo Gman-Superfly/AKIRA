@@ -1,4 +1,4 @@
-# AKIRA: Adaptive Knowledge Integration via Resonant Attention
+# AKIRA: Adaptive Knowledge Integration via Resonant Architectures
 
 ## A Comprehensive Overview of Spectral Belief Dynamics
 
@@ -1673,7 +1673,7 @@ HOW THE MAJOR DOCUMENTS CONNECT:
 ┌─────────────────────────────────────────────────────────────────────────┐
 │                                                                         │
 │                           A K I R A                                    │
-│     Adaptive Knowledge Integration via Resonant Attention              │
+│     Adaptive Knowledge Integration via Resonant Architectures          │
 │                                                                         │
 │  ═══════════════════════════════════════════════════════════════════   │
 │                                                                         │
