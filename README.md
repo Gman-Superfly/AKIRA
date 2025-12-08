@@ -9,9 +9,9 @@
 
 ## What Is This?
 
-AKIRA is an attempt to understand how information transforms through attention.
+AKIRA is a project to study how beliefs shape and transform information.
 
-Not just "how transformers work" in a mechanical sense, but something deeper: *what happens when many possibilities collapse into one certainty?* When a model "knows" something, what changed? When understanding crystallizes from confusion, what was the transformation?
+Not just "how transformers work" in a mechanical sense, but something deeper: *what happens when many possibilities collapse into one certainty?* When ML models "know" something, what changed? When understanding crystallizes from confusion, what was the transformation?
 
 We don't have all the answers. We have hypotheses, experiments, and a framework for thinking about these questions. This repository is a working document of that exploration.
 
