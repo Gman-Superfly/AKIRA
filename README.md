@@ -13,6 +13,8 @@ AKIRA is a project to study how beliefs shape and transform information.
 
 Not just "how transformers work" in a mechanical sense, but something deeper: *what happens when many possibilities collapse into one certainty?* When ML models "know" something, what changed? When understanding crystallizes from confusion, what was the transformation?
 
+We base our work from observations and standards in Information Theory, Computational Mechanics, Physics, there are links under every document and we will be adding inline references as the project matures.
+
 We don't have all the answers. We have hypotheses, experiments, and a framework for thinking about these questions. This repository is a working document of that exploration.
 
 ```
