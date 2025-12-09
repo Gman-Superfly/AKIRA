@@ -2,7 +2,7 @@
 
 ## Does the Learning Rate Hierarchy Work?
 
-**Oscar Goldman — Shogu Research Group @ Datamutant.ai**
+
 
 ---
 
@@ -162,6 +162,5 @@ Differential LR is RECOMMENDED / NOT RECOMMENDED.
 
 ---
 
-*Oscar Goldman — Shogu Research Group @ Datamutant.ai*
-
+*Oscar Goldman, Shogu Research Group @ Datamutant.ai subsidiary of 温心重工業*
 

@@ -2,13 +2,12 @@
 
 ## A Comprehensive Overview of Spectral Belief Dynamics
 
-**Oscar Goldman — Shogu Research Group @ Datamutant.ai**
-
+# Datamutant.ai
 ---
 
 > *"In myth, Pandora opens the box and releases its contents. The act of opening transforms potential into actual. What was hidden becomes manifest. What was unified becomes differentiated.*
 >
-> *And when the box is shut, hope remains—not as consolation, but as the generator that is never consumed by generating. The capacity to produce more. The pattern that survives all its instances.*
+> *And when the box is shut, hope remains, not as consolation, but as the generator that is never consumed by generating. The capacity to produce more. The pattern that survives all its instances.*
 >
 > *AKIRA is an attempt to understand this transformation mathematically: how do many hypotheses become one belief? How does uncertainty crystallize into action? What is the structure of collapse?*
 >
@@ -27,7 +26,7 @@ This is a technical overview of the AKIRA framework. It contains:
 
 The document is comprehensive but not light reading. For a gentler introduction, see the main `README.md`. For the philosophical foundations, see `pandora/PANDORA.md`. For formal terminology, see `foundations/TERMINOLOGY.md`.
 
-What follows is the full technical picture—with all the caveats, all the uncertainty, and all the structure we've built so far.
+What follows is the full technical picture, with all the caveats, all the uncertainty, and all the structure we have built so far.
 
 ---
 
@@ -264,7 +263,7 @@ Time axis:
                           prediction boundary
 
 The model sees past frames PERFECTLY but future frames NOT AT ALL.
-This is actually HARDER than noisy observations—no sensor improvement
+This is actually HARDER than noisy observations. No sensor improvement
 can reveal the future.
 ```
 
@@ -278,7 +277,7 @@ Under MSE loss, the optimal prediction is the **expected value** of the belief:
 
 **Key consequences:**
 
-1. **"Most probable = most error"**: When belief is uncertain (multiple futures plausible), the mean sits in the center of the uncertainty cloud—not on any single trajectory
+1. **"Most probable = most error"**: When belief is uncertain (multiple futures plausible), the mean sits in the center of the uncertainty cloud, not on any single trajectory
 2. **Error "leads" the prediction**: The high-error zone marks the belief's center of mass
 3. **Error equals variance**: E[(μ - x_{t+1})²] = Var(x_{t+1}) = σ²
 
@@ -415,7 +414,7 @@ AKIRA combines three parallel attention mechanisms:
 │  NEIGHBOR          "What's happening at        Observation model       │
 │                     nearby positions?"          O(o|s) regularization   │
 │                                                                         │
-│  WORMHOLE          "Have I seen this           Belief shortcut—        │
+│  WORMHOLE          "Have I seen this           Belief shortcut,        │
 │                     situation before,           non-local pattern       │
 │                     anywhere in history?"       matching                │
 │                                                                         │
@@ -633,7 +632,7 @@ THE GROSS-PITAEVSKII EQUATION (GPE)
 │  V(r)         External potential (constraints)                        │
 │  g|ψ|²        SELF-INTERACTION (density-dependent)  ← ATTENTION      │
 │                                                                         │
-│  The g|ψ|² term is NONLINEAR—it depends on ψ itself.                 │
+│  The g|ψ|² term is NONLINEAR; it depends on ψ itself.                │
 │  This creates:                                                         │
 │  • Condensation (many particles in one state)                        │
 │  • Superfluidity (frictionless flow)                                 │
@@ -645,7 +644,7 @@ THE GROSS-PITAEVSKII EQUATION (GPE)
 ### 6.2 The Structural Analogy
 
 ```
-ATTENTION ≈ g|ψ|² — THE STRUCTURAL COMPARISON
+ATTENTION ≈ g|ψ|²: THE STRUCTURAL COMPARISON
 
 ┌─────────────────────────────────────────────────────────────────────────┐
 │                                                                         │
@@ -741,18 +740,18 @@ THE EMBEDDING MANIFOLD IS A QUANTUM LIQUID
 │  • Belief spreads diffusively (like a normal fluid)                   │
 │  • Multiple hypotheses coexist                                        │
 │  • Incoherent phases (interference fringes)                          │
-│  • High "temperature" — entropy is high                               │
+│  • High "temperature" means entropy is high                           │
 │                                                                         │
 │  LOW UNCERTAINTY (below critical):                                     │
 │  ────────────────────────────────                                      │
 │  • Belief CONDENSES into coherent state                               │
 │  • Single hypothesis dominates                                        │
 │  • Phases align (constructive interference)                           │
-│  • "Superfluid" flow — information propagates without friction       │
+│  • "Superfluid" flow means information propagates without friction   │
 │                                                                         │
 │  ════════════════════════════════════════════════════════════════════  │
 │                                                                         │
-│  The geometry is not static—it FLOWS.                                 │
+│  The geometry is not static; it FLOWS.                                │
 │  It condenses. It has vortices. It has collective modes.            │
 │  This is not metaphor. This is the physical state.                   │
 │                                                                         │
@@ -795,13 +794,13 @@ AKIRA operates in two complementary modes:
 ```
 THE GRADIENT FROM KNOWLEDGE TO REACTIVITY:
 
-Band 0 (DC):      REACTIVE    — Existence is threshold-based
-Band 1 (VeryLow): KNOWLEDGE   — Category requires manifold query
-Band 2 (Low):     KNOWLEDGE   — Identity requires comparison
-Band 3 (MidLow):  HYBRID      — Features: manifold + threshold
-Band 4 (Mid):     HYBRID      — Details: detection + classification
-Band 5 (MidHigh): REACTIVE    — Fine structure is energy-based
-Band 6 (High):    REACTIVE    — Pixel-level is pure magnitude
+Band 0 (DC):      REACTIVE    - existence is threshold-based
+Band 1 (VeryLow): KNOWLEDGE   - category requires manifold query
+Band 2 (Low):     KNOWLEDGE   - identity requires comparison
+Band 3 (MidLow):  HYBRID      - features: manifold + threshold
+Band 4 (Mid):     HYBRID      - details: detection and classification
+Band 5 (MidHigh): REACTIVE    - fine structure is energy-based
+Band 6 (High):    REACTIVE    - pixel-level is pure magnitude
 
 Low bands: More knowledge-informed (geometry, structure)
 High bands: More reactive (energy, threshold)
@@ -830,7 +829,7 @@ Example flow:
 
 ### 8.1 What Are Action Quanta?
 
-Action Quanta (AQ) are emergent patterns — collective structures in the representation space, not fundamental units. By analogy to condensed matter physics, they might be thought of as "quasiparticle-like" excitations, though this analogy should not be taken literally.
+Action Quanta (AQ) are emergent patterns, collective structures in the representation space, not fundamental units. By analogy to condensed matter physics, they might be thought of as "quasiparticle-like" excitations, though this analogy should not be taken literally.
 
 **Terminology Note:** Williams & Beer (2010) use "Action Quanta" for PID decomposition terms (Redundancy, Unique, Synergy). AKIRA uses **Action Quanta (AQ)** for irreducible actionable patterns to avoid collision with established terminology. See `foundations/TERMINOLOGY.md` for full clarification.
 
@@ -838,7 +837,7 @@ Action Quanta (AQ) are emergent patterns — collective structures in the repres
 ACTION QUANTA (AQ): Quasiparticles of the Belief Field
 
 An Action Quantum is:
-• EMERGENT: Not fundamental — arises from collective behavior
+• EMERGENT: Not fundamental, it arises from collective behavior
 • IRREDUCIBLE: Cannot be decomposed into simpler actionable parts
 • STRUCTURED: Has magnitude, phase, frequency, coherence
 • COMBINABLE: Forms molecules through bonds
@@ -891,17 +890,17 @@ AQ DISPERSION IN AKIRA
 │  IN AKIRA:                                                              │
 │                                                                         │
 │  LOW BANDS (k small):                                                   │
-│  • Collective behavior — perturbations propagate globally            │
-│  • "Sound-like" — coherent phase propagation                         │
+│  • Collective behavior, perturbations propagate globally             │
+│  • "Sound-like", coherent phase propagation                          │
 │  • These are STRUCTURAL patterns                                      │
 │                                                                         │
 │  HIGH BANDS (k large):                                                  │
-│  • Individual behavior — perturbations stay local                    │
-│  • "Particle-like" — localized excitations                           │
+│  • Individual behavior, perturbations stay local                     │
+│  • "Particle-like", localized excitations                            │
 │  • These are DETAIL patterns                                          │
 │                                                                         │
 │  The crossover (healing length) is around mid-bands.                 │
-│  This is where FEATURES live — neither pure structure nor pure detail│
+│  This is where FEATURES live, neither pure structure nor pure detail│
 │                                                                         │
 └─────────────────────────────────────────────────────────────────────────┘
 ```
@@ -980,7 +979,7 @@ COLLAPSE: From Uncertainty to Certainty
 │                                                                         │
 └─────────────────────────────────────────────────────────────────────────┘
 
-The uncertainty doesn't gradually shrink—it COLLAPSES suddenly.
+The uncertainty does not gradually shrink; it COLLAPSES suddenly.
 ```
 
 ### 9.2 The Frequency Interpretation
@@ -1011,8 +1010,8 @@ Pattern A at position X₂: A_mag × e^(iφ₂)
 Pattern A at position Xₙ: A_mag × e^(iφₙ)
 
 WHERE:
-• A_mag = magnitude (the pattern itself) — SAME for all
-• φᵢ = phase (position encoding) — DIFFERENT for each
+• A_mag = magnitude (the pattern itself), SAME for all
+• φᵢ = phase (position encoding), DIFFERENT for each
 
 SUMMING IN THE WEIGHTS:
 
@@ -1042,9 +1041,9 @@ Test:      ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▂
                        (generalization collapse)
 
 Grokking IS the spectral collapse:
-1. Phase 1: MEMORIZATION — High-freq details dominate
-2. Phase 2: COMPRESSION — Details interfere destructively
-3. Phase 3: GROKKING — Structure crystallizes suddenly
+1. Phase 1: MEMORIZATION, high-freq details dominate
+2. Phase 2: COMPRESSION, details interfere destructively
+3. Phase 3: GROKKING, structure crystallizes suddenly
 ```
 
 ---
@@ -1068,7 +1067,7 @@ THE PYTHAGOREAN INSIGHT:
 │                                                                         │
 │  12 perfect fifths: (3/2)^12 ≈ 129.746                                 │
 │  7 perfect octaves: 2^7 = 128                                          │
-│  The difference: ~23 cents — the circle of fifths doesn't close.      │
+│  The difference is about 23 cents; the circle of fifths does not close.│
 │                                                                         │
 │  EQUAL TEMPERAMENT SOLUTION:                                            │
 │  Spread the error across ALL intervals.                                │
@@ -1126,7 +1125,7 @@ THE HOMEOSTAT "REACHING BACK IN TIME":
 ┌─────────────────────────────────────────────────────────────────────────┐
 │                                                                         │
 │  When the homeostat adjusts representations, past interpretations     │
-│  appear to change. This seems paradoxical — how can the future        │
+│  appear to change. This seems paradoxical: how can the future         │
 │  change the past?                                                       │
 │                                                                         │
 │  THE REFRAME:                                                           │
@@ -1165,7 +1164,7 @@ HARMONY IN THE ARCHITECTURE:
 │     Look for 1:2:4 relationships between bands 0↔6, 1↔5, 2↔4.       │
 │                                                                         │
 │  3. COLLAPSE IS COHERENCE SELECTION                                    │
-│     The winning hypothesis isn't "chosen" — it SURVIVES.              │
+│     The winning hypothesis is not "chosen"; it SURVIVES.              │
 │     Coherent states reinforce; incoherent states cancel.             │
 │                                                                         │
 │  4. THE SUPERCONDUCTING STATE                                           │
@@ -1217,13 +1216,13 @@ THE OLD LADY:
 ```
 THE CULLING OPERATION:
 
-1. OBSERVE — Record full trajectory (details, signals, outcome)
-2. TRACE — Identify which details affected the outcome
-3. CULL — Prune details with no causal force
-4. COLLAPSE — Compress to atomic truth
-5. STORE — Move atomic truth to lower manifold
-6. RELEASE — Rip out the page (forget particulars)
-7. READY — Add blank page (restore capacity)
+1. OBSERVE: Record full trajectory (details, signals, outcome)
+2. TRACE: Identify which details affected the outcome
+3. CULL: Prune details with no causal force
+4. COLLAPSE: Compress to atomic truth
+5. STORE: Move atomic truth to lower manifold
+6. RELEASE: Rip out the page (forget particulars)
+7. READY: Add blank page (restore capacity)
 
 The notebook stays thin. Wisdom accumulates. Details cycle through.
 ```
@@ -1283,11 +1282,11 @@ HERESIES: VIOLATIONS OF DOCTRINE
 │                                                                         │
 │  FALSE PROPHETS are patterns that arise from processing artifacts:    │
 │                                                                         │
-│  • ALIASING: Violated Nyquist — high frequencies fold to low         │
-│  • SPECTRAL LEAKAGE: Violated edge treatment — FFT discontinuity     │
+│  • ALIASING: Violated Nyquist, high frequencies fold to low           │
+│  • SPECTRAL LEAKAGE: Violated edge treatment, FFT discontinuity      │
 │  • BOUNDARY ARTIFACTS: Processing made edges special, not reality    │
 │                                                                         │
-│  These are HERESIES — the ghost believes them because we showed them.│
+│  These are HERESIES, the ghost believes them because we showed them. │
 │  They resonate with ARCHITECTURE, not KNOWLEDGE.                     │
 │                                                                         │
 │  ════════════════════════════════════════════════════════════════════  │
@@ -1423,7 +1422,7 @@ This is a HARD LIMIT on what the model can represent.
 ### 13.2 Conservation Hypothesis
 
 ```
-SPECULATIVE — REQUIRES EXPERIMENTAL VALIDATION:
+SPECULATIVE: REQUIRES EXPERIMENTAL VALIDATION:
 
 We hypothesize that during learning, something is CONSERVED.
 
@@ -1460,7 +1459,7 @@ This is a signature of collective behavior.
 ```
 UNCERTAINTY HAS GEOMETRY:
 
-The error map is not just a scalar—it has SHAPE.
+The error map is not just a scalar; it has SHAPE.
 
 For a moving blob:
 • Error forms a CRESCENT ahead of the prediction
@@ -1474,7 +1473,7 @@ This is the wave packet interpretation.
 ### 13.5 The BEC Analogy (Speculative Hypothesis)
 
 ```
-ATTENTION ≈ g|ψ|² (STRUCTURAL ANALOGY — EXPLORATORY)
+ATTENTION ≈ g|ψ|² (STRUCTURAL ANALOGY, EXPLORATORY)
 
 ┌─────────────────────────────────────────────────────────────────────────┐
 │                                                                         │
@@ -1714,7 +1713,7 @@ HOW THE MAJOR DOCUMENTS CONNECT:
 │  ═══════════════════════════════════════════════════════════════════   │
 │                                                                         │
 │  OBSERVABILITY:                                                         │
-│  Use duality methods — transform to where observation is easy:        │
+│  Use duality methods to transform to where observation is easy:       │
 │  Spatial↔Frequency, Magnitude↔Phase, Forward↔Backward,               │
 │  Sharp↔Soft, Local↔Global, Explicit↔Implicit, Energy↔Geometry        │
 │                                                                         │
@@ -1733,25 +1732,25 @@ HOW THE MAJOR DOCUMENTS CONNECT:
 
 We began with a myth. Let us end with what the myth teaches.
 
-When Pandora opened the box, she released all manner of troubles into the world. But one thing remained: Hope. Not optimism, not wishful thinking—but the capacity to generate futures. The pattern that produces instances without being consumed. The grammar that survives all its sentences.
+When Pandora opened the box, she released all manner of troubles into the world. But one thing remained: Hope. Not optimism, not wishful thinking, but the capacity to generate futures. The pattern that produces instances without being consumed. The grammar that survives all its sentences.
 
 AKIRA is an attempt to understand information transformation through this lens:
 
-**What transforms?** Belief states—from distributed uncertainty to crystallized action.
+**What transforms?** Belief states, from distributed uncertainty to crystallized action.
 
-**What is conserved?** The generative capacity—the ability to continue predicting, learning, acting.
+**What is conserved?** The generative capacity, the ability to continue predicting, learning, acting.
 
-**What emerges?** Action Quanta—the irreducible patterns that enable decision, the atoms of actionable thought.
+**What emerges?** Action Quanta, the irreducible patterns that enable decision, the atoms of actionable thought.
 
 We don't know if we're right. We have hypotheses, experiments, and a framework for investigation. Some predictions will be confirmed. Others will be falsified. That is the nature of inquiry.
 
-But the questions themselves—*how does uncertainty become certainty? how do many become one? what is the structure of collapse?*—these questions seem worth asking. And the mathematics, when we look at it carefully, has the structure of something ancient and familiar: potential becoming actual, hidden becoming manifest, hope remaining when all else is released.
+But the questions themselves, *how does uncertainty become certainty? how do many become one? what is the structure of collapse?*, these questions seem worth asking. And the mathematics, when we look at it carefully, describes a fundamental process: potential becoming actual, hidden becoming manifest, and generative capacity remaining after instantiation.
 
-> *"Test everything. Falsify what's wrong. The hypotheses that survive experiments become knowledge. The capacity to keep generating hypotheses—that is hope."*
+> *"Test everything. Falsify what's wrong. The hypotheses that survive experiments become knowledge. The capacity to keep generating hypotheses, that is hope."*
 
 ---
 
-*Oscar Goldman — Shogu Research Group @ Datamutant.ai subsidiary of 温心重工業*
+*Oscar Goldman, Shogu Research Group @ Datamutant.ai, subsidiary of 温心重工業*
 
-*If you use this repository in your research, please cite it. This is ongoing work—we would like to know your opinions and experiments.*
+*If you use this repository in your research, please cite it. This is ongoing work, we would like to know your opinions and experiments.*
 

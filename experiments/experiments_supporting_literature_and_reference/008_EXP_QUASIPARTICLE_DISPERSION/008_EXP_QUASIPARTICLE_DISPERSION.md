@@ -2,8 +2,6 @@
 
 ## Do Action Quanta Behave Like Quasiparticles?
 
-**Oscar Goldman — Shogu Research Group @ Datamutant.ai**
-
 ---
 
 ## Status: PLANNED
@@ -199,6 +197,4 @@ H3 (crossover at mid-bands): SUPPORTED / NOT SUPPORTED
 
 ---
 
-*Oscar Goldman — Shogu Research Group @ Datamutant.ai*
-
-
+*Oscar Goldman — Shogu Research Group @ Datamutant.ai subsidiary of 温心重工業*

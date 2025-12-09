@@ -2,10 +2,6 @@
 
 ## The Mathematical Foundation of Independent Information Channels
 
-**Oscar Goldman — Shogu Research Group @ Datamutant.ai**
-
----
-
 ## Table of Contents
 
 1. [Introduction: What is Orthogonality?](#1-introduction)
@@ -76,7 +72,7 @@ WHY NEURAL ARCHITECTURES NEED ORTHOGONALITY
 │                                                                         │
 │  The Spectral Belief Machine enforces orthogonality BY CONSTRUCTION. │
 │  The FFT basis is orthogonal. Space and time are orthogonal.         │
-│  This is not learned — it is GUARANTEED by the architecture.        │
+│  This is not learned; it is GUARANTEED by the architecture.         │
 │                                                                         │
 └─────────────────────────────────────────────────────────────────────────┘
 ```
@@ -167,7 +163,7 @@ ORTHOGONAL = INTERPRETABLE
 │  Each statement is INDEPENDENT. You can read them separately.        │
 │                                                                         │
 │  Compare to entangled representations:                                 │
-│  "This input has high neuron 47 activation" — means nothing alone.  │
+│  "This input has high neuron 47 activation" means nothing alone.    │
 │                                                                         │
 │  Orthogonality enables meaningful decomposition and diagnosis.        │
 │                                                                         │
@@ -199,7 +195,7 @@ FIVE TYPES OF ORTHOGONALITY
 │  ────────────────────────────────                                       │
 │  Spectral bands (space/frequency) are orthogonal to temporal.        │
 │  Heisenberg uncertainty: Δf × Δt ≥ constant                          │
-│  What exists vs how it changes — different questions                 │
+│  What exists vs how it changes, different questions                  │
 │                                                                         │
 │  TYPE 4: KNOWLEDGE-REACTIVITY ORTHOGONALITY                            │
 │  ──────────────────────────────────────────                             │
@@ -211,7 +207,7 @@ FIVE TYPES OF ORTHOGONALITY
 │  ────────────────────────────────                                       │
 │  Paired bands (0↔6, 1↔5, 2↔4) are complementary.                    │
 │  Not orthogonal in the usual sense, but DUALLY orthogonal:          │
-│  What (low-freq) vs Where (high-freq) — different aspects.          │
+│  What (low-freq) vs Where (high-freq), different aspects.           │
 │                                                                         │
 └─────────────────────────────────────────────────────────────────────────┘
 ```
@@ -237,7 +233,7 @@ FOURIER BASIS FUNCTIONS ARE ORTHOGONAL
 │                     = 0 if k ≠ j                                      │
 │                                                                         │
 │  Different frequencies are ORTHOGONAL.                                │
-│  This is not approximate — it is EXACT.                              │
+│  This is not approximate; it is EXACT.                               │
 │                                                                         │
 │  WHAT THIS MEANS FOR AKIRA:                                            │
 │  ───────────────────────────                                            │
@@ -441,7 +437,7 @@ TIME AND FREQUENCY CANNOT BOTH BE PRECISE
 │  A perfect sine wave sin(2πft) has:                                   │
 │  • Exact frequency f (Δf = 0)                                         │
 │  • Infinite extent in time (Δt = ∞)                                  │
-│  The wave goes on forever — it has no beginning or end.             │
+│  The wave goes on forever; it has no beginning or end.              │
 │                                                                         │
 │  PURE TIME:                                                             │
 │  ───────────                                                            │
@@ -452,7 +448,7 @@ TIME AND FREQUENCY CANNOT BOTH BE PRECISE
 │                                                                         │
 │  THIS IS ORTHOGONALITY:                                                 │
 │  Time and frequency are complementary descriptions.                  │
-│  They cannot both be specified — they are orthogonal dimensions.    │
+│  They cannot both be specified; they are orthogonal dimensions.     │
 │                                                                         │
 └─────────────────────────────────────────────────────────────────────────┘
 ```
@@ -571,14 +567,14 @@ BANDS SPECIALIZE BY PROCESSING MODE
 
 ┌─────────────────────────────────────────────────────────────────────────┐
 │                                                                         │
-│  Band 0 (DC):     Geometric (knowledge)     — eternal patterns       │
-│  Band 1:          Geometric (knowledge)     — stable structure       │
-│  Band 2:          Hybrid                     — transitions           │
-│  Band 3:          Hybrid (bridge)            — boundaries            │
-│  Band 4:          Hybrid                     — fine structure        │
-│  Band 5:          Reactive (energy)          — textures             │
-│  Band 6:          Reactive (energy)          — immediate details    │
-│  Band 7 (Time):   Mixed (causal attention)  — dynamics              │
+│  Band 0 (DC):     Geometric (knowledge)     - eternal patterns       │
+│  Band 1:          Geometric (knowledge)     - stable structure       │
+│  Band 2:          Hybrid                     - transitions           │
+│  Band 3:          Hybrid (bridge)            - boundaries            │
+│  Band 4:          Hybrid                     - fine structure        │
+│  Band 5:          Reactive (energy)          - textures             │
+│  Band 6:          Reactive (energy)          - immediate details    │
+│  Band 7 (Time):   Mixed (causal attention)  - dynamics              │
 │                                                                         │
 │  Low-frequency bands: WHAT something IS (identity, knowledge)       │
 │  High-frequency bands: WHERE something is NOW (position, energy)    │
@@ -641,8 +637,8 @@ WORMHOLES CONNECT ORTHOGONAL INFORMATION
 │  WITH WORMHOLES:                                                        │
 │  ────────────────                                                       │
 │  Bands share information SPARSELY.                                    │
-│  Band 0 asks: "I know WHAT this is — where exactly?"                │
-│  Band 6 asks: "I see something HERE — what is it?"                  │
+│  Band 0 asks: "I know WHAT this is, where exactly?"                 │
+│  Band 6 asks: "I see something HERE, what is it?"                   │
 │  They remain orthogonal but can QUERY each other.                   │
 │                                                                         │
 │  THE KEY INSIGHT:                                                       │
@@ -794,14 +790,14 @@ ORTHOGONALITY ENABLES DIFFERENTIAL LEARNING
 │                                                                         │
 │  Because bands are orthogonal, they can learn at different rates:    │
 │                                                                         │
-│  Band 0: LR = 0.00001 (very slow — stable identity)                  │
+│  Band 0: LR = 0.00001 (very slow, stable identity)                   │
 │  Band 1: LR = 0.0001                                                   │
 │  Band 2: LR = 0.0003                                                   │
 │  Band 3: LR = 0.001                                                    │
 │  Band 4: LR = 0.003                                                    │
 │  Band 5: LR = 0.01                                                     │
-│  Band 6: LR = 0.03 (very fast — adapts to details)                   │
-│  Band 7: LR = 0.001 (medium — temporal context)                      │
+│  Band 6: LR = 0.03 (very fast, adapts to details)                    │
+│  Band 7: LR = 0.001 (medium, temporal context)                       │
 │                                                                         │
 │  WHY THIS WORKS:                                                        │
 │  ────────────────                                                       │
@@ -868,7 +864,7 @@ ORTHOGONAL DECOMPOSITION IS OPTIMAL
 │  The optimal linear transform for compression is the one that       │
 │  decorrelates the signal (makes components orthogonal).             │
 │                                                                         │
-│  PCA, DCT, Wavelets — all are orthogonal transforms.                │
+│  PCA, DCT, Wavelets, all are orthogonal transforms.                 │
 │  They work because orthogonality = no redundancy = optimal.         │
 │                                                                         │
 │  FFT (what AKIRA uses):                                                 │
@@ -991,7 +987,7 @@ PID EXPLAINS WHY ORTHOGONALITY AND WORMHOLES COEXIST:
 │  ORTHOGONALITY is about LOW REDUNDANCY (no waste).                     │
 │  WORMHOLES are about EXPLOITING SYNERGY (combining complements).       │
 │                                                                         │
-│  These are not contradictory — they are complementary goals!           │
+│  These are not contradictory; they are complementary goals!            │
 │                                                                         │
 └─────────────────────────────────────────────────────────────────────────┘
 ```
@@ -1048,13 +1044,13 @@ CLEAN GRADIENT FLOW
 │  ──────────────────                                                     │
 │  Gradients flow through entangled representations.                   │
 │  Error signal for one feature bleeds into others.                   │
-│  "Spaghetti gradients" — hard to trace and unstable.                │
+│  "Spaghetti gradients", hard to trace and unstable.                 │
 │                                                                         │
 │  AKIRA'S ORTHOGONAL BANDS:                                              │
 │  ─────────────────────────                                              │
 │  Gradients flow through independent channels.                        │
 │  Error signal for band k stays in band k.                            │
-│  "Parallel pipelines" — clean and stable.                           │
+│  "Parallel pipelines", clean and stable.                            │
 │                                                                         │
 │  VISUALIZATION:                                                         │
 │                                                                         │
@@ -1255,7 +1251,7 @@ ANTI-PATTERNS THAT DESTROY ORTHOGONALITY
 ### 15.1 Summary of Orthogonalities
 
 ```
-THE FIVE ORTHOGONALITIES — SUMMARY
+THE FIVE ORTHOGONALITIES, SUMMARY
 
 ┌─────────────────────────────────────────────────────────────────────────┐
 │                                                                         │
@@ -1375,7 +1371,10 @@ ORTHOGONALITY AS ORGANIZING PRINCIPLE
 
 ---
 
-*Oscar Goldman — Shogu Research Group @ Datamutant.ai*
+*"Orthogonality is not a constraint, it is a gift. It means each channel carries unique information. It means learning doesn't fight itself. It means the system is as efficient as physics allows."*
 
-*"Orthogonality is not a constraint — it is a gift. It means each channel carries unique information. It means learning doesn't fight itself. It means the system is as efficient as physics allows."*
+
+*Oscar Goldman, Shogu Research Group @ Datamutant.ai subsidiary of 温心重工業*
+
+
 

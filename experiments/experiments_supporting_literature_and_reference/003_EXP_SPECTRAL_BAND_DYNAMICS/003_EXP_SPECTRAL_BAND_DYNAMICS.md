@@ -2,8 +2,6 @@
 
 ## Do Different Bands Have Different Dynamics?
 
-**Oscar Goldman — Shogu Research Group @ Datamutant.ai**
-
 ---
 
 ## Status: PENDING
@@ -565,8 +563,9 @@ If hierarchy not confirmed:
 
 ---
 
-*Oscar Goldman — Shogu Research Group @ Datamutant.ai*
+
 
 *"If the bands are truly different, the measurements will show it. If they are cosmetic, the statistics will reveal uniformity. We let the data speak."*
 
+*Oscar Goldman — Shogu Research Group @ Datamutant.ai subsidiary of 温心重工業*
 

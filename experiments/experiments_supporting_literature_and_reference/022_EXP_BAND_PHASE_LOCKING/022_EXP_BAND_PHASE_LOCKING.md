@@ -106,9 +106,9 @@ BAND COUPLING SOURCES:
 ### 3.4 AKIRA Theory Basis
 
 **Relevant Theory Documents:**
-- `foundations/HARMONY_AND_COHERENCE.md` — §5 (Phase Locking), §6 (Resonant Ratios)
-- `architecture_theoretical/SPECTRAL_BELIEF_MACHINE.md` — §2 (Differential Timescales)
-- `architecture_expanded/wormhole/WORMHOLE_ARCHITECTURE.md` — §2 (Symmetric Pairs)
+- `foundations/HARMONY_AND_COHERENCE.md`, §5 (Phase Locking), §6 (Resonant Ratios)
+- `architecture_theoretical/SPECTRAL_BELIEF_MACHINE.md`, §2 (Differential Timescales)
+- `architecture_expanded/wormhole/WORMHOLE_ARCHITECTURE.md`, §2 (Symmetric Pairs)
 
 **Key Concepts:**
 - **Coupled oscillators:** Bands are coupled via wormholes, shared loss, gradient flow
@@ -366,12 +366,13 @@ If falsified, possible alternatives:
 
 ## References
 
-- `foundations/HARMONY_AND_COHERENCE.md` — Phase locking and coherence
-- `003_EXP_SPECTRAL_BAND_DYNAMICS.md` — Band-specific dynamics
-- `020_EXP_CROSS_BAND_FLOW.md` — Cross-band communication
+- `foundations/HARMONY_AND_COHERENCE.md`, Phase locking and coherence
+- `003_EXP_SPECTRAL_BAND_DYNAMICS.md`, Band-specific dynamics
+- `020_EXP_CROSS_BAND_FLOW.md`, Cross-band communication
 - Physics literature on coupled oscillators and phase locking
 
 ---
 
 *"Just as Jupiter's moons found 1:2:4 resonance over billions of years, spectral bands should find rational relationships through training. What survives is what harmonizes."*
 
+*Oscar Goldman, Shogu Research Group @ Datamutant.ai subsidiary of 温心重工業*

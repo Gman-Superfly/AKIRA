@@ -285,6 +285,4 @@ jupyter notebook
 ---
 
 AKIRA Project - Experiment 035
-Oscar Goldman - Shogu Research Group @ Datamutant.ai
-
-If you use this repository in your research, please cite it. This is ongoing work and we would like to know your opinions and experiments. Thank you.
+*Oscar Goldman — Shogu Research Group @ Datamutant.ai subsidiary of 温心重工業*

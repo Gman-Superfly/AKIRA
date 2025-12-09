@@ -466,7 +466,7 @@ EMPIRICAL: Word Association Networks
 Analysis of free association data shows:
   - High clustering coefficient (concepts cluster semantically)
   - Short average path length (~3-4 steps between any concepts)
-  - Hub structure (common words bridge domains)
+  - Hub structure (common words connect domains)
 
 This is small-world structure.
 
@@ -658,3 +658,4 @@ COMPLEMENTARY FRAMINGS:
 
 *This document collects evidence that forms AKIRA's theoretical foundation. For hypotheses requiring experimental validation, see `EVIDENCE_TO_COLLECT.md`.*
 
+*Oscar Goldman, Shogu Research Group @ Datamutant.ai subsidiary of 温心重工業*

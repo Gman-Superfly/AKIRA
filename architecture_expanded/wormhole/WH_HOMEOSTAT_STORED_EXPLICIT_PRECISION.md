@@ -59,7 +59,7 @@ FROM THE NEURO-SYMBOLIC HOMEOSTAT PAPER:
 │                                                                 │
 │  "Precision (inverse variance) is stiffness."                 │
 │                                                                 │
-│  Precision Λ = ∂²F/∂x² = curvature of energy landscape        │
+│  Precision Λ = ∂²F/∂x² = curvature of energy surface          │
 │                                                                 │
 │  High Λ → Sharp valley → Confident belief                     │
 │  Low Λ → Flat region → Uncertain belief                       │
@@ -91,7 +91,7 @@ THE HOMEOSTAT VIEWS BELIEF THROUGH FOUR LENSES:
 │                                                                 │
 │  1. PHYSICS (Energy Minimization)                               │
 │     ─────────────────────────────                               │
-│     Belief = position in energy landscape                       │
+│     Belief = position in energy surface                         │
 │     Update = relax toward ground state                         │
 │     Precision = curvature (stiffness)                          │
 │                                                                 │
@@ -1100,5 +1100,4 @@ When to use:
 
 ---
 
-*Oscar Goldman - Shogu Research Group @ Datamutant.ai*
-
+*Oscar Goldman, Shogu Research Group @ Datamutant.ai subsidiary of 温心重工業*

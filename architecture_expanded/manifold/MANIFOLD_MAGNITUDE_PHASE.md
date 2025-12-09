@@ -2021,3 +2021,6 @@ AFTER IMPLEMENTING:
 
 *This document provides a complete treatment of magnitude-phase storage in spectral manifolds. The key insight is that while magnitude and phase are mathematically inseparable, they encode fundamentally different information (WHAT vs WHERE) and should be stored with different learning dynamics. Magnitude represents stable patterns (store in slow-learning manifolds), structural phase represents coherence patterns (store with moderate learning), and absolute phase represents transient position (compute dynamically or learn very fast).*
 
+---
+
+*Oscar Goldman, Shogu Research Group @ Datamutant.ai subsidiary of 温心重工業*

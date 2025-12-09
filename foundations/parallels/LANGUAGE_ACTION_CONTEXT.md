@@ -1289,3 +1289,6 @@ AKIRA SYNTHESIS:
 ---
 
 *This document is part of AKIRA's foundational parallels. For the radar parallel, see `RADAR_ARRAY.md`. For core terminology, see `TERMINOLOGY.md`. For AQ specification, see `ACTION_QUANTA.md`.*
+
+
+*Oscar Goldman, Shogu Research Group @ Datamutant.ai subsidiary of 温心重工業*

@@ -2,8 +2,6 @@
 
 ## Can We Probe the Manifold Cheaply?
 
-**Oscar Goldman — Shogu Research Group @ Datamutant.ai**
-
 ---
 
 ## Status: PLANNED
@@ -153,6 +151,5 @@ Tickling is USEFUL / NOT USEFUL for practical speedup.
 
 ---
 
-*Oscar Goldman — Shogu Research Group @ Datamutant.ai*
-
+*Oscar Goldman — Shogu Research Group @ Datamutant.ai subsidiary of 温心重工業*
 

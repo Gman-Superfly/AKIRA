@@ -2,8 +2,6 @@
 
 ## A Catalog of Moving Parts, Values, Triggers, Gates, and Interactions
 
-**Oscar Goldman — Shogu Research Group @ Datamutant.ai**
-
 ---
 
 ## Table of Contents
@@ -77,12 +75,12 @@ ENTITY: SpectralDecomposer
 │ ID: SPEC_DECOMP                                                         │
 ├─────────────────────────────────────────────────────────────────────────┤
 │ INPUTS:                                                                 │
-│   • frame: [H, W, C] — input image frame                               │
+│   • frame: [H, W, C], input image frame                                │
 │                                                                         │
 │ OUTPUTS:                                                                │
-│   • bands: [7, H, W] — spectral band decomposition                     │
-│   • magnitude: [H, W] — FFT magnitude                                  │
-│   • phase: [H, W] — FFT phase                                          │
+│   • bands: [7, H, W], spectral band decomposition                      │
+│   • magnitude: [H, W], FFT magnitude                                   │
+│   • phase: [H, W], FFT phase                                           │
 │                                                                         │
 │ INTERNAL OPERATIONS:                                                    │
 │   • FFT_2D: Forward Fourier transform                                  │
@@ -109,8 +107,8 @@ ENTITY: TemporalAttention
 │ ID: TEMP_ATTN                                                           │
 ├─────────────────────────────────────────────────────────────────────────┤
 │ INPUTS:                                                                 │
-│   • query_features: [H, W, D] — current frame features                 │
-│   • history_buffer: [T, H, W, D] — past frame features                 │
+│   • query_features: [H, W, D], current frame features                  │
+│   • history_buffer: [T, H, W, D], past frame features                  │
 │                                                                         │
 │ OUTPUTS:                                                                │
 │   • attended_features: [H, W, D]                                       │
@@ -143,8 +141,8 @@ ENTITY: NeighborAttention
 │ ID: NEIGH_ATTN                                                          │
 ├─────────────────────────────────────────────────────────────────────────┤
 │ INPUTS:                                                                 │
-│   • features: [H, W, D] — current features                             │
-│   • neighborhood_size: int — spatial window                            │
+│   • features: [H, W, D], current features                              │
+│   • neighborhood_size: int, spatial window                             │
 │                                                                         │
 │ OUTPUTS:                                                                │
 │   • smoothed_features: [H, W, D]                                       │
@@ -171,13 +169,13 @@ ENTITY: WormholeAttention
 ├─────────────────────────────────────────────────────────────────────────┤
 │ INPUTS:                                                                 │
 │   • query_features: [H, W, D]                                          │
-│   • full_history: [T, H, W, D] — extended history                      │
+│   • full_history: [T, H, W, D], extended history                       │
 │                                                                         │
 │ OUTPUTS:                                                                │
 │   • wormhole_features: [H, W, D]                                       │
-│   • connection_indices: [H*W, K] — which history positions             │
+│   • connection_indices: [H*W, K], which history positions              │
 │   • connection_similarities: [H*W, K]                                  │
-│   • connection_mask: [H*W, K] — boolean gate                           │
+│   • connection_mask: [H*W, K], boolean gate                            │
 │                                                                         │
 │ INTERNAL ENTITIES:                                                      │
 │   • NORMALIZER: L2 normalize to hypersphere                            │
@@ -217,7 +215,7 @@ ENTITY: HistoryBuffer
 │ TYPE: State                                                             │
 │ ID: HIST_BUF                                                            │
 ├─────────────────────────────────────────────────────────────────────────┤
-│ SHAPE: [T, 7, H, W, D] — time × bands × spatial × features            │
+│ SHAPE: [T, 7, H, W, D], time × bands × spatial × features             │
 │                                                                         │
 │ OPERATIONS:                                                             │
 │   • PUSH: Add new frame, shift old                                     │
@@ -254,13 +252,13 @@ ENTITY: WeightManifold
 │   • projection_weights: Input/output projections                       │
 │                                                                         │
 │ PER-BAND LEARNING RATES:                                                │
-│   • band_0_lr: 0.00001 (DC — protected)                               │
+│   • band_0_lr: 0.00001 (DC - protected)                               │
 │   • band_1_lr: 0.0001                                                  │
 │   • band_2_lr: 0.0003                                                  │
 │   • band_3_lr: 0.001                                                   │
 │   • band_4_lr: 0.003                                                   │
 │   • band_5_lr: 0.01                                                    │
-│   • band_6_lr: 0.03 (High — responsive)                               │
+│   • band_6_lr: 0.03 (High - responsive)                                │
 │                                                                         │
 │ EVENTS:                                                                 │
 │   • WEIGHTS_UPDATED: After gradient step                               │
@@ -279,7 +277,7 @@ ENTITY: BeliefState
 │ ID: BELIEF                                                              │
 ├─────────────────────────────────────────────────────────────────────────┤
 │ REPRESENTATION:                                                         │
-│   The belief state is IMPLICIT — encoded in:                           │
+│   The belief state is IMPLICIT, encoded in:                            │
 │   • attention_weights: Where model attends                             │
 │   • prediction: Mean of belief distribution                            │
 │   • activation_patterns: Internal representations                      │
@@ -740,7 +738,7 @@ ENTITY: CausalTreeCuller
 │ ID: CAUSAL_CULL                                                         │
 ├─────────────────────────────────────────────────────────────────────────┤
 │ DESCRIPTION:                                                            │
-│   The "Old Lady" operation — distill trajectories to atomic truths.   │
+│   The "Old Lady" operation, distill trajectories to atomic truths.    │
 │   Prune details with no causal force on outcomes.                      │
 │                                                                         │
 │ SUB-OPERATIONS:                                                         │
@@ -975,42 +973,42 @@ event_bus.subscribe('PHASE_STREAM', lambda e:
 ```
 ┌─────────────────────────────────────────────────────────────────────────┐
 │                                                                         │
-│                    E V E N T S   C A T A L O G                         │
+│                    E V E N T S   C A T A L O G                          │
 │                                                                         │
-│  ═══════════════════════════════════════════════════════════════════   │
+│  ═══════════════════════════════════════════════════════════════════    │
 │                                                                         │
 │  COMPUTATIONAL ENTITIES:                                                │
-│  • SpectralDecomposer, TemporalAttention, NeighborAttention            │
-│  • WormholeAttention (with gates and triggers)                         │
+│  • SpectralDecomposer, TemporalAttention, NeighborAttention             │
+│  • WormholeAttention (with gates and triggers)                          │
 │                                                                         │
 │  STATE ENTITIES:                                                        │
-│  • HistoryBuffer, WeightManifold, BeliefState                          │
+│  • HistoryBuffer, WeightManifold, BeliefState                           │
 │                                                                         │
 │  SCALARS, VECTORS, MATRICES:                                            │
-│  • Loss, gradients, attention weights, spectral bands                  │
+│  • Loss, gradients, attention weights, spectral bands                   │
 │                                                                         │
 │  GATES AND TRIGGERS:                                                    │
-│  • Binary (threshold, ReLU) and Soft (softmax, sigmoid)               │
-│  • Event triggers (collapse, phase, divergence)                        │
+│  • Binary (threshold, ReLU) and Soft (softmax, sigmoid) etc.            │
+│  • Event triggers (collapse, phase, divergence)                         │
 │                                                                         │
 │  MANIFOLDS:                                                             │
-│  • Hypersphere, belief manifold, weight space, loss landscape          │
+│  • Hypersphere, belief manifold, weight space, loss landscape           │
 │                                                                         │
 │  MONITORS:                                                              │
-│  • GradientMonitor, EntropyTracker, CollapseDetector, PumpCycleMonitor │
+│  • GradientMonitor, EntropyTracker, CollapseDetector, PumpCycleMonitor  │
 │                                                                         │
 │  COMPOSITE OPERATIONS:                                                  │
 │  • MAPInference, FisherInformation, CausalTreeCuller, BeliefReconstructor │
 │                                                                         │
 │  EVENT STREAMS:                                                         │
-│  • Frame, prediction, error, attention, entropy, collapse, embedding   │
+│  • Frame, prediction, error, attention, entropy, collapse, embedding    │
 │                                                                         │
 └─────────────────────────────────────────────────────────────────────────┘
 ```
 
 ---
 
-*Oscar Goldman — Shogu Research Group @ Datamutant.ai*
+*Oscar Goldman, Shogu Research Group @ Datamutant.ai*
 
 *"Every moving part is an entity. Every entity can be observed. Every observation reveals structure. This is the laboratory."*
 

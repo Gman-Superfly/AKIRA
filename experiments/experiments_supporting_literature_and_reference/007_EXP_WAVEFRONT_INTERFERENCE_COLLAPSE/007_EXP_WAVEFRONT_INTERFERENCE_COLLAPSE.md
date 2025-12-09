@@ -2,8 +2,6 @@
 
 ## Observing Lightning-Like Belief Dynamics in the Embedding Manifold
 
-**Oscar Goldman — Shogu Research Group @ Datamutant.ai**
-
 ---
 
 ## Status: PLANNED
@@ -1082,7 +1080,8 @@ QUESTIONS THIS EXPERIMENT SHOULD ANSWER
 
 ---
 
-*Oscar Goldman — Shogu Research Group @ Datamutant.ai*
+
 
 *"The wavefront should look like lightning. Branching leaders exploring hypotheses. Return stroke when one wins. The physics is the same because the math is the same. Let's see if we're right."*
 
+*Oscar Goldman — Shogu Research Group @ Datamutant.ai subsidiary of 温心重工業*

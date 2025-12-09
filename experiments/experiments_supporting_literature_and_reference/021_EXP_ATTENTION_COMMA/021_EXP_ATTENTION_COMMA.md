@@ -84,9 +84,9 @@ By distributing the "error" across all positions
 ### 3.4 AKIRA Theory Basis
 
 **Relevant Theory Documents:**
-- `foundations/HARMONY_AND_COHERENCE.md` — §3 (Equal Temperament Analogy), §4 (Attention Comma)
-- `architecture_theoretical/SPECTRAL_BELIEF_MACHINE.md` — §4 (Attention Mechanism)
-- `CANONICAL_PARAMETERS.md` — Temperature τ range
+- `foundations/HARMONY_AND_COHERENCE.md`, §3 (Equal Temperament Analogy), §4 (Attention Comma)
+- `architecture_theoretical/SPECTRAL_BELIEF_MACHINE.md`, §4 (Attention Mechanism)
+- `CANONICAL_PARAMETERS.md`, Temperature τ range
 
 **Key Concepts:**
 - **Attention comma:** Normalization constraint (Σaᵢⱼ = 1) creates "error" that must be distributed
@@ -310,12 +310,13 @@ If falsified, possible alternatives:
 
 ## References
 
-- `foundations/HARMONY_AND_COHERENCE.md` — The Pythagorean principle
-- `001_EXP_ENTROPY_OBSERVATION.md` — Entropy measurement foundation
-- `003_EXP_SPECTRAL_BAND_DYNAMICS.md` — Band-specific dynamics
+- `foundations/HARMONY_AND_COHERENCE.md`, The Pythagorean principle
+- `001_EXP_ENTROPY_OBSERVATION.md`, Entropy measurement foundation
+- `003_EXP_SPECTRAL_BAND_DYNAMICS.md`, Band-specific dynamics
 - Music theory: Equal temperament and the Pythagorean comma
 
 ---
 
 *"The circle of fifths doesn't close. Neither does the circle of attention. The solution in both cases is the same: spread the error, achieve coherence."*
 
+*Oscar Goldman, Shogu Research Group @ Datamutant.ai subsidiary of 温心重工業*

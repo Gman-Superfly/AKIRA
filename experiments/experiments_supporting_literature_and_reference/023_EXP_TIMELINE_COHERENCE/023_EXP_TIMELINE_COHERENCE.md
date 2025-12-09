@@ -10,7 +10,7 @@
 
 ## 1. Problem Statement
 
-The homeostat can "reach back in time" and adjust representations, causing past interpretations to change. This appears paradoxical — how can the future change the past?
+The homeostat can "reach back in time" and adjust representations, causing past interpretations to change. This appears paradoxical: how can the future change the past?
 
 **The Pythagorean reframe:** This is phase locking across time.
 
@@ -37,7 +37,7 @@ THE TIMELINE COHERENCE HYPOTHESIS:
 │  Just as equal temperament "spreads the comma" to close the circle,  │
 │  collapse "spreads reinterpretation" to close the timeline.          │
 │                                                                         │
-│  The past is not stored — it's reconstructed for coherence.          │
+│  The past is not stored, it is reconstructed for coherence.          │
 │                                                                         │
 └─────────────────────────────────────────────────────────────────────────┘
 ```
@@ -90,24 +90,24 @@ This is temporal phase locking:
 ### 3.4 AKIRA Theory Basis
 
 **Relevant Theory Documents:**
-- `foundations/HARMONY_AND_COHERENCE.md` — §7 (Timeline Coherence)
-- `architecture_theoretical/SPECTRAL_BELIEF_MACHINE.md` — §6 (Belief Dynamics)
-- `bec/BEC_CONDENSATION_INFORMATION.md` — §4 (Collapse and Coherence)
+- `foundations/HARMONY_AND_COHERENCE.md`, §7 (Timeline Coherence)
+- `architecture_theoretical/SPECTRAL_BELIEF_MACHINE.md`, §6 (Belief Dynamics)
+- `bec/BEC_CONDENSATION_INFORMATION.md`, §4 (Collapse and Coherence)
 
 **Key Concepts:**
 - **Timeline coherence:** Past representations shift after collapse to maintain narrative consistency
 - **Phase locking across time:** Like coupled oscillators, representations at different times lock to common interpretation
-- **Reconstructive memory:** Past is not stored — it's regenerated for coherence with present
+- **Reconstructive memory:** Past is not stored, it is regenerated for coherence with present
 - **Collapse propagates backward:** Committed belief at time T influences representations at T-k
 
 **From HARMONY_AND_COHERENCE.md (§7.2):**
-> "Timeline coherence: After collapse, system adjusts past representations to be consistent with collapsed state. This is NOT rewriting history — it's phase locking across time. Just as equal temperament spreads comma across keys, collapse spreads reinterpretation across timeline. Narrative coherence demands consistency."
+> "Timeline coherence: After collapse, system adjusts past representations to be consistent with collapsed state. This is NOT rewriting history, it is phase locking across time. Just as equal temperament spreads comma across keys, collapse spreads reinterpretation across timeline. Narrative coherence demands consistency."
 
 **From SPECTRAL_BELIEF_MACHINE.md (§6.5):**
 > "Belief collapse affects not only current state but past representations. Causal attention allows gradient flow backward. When belief commits at position i, positions j < i receive gradient adjusting them for coherence with committed state. Past 'shifts' to be consistent with present."
 
 **From BEC_CONDENSATION_INFORMATION.md (§4.5):**
-> "Condensation is global phenomenon. All particles condense to same ground state (phase coherence). In AKIRA, all positions 'condense' to coherent interpretation. This includes past positions — they adjust phase to match collective state."
+> "Condensation is global phenomenon. All particles condense to same ground state (phase coherence). In AKIRA, all positions 'condense' to coherent interpretation. This includes past positions, they adjust phase to match collective state."
 
 **This experiment validates:**
 1. Whether **past representations shift** after collapse (measurable change)
@@ -359,12 +359,13 @@ If falsified, possible alternatives:
 
 ## References
 
-- `foundations/HARMONY_AND_COHERENCE.md` — Timeline collapse as phase locking
-- `002_EXP_COLLAPSE_DETECTION.md` — Detecting collapse events
-- `007_EXP_WAVEFRONT_INTERFERENCE.md` — Error propagation dynamics
+- `foundations/HARMONY_AND_COHERENCE.md`, Timeline collapse as phase locking
+- `002_EXP_COLLAPSE_DETECTION.md`, Detecting collapse events
+- `007_EXP_WAVEFRONT_INTERFERENCE.md`, Error propagation dynamics
 - Cognitive science literature on reconstructive memory
 
 ---
 
 *"The past is not what happened. It's the coherent version of what happened. The version that survived interference. The version where the phases aligned."*
 
+*Oscar Goldman, Shogu Research Group @ Datamutant.ai subsidiary of 温心重工業*

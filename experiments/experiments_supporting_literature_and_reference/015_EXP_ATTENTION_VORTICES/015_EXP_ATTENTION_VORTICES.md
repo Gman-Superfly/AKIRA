@@ -2,7 +2,6 @@
 
 ## Do Topological Defects Exist in Attention?
 
-**Oscar Goldman — Shogu Research Group @ Datamutant.ai**
 
 ---
 
@@ -20,7 +19,7 @@
 
 In BEC, vortices are topological defects with quantized circulation:
 
-**Do analogous vortex-like structures exist in attention patterns — stable topological defects with quantized "circulation"?**
+**Do analogous vortex-like structures exist in attention patterns, stable topological defects with quantized "circulation"?**
 
 ### 1.2 Why This Matters
 
@@ -80,9 +79,9 @@ Stable circulation patterns with consistent structure.
 ### 3.1 AKIRA Theory Basis
 
 **Relevant Theory Documents:**
-- `bec/BEC_CONDENSATION_INFORMATION.md` — §7 (Topological Defects)
-- `architecture_theoretical/SPECTRAL_BELIEF_MACHINE.md` — §4 (Attention Dynamics)
-- `CANONICAL_PARAMETERS.md` — (No direct vortex parameters yet)
+- `bec/BEC_CONDENSATION_INFORMATION.md`, §7 (Topological Defects)
+- `architecture_theoretical/SPECTRAL_BELIEF_MACHINE.md`, §4 (Attention Dynamics)
+- `CANONICAL_PARAMETERS.md`, (No direct vortex parameters yet)
 
 **Key Concepts:**
 - **Vortex in BEC:** Phase singularity with quantized circulation ∮ v·dl = n(h/m), topologically stable
@@ -91,7 +90,7 @@ Stable circulation patterns with consistent structure.
 - **Quantization:** Discrete winding numbers (±1, ±2, ...) indicate topological stability
 
 **From BEC_CONDENSATION_INFORMATION.md (§7.1):**
-> "Vortices are topological defects in condensate phase. Circulation is quantized due to single-valuedness of wavefunction. Winding number n is topological invariant — cannot change by smooth deformation. Vortices are stable structures."
+> "Vortices are topological defects in condensate phase. Circulation is quantized due to single-valuedness of wavefunction. Winding number n is topological invariant, it cannot change by smooth deformation. Vortices are stable structures."
 
 **From SPECTRAL_BELIEF_MACHINE.md (§4.1):**
 > "Attention can be viewed as flow: aᵢⱼ = amplitude of information flow from token j to token i. Causal structure constrains flow direction. Concentration patterns may form stable topological structures."
@@ -104,7 +103,7 @@ Stable circulation patterns with consistent structure.
 
 **Falsification:** If no stable circulation patterns OR continuous (not quantized) winding → topological defects don't exist → BEC analogy misses this feature.
 
-**Note:** This is the most exploratory experiment. Finding vortices would be major validation. Not finding them doesn't necessarily falsify framework — may be detection limitation.
+**Note:** This is the most exploratory experiment. Finding vortices would be major validation. Not finding them does not necessarily falsify the framework, it may be detection limitation.
 
 ## 3. Methods
 
@@ -194,6 +193,5 @@ Vortices are REAL / NOT FOUND / INCONCLUSIVE.
 
 ---
 
-*Oscar Goldman — Shogu Research Group @ Datamutant.ai*
-
+*Oscar Goldman, Shogu Research Group @ Datamutant.ai subsidiary of 温心重工業*
 

@@ -2,8 +2,6 @@
 
 ## Building the Ghost, Teaching the Dream Language
 
-**Oscar Goldman — Shogu Research Group @ Datamutant.ai**
-
 ---
 
 ## Table of Contents

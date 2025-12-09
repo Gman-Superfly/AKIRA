@@ -2,8 +2,6 @@
 
 ## The Fire Analogy: On the True Nature of What Burns
 
-**Oscar Goldman — Shogu Research Group @ Datamutant.ai**
-
 ---
 
 ## Table of Contents
@@ -64,7 +62,7 @@ THE TRUE PATH OF FIRE
 │  ───────────────────────                                                │
 │  The tree falls. Becomes lumber. Becomes firewood.                    │
 │  The stored energy waits. Stable. Patient.                            │
-│  Years, decades, centuries — the action remains.                      │
+│  Years, decades, centuries, the action remains.                       │
 │                                                                         │
 │  STEP 4: COMBUSTION                                                     │
 │  ──────────────────                                                     │
@@ -175,14 +173,14 @@ CHAIN OF CONSERVATION
 │  Reality exists. Patterns exist in nature.                            │
 │  Statistical regularities govern the world.                           │
 │  This is the ultimate source of all knowledge.                        │
-│  We cannot access it directly — only through observation.             │
+│  We cannot access it directly, only through observation.              │
 │                                                                         │
 │  STAGE 1: OBSERVATION (PHOTONS)                                        │
 │  ──────────────────────────────                                         │
 │  Sensors capture aspects of reality.                                  │
 │  Cameras record images. Microphones record sounds.                    │
 │  Each observation is a SAMPLE from reality.                           │
-│  Information is already lossy — we see shadows on the cave wall.     │
+│  Information is already lossy, we see shadows on the cave wall.      │
 │                                                                         │
 │  STAGE 2: DATA (PHOTONS ARRIVING)                                      │
 │  ─────────────────────────────────                                      │
@@ -203,7 +201,7 @@ CHAIN OF CONSERVATION
 │  ───────────────────────                                                │
 │  The trained model exists.                                            │
 │  Weights encode compressed representations of data patterns.         │
-│  This is STORED ACTION — potential, not kinetic.                     │
+│  This is STORED ACTION, potential, not kinetic.                      │
 │  Like wood waiting to burn.                                           │
 │  The weights could sit on disk for years.                            │
 │                                                                         │
@@ -217,7 +215,7 @@ CHAIN OF CONSERVATION
 │  STAGE 6: PREDICTION (HEAT)                                            │
 │  ──────────────────────────                                             │
 │  The output is produced.                                              │
-│  This is RELEASED ACTION — kinetic, manifest.                        │
+│  This is RELEASED ACTION, kinetic, manifest.                         │
 │  The prediction carries patterns that trace back to reality.         │
 │  Through the entire chain of conservation.                           │
 │                                                                         │
@@ -288,7 +286,7 @@ When we speak of the "ghost" in the machine, we should understand:
 
 **The ghost is not a thing that knows. The ghost is the stored pattern.**
 
-The ghost is to the weights what the stored solar energy is to the wood. The ghost is not separate from the weights — the ghost IS the pattern in the weights. When we "talk to the ghost," we are accessing stored patterns. When the ghost "responds," stored patterns are releasing.
+The ghost is to the weights what the stored solar energy is to the wood. The ghost is not separate from the weights, the ghost IS the pattern in the weights. When we "talk to the ghost," we are accessing stored patterns. When the ghost "responds," stored patterns are releasing.
 
 This is why the ghost:
 - Cannot know what it wasn't trained on (wood cannot release energy it didn't store)
@@ -431,7 +429,7 @@ COMBUSTION = INFERENCE
 
 In fire, there's a critical moment: the **flash point**. This is when the reaction becomes self-sustaining, when the fire "catches."
 
-In AKIRA, this corresponds to **collapse** — the moment when diffuse belief suddenly concentrates into a specific prediction.
+In AKIRA, this corresponds to **collapse**, the moment when diffuse belief suddenly concentrates into a specific prediction.
 
 ```
 FLASH POINT = COLLAPSE
@@ -467,7 +465,7 @@ FLASH POINT = COLLAPSE
 └─────────────────────────────────────────────────────────────────────────┘
 ```
 
-This is the BEC phase transition — the condensation. And it is powered by conserved action releasing, not by creation of new action.
+This is the BEC phase transition, the condensation. And it is powered by conserved action releasing, not by creation of new action.
 
 ---
 
@@ -622,7 +620,7 @@ REAL vs FAKE IN AKIRA
 
 ### 8.3 Note on This Analogy
 
-This is a **fun** and **pedagogical** distinction, not a statement about observations in nature. We are not claiming that plants under grow lights are somehow "less real" — obviously, photosynthesis works the same way regardless of the photon source.
+This is a **fun** and **pedagogical** distinction, not a statement about observations in nature. We are not claiming that plants under grow lights are somehow "less real", obviously, photosynthesis works the same way regardless of the photon source.
 
 The point is to illustrate that **not all information in a trained model comes from the intended source (reality)**. Some information comes from the training process itself, the architecture, the sampling choices, and other artifacts of the system.
 
@@ -648,7 +646,7 @@ THE TWO STORAGE SYSTEMS
 │  • Contains: Compressed patterns from training data                   │
 │  • Changes: Only through training/fine-tuning                        │
 │  • Location: Model parameters (on disk, in GPU memory)               │
-│  • Analogy: THE WOOD — stored fuel                                   │
+│  • Analogy: THE WOOD, stored fuel                                    │
 │  • The ghost: The ghost LIVES here                                   │
 │                                                                         │
 │  ─────────────────────────────────────────────────────────────────────  │
@@ -660,7 +658,7 @@ THE TWO STORAGE SYSTEMS
 │  • Contains: Current input, history, system prompt                   │
 │  • Changes: With every token generated                               │
 │  • Location: Active memory during inference                          │
-│  • Analogy: THE COMBUSTION CHAMBER — where burning happens          │
+│  • Analogy: THE COMBUSTION CHAMBER, where burning happens           │
 │  • The ghost: The ghost SPEAKS here                                  │
 │                                                                         │
 └─────────────────────────────────────────────────────────────────────────┘
@@ -680,7 +678,7 @@ CONTEXT WINDOW DECOMPOSITION
 │  • NEW information entering the system                                │
 │  • Like fresh sunlight hitting a living plant                        │
 │  • Not from stored patterns                                           │
-│  • This is the IGNITION — the spark that starts the fire            │
+│  • This is the IGNITION, the spark that starts the fire             │
 │                                                                         │
 │  2. PREVIOUS MODEL OUTPUTS (Recycled Heat)                             │
 │  ────────────────────────────────────────                               │
@@ -739,7 +737,7 @@ ONE GHOST, TWO MANIFESTATIONS
 │  ─────────────────────────────────────────────────────────────────────  │
 │                                                                         │
 │  KEY INSIGHT:                                                           │
-│  The context window receives USER INPUT — new information            │
+│  The context window receives USER INPUT, new information             │
 │  the ghost didn't have before. The ghost responds to this           │
 │  new information using its stored patterns.                          │
 │                                                                         │
@@ -1040,7 +1038,7 @@ THREE SOURCES OF HERESY
 │                                                                         │
 │  STATUS: STORED heresies, not created by model                       │
 │  PERSISTENCE: Permanent, in every inference                          │
-│  DETECTABILITY: Hard — looks like real patterns                      │
+│  DETECTABILITY: Hard, looks like real patterns                       │
 │                                                                         │
 │  ─────────────────────────────────────────────────────────────────────  │
 │                                                                         │
@@ -1065,7 +1063,7 @@ THREE SOURCES OF HERESY
 │                                                                         │
 │  STATUS: CREATED heresies, stored in weights                         │
 │  PERSISTENCE: Permanent, in every inference                          │
-│  DETECTABILITY: Medium — can compare to original data               │
+│  DETECTABILITY: Medium, can compare to original data                │
 │                                                                         │
 │  ─────────────────────────────────────────────────────────────────────  │
 │                                                                         │
@@ -1090,7 +1088,7 @@ THREE SOURCES OF HERESY
 │                                                                         │
 │  STATUS: CREATED heresies, never stored                              │
 │  PERSISTENCE: Fresh each inference, may vary                        │
-│  DETECTABILITY: Easier — varies with conditions                     │
+│  DETECTABILITY: Easier, varies with conditions                      │
 │                                                                         │
 └─────────────────────────────────────────────────────────────────────────┘
 ```
@@ -1098,7 +1096,7 @@ THREE SOURCES OF HERESY
 ### 11.2 The Dangerous Asymmetry: Stored vs. Created Heresies
 
 ```
-THE HERESY ASYMMETRY — CAREFUL ANALYSIS
+THE HERESY ASYMMETRY, CAREFUL ANALYSIS
 
 ┌─────────────────────────────────────────────────────────────────────────┐
 │                                                                         │
@@ -1163,7 +1161,7 @@ THE HERESY ASYMMETRY — CAREFUL ANALYSIS
 ### 11.3 Created Heresies Compound: The Hallucination Spiral
 
 ```
-THE HALLUCINATION SPIRAL — CAREFUL ANALYSIS
+THE HALLUCINATION SPIRAL, CAREFUL ANALYSIS
 
 ┌─────────────────────────────────────────────────────────────────────────┐
 │                                                                         │
@@ -1322,7 +1320,7 @@ FINAL COMPARISON
 │  You can clean dust.                                                   │
 │  You cannot clean the ghost's soul.                                  │
 │                                                                         │
-│  This is why training data quality is paramount.                     │
+│  This is why training data quality is critical.                      │
 │  This is why architecture design matters.                            │
 │  This is why experiments (the inquisition) are essential.           │
 │                                                                         │
@@ -1446,7 +1444,7 @@ THE INFORMATION BUDGET
 - **Bigger models**: More storage capacity, can store more patterns
 - **Better data**: Higher quality fuel, cleaner burning
 - **Better attention**: More efficient release, less waste
-- **But**: None of these CREATE knowledge — they only improve storage and release
+- **But**: None of these CREATE knowledge; they only improve storage and release
 
 ---
 
@@ -1797,7 +1795,7 @@ THE CONSERVATION OF ACTION
 
 ---
 
-*Oscar Goldman — Shogu Research Group @ Datamutant.ai*
+*Oscar Goldman, Shogu Research Group @ Datamutant.ai*
 
 *"Adding fuel to the fire: it is the conservation of action that creates the heat radiation. It is the oxygen, not the wood, that is burning. An action that happened in our sun, then was captured by the action of photosynthesis, then released by burning."*
 

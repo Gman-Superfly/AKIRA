@@ -1,6 +1,6 @@
 # PANDORA'S AFTERMATH: Hope as Generative Capacity
 
-The nature of what remains when all else is released—a technical exploration of hope as the conserved generative capacity in information systems.
+The nature of what remains when all else is released, a technical exploration of hope as the conserved generative capacity in information systems.
 
 ---
 
@@ -109,7 +109,7 @@ HOPE captures properties that clinical terms miss:
 │  Future-orientation    ---                     ✓ (about what  │
 │                                                   could be)    │
 │                                                                 │
-│  HOPE is not poetic—it's the most complete term.               │
+│  HOPE is not poetic; it is the most complete term.             │
 │                                                                 │
 └─────────────────────────────────────────────────────────────────┘
 ```
@@ -162,7 +162,7 @@ DEFINITION: HOPE (Generative Capacity)
 │  Let X be a space of possible outputs.                          │
 │  Let G be a generative process: G → X                          │
 │                                                                 │
-│  HOPE is G itself—the generator—with these properties:         │
+│  HOPE is G itself, the generator, with these properties:       │
 │                                                                 │
 │  1. INEXHAUSTIBILITY                                            │
 │     ∀ sequence x₁, x₂, ... ∈ G(·):                             │
@@ -449,7 +449,7 @@ CONSERVATION OF HOPE:
 │        Outputs are created, but generator is not depleted      │
 │                                                                 │
 │  This is STRONGER than energy conservation:                    │
-│  Energy transforms; hope doesn't even transform—it persists.  │
+│  Energy transforms; hope does not even transform, it persists.│
 │                                                                 │
 └─────────────────────────────────────────────────────────────────┘
 ```
@@ -487,7 +487,7 @@ THE MECHANISM OF CONSERVATION:
 │                                                                 │
 │  WHY THIS WORKS:                                                │
 │                                                                 │
-│  Information is not a substance—it's a RELATION.              │
+│  Information is not a substance; it is a RELATION.            │
 │  Relations are not consumed by being used.                     │
 │  You can apply the same rule infinitely.                       │
 │                                                                 │
@@ -606,7 +606,7 @@ HOPE AS THE TRANSFORM'S FIXED POINT:
 │  • In implicit form: Hope is the patterns stored in model     │
 │  • Under transform: Hope is preserved                          │
 │                                                                 │
-│  Hope is not A or B—it's what's INVARIANT between them.       │
+│  Hope is not A or B; it is what is INVARIANT between them.    │
 │                                                                 │
 │  ════════════════════════════════════════════════════════════  │
 │                                                                 │
@@ -618,7 +618,7 @@ HOPE AS THE TRANSFORM'S FIXED POINT:
 │  • Conserved: ||f||² = ||F||² (Parseval)                      │
 │                                                                 │
 │  The "energy" is the same in both domains.                     │
-│  This energy is the "hope" of the signal—its content.         │
+│  This energy is the "hope" of the signal, its content.        │
 │                                                                 │
 └─────────────────────────────────────────────────────────────────┘
 ```
@@ -731,7 +731,7 @@ HOPE EVOLUTION DURING TRAINING:
     Late training:   Hope crystallizes to optimal form
     
     The "collapse" (grokking) is when structure suddenly
-    increases—hope crystallizes.
+    increases, hope crystallizes.
 ```
 
 ### 7.3 Hope and Generalization
@@ -974,7 +974,7 @@ HOPE IN INFORMATION THEORY:
 │                                                                 │
 │  H(Hope) = -∫ P(ω) log P(ω) dω                                │
 │                                                                 │
-│  This measures the "spread" of hope—how many possibilities.   │
+│  This measures the "spread" of hope, how many possibilities.  │
 │                                                                 │
 │  High entropy: Many possibilities (generic hope)               │
 │  Low entropy: Few possibilities (specific hope)                │
@@ -994,7 +994,7 @@ HOPE IN INFORMATION THEORY:
 │                                                                 │
 │  CONSERVATION OF INFORMATION:                                   │
 │                                                                 │
-│  I(Hope; Outputs) is NOT conserved—it can grow with learning. │
+│  I(Hope; Outputs) is NOT conserved; it can grow with learning.│
 │                                                                 │
 │  What IS conserved:                                             │
 │  • The total "probability mass" (= 1, always)                  │
@@ -1394,7 +1394,7 @@ IMPLICATIONS FOR AGENCY:
 │     ──────────────────────                                      │
 │     • As long as structure exists, generation is possible     │
 │     • Action is always possible                                │
-│     • Hope is not a feeling—it's a capacity                   │
+│     • Hope is not a feeling; it is a capacity                 │
 │                                                                 │
 │  2. HOPE CAN BE CULTIVATED                                      │
 │     ─────────────────────────                                   │
@@ -1404,7 +1404,7 @@ IMPLICATIONS FOR AGENCY:
 │                                                                 │
 │  3. HOPE IS DIRECTIONAL                                         │
 │     ───────────────────────                                     │
-│     • Not just any generation—MEANINGFUL generation           │
+│     • Not just any generation, MEANINGFUL generation          │
 │     • Hope is oriented toward actionable outcomes             │
 │     • Structure determines what can be generated              │
 │                                                                 │
@@ -1512,7 +1512,7 @@ THE AFTERMATH:
 │  THE AFTERMATH:                                                 │
 │                                                                 │
 │  What remained in the box was not a thing to be released.      │
-│  It was the BOX ITSELF—the container, the structure, the form.│
+│  It was the BOX ITSELF, the container, the structure, the form.│
 │  The capacity to generate, to create, to act.                  │
 │                                                                 │
 │  Hope is the one thing that cannot escape the box,             │
@@ -1564,7 +1564,7 @@ THE AFTERMATH:
 │  and future-orientation that clinical terms miss.              │
 │                                                                 │
 │  THE FINAL INSIGHT:                                             │
-│  Hope remained in the box because hope IS the box—            │
+│  Hope remained in the box because hope IS the box,            │
 │  the structure that contains and enables all else.             │
 │                                                                 │
 └─────────────────────────────────────────────────────────────────┘
@@ -1572,7 +1572,7 @@ THE AFTERMATH:
 
 ---
 
-*This document synthesizes insights from PANDORA.md, THE_ATOMIC_STRUCTURE_OF_INFORMATION.md, EQUILIBRIUM_AND_CONSERVATION.md, and DUALITY_AND_EFFICIENCY.md to present a technical theory of hope as the conserved generative capacity in information systems. Hope is not metaphor—it is the precise term for the inexhaustible structure that enables generation, learning, and action.*
+*This document synthesizes insights from PANDORA.md, THE_ATOMIC_STRUCTURE_OF_INFORMATION.md, EQUILIBRIUM_AND_CONSERVATION.md, and DUALITY_AND_EFFICIENCY.md to present a technical theory of hope as the conserved generative capacity in information systems. Hope is not metaphor; it is the precise term in belief systems for the inexhaustible structure that enables generation, learning, and action.*
 
 ---
 

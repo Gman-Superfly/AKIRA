@@ -1,6 +1,6 @@
 ## Which Implementation Should I Use?
 
-### Use Coherence-Gated Wormholes If:
+### Use coherence-gated wormholes if:
 - ✓ You want theory-aligned implementation
 - ✓ You need adaptive gating based on belief distribution structure
 - ✓ You're running experiments to validate BEC-inspired predictions
@@ -14,7 +14,7 @@
 
 ---
 
-### Use Energy-Gated Wormholes If:
+### Use energy-gated wormholes if:
 - ✓ You want quick prototype/baseline
 - ✓ You need simplest possible implementation
 - ✓ You're comparing against theory-aligned version

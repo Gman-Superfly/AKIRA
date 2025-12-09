@@ -2,8 +2,6 @@
 
 ## Phase Aliasing, Boundary Effects, and the Limits of What Can Be Known
 
-**Oscar Goldman — Shogu Research Group @ Datamutant.ai**
-
 ---
 
 ## Table of Contents

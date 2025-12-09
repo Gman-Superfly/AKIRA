@@ -2,8 +2,6 @@
 
 ## Theory-Aligned Cross-Band Communication
 
-**Oscar Goldman — Shogu Research Group @ Datamutant.ai**
-
 ---
 
 ## Table of Contents
@@ -241,7 +239,7 @@ INFORMATION THEORETICAL JUSTIFICATION:
 
 ### 3.3 Partial Information Decomposition: Why Complementary Pairs Provide Synergy
 
-The intuition above — "neither can say this alone" — has a precise formalization in **Partial Information Decomposition (PID)** (Williams & Beer, 2010).
+The intuition above, "neither can say this alone", has a precise formalization in **Partial Information Decomposition (PID)** (Williams & Beer, 2010).
 
 ```
 PID EXPLAINS WHY WORMHOLES ARE VALUABLE:
@@ -262,10 +260,10 @@ PID EXPLAINS WHY WORMHOLES ARE VALUABLE:
 │  WHAT WORMHOLES DO IN PID TERMS:                                       │
 │  ────────────────────────────────                                       │
 │  • Wormhole 0→6: Band 0 queries Band 6 to REALIZE synergy             │
-│    "I know WHAT — give me the WHERE so I can predict"                 │
+│    "I know WHAT; give me the WHERE so I can predict"                  │
 │                                                                         │
 │  • Wormhole 6→0: Band 6 queries Band 0 to REALIZE synergy             │
-│    "I know WHERE — give me the WHAT so I can identify"                │
+│    "I know WHERE; give me the WHAT so I can identify"                 │
 │                                                                         │
 │  Without wormholes: synergy exists but is UNREALIZED                   │
 │  With wormholes: synergy is REALIZED through communication            │
@@ -331,12 +329,12 @@ THE PROBLEM WITH FIXED THRESHOLDS:
 │                                                                         │
 │  Case 1 (Clear):                                                        │
 │  Similarities: [0.99, 0.45, 0.32, 0.20]                               │
-│  Belief is CONCENTRATED — confident about one target                 │
+│  Belief is CONCENTRATED, confident about one target                  │
 │  Should: Connect strongly                                              │
 │                                                                         │
 │  Case 2 (Ambiguous):                                                    │
 │  Similarities: [0.93, 0.92, 0.91, 0.90]                               │
-│  Belief is SPREAD — uncertain about which target                      │
+│  Belief is SPREAD, uncertain about which target                       │
 │  Should: Connect weakly or not at all                                 │
 │                                                                         │
 │  Fixed threshold treats both the same! It only sees 0.93 > 0.92.     │
@@ -1017,7 +1015,7 @@ wormhole = SpectralWormholeAttention(
 x = torch.randn(2, 100, 512)  # [batch, seq, embed_dim]
 output, stats = wormhole(x, return_stats=True)
 
-# Output shape: [2, 100, 512] — same as input
+# Output shape: [2, 100, 512] same as input
 # Orthogonality preserved, bands enhanced by cross-band info
 ```
 
@@ -1318,7 +1316,7 @@ The hybrid implementation is NOT theory-aligned because:
 ## Summary
 
 ```
-SPECTRAL WORMHOLE ATTENTION — SUMMARY
+SPECTRAL WORMHOLE ATTENTION, SUMMARY
 
 ┌─────────────────────────────────────────────────────────────────────────┐
 │                                                                         │
@@ -1350,7 +1348,7 @@ SPECTRAL WORMHOLE ATTENTION — SUMMARY
 
 ---
 
-*Oscar Goldman — Shogu Research Group @ Datamutant.ai*
+*Oscar Goldman, Shogu Research Group @ Datamutant.ai*
 
 *"The wormhole is not a bridge — it is a question across frequency domains. WHAT asks WHERE; WHERE asks WHAT. The answer preserves both while informing both."*
 

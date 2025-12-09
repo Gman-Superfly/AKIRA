@@ -2,8 +2,6 @@
 
 ## Are Our Measurements Corrupted by Processing Artifacts?
 
-**Oscar Goldman — Shogu Research Group @ Datamutant.ai**
-
 ---
 
 ## Status: PENDING
@@ -18,7 +16,7 @@
 
 Before trusting any results, we must ask:
 
-**Are our observations true knowledge, or heresy — patterns that resonate with the architecture rather than reality?**
+**Are our observations true knowledge, or heresy, patterns that resonate with the architecture rather than reality?**
 
 ### 1.2 Why This Matters
 
@@ -104,7 +102,7 @@ DFT of non-periodic signal:
 • Side lobes spreading to other frequencies
 • "Leakage" = energy appearing at wrong frequencies
 
-This is NOT an approximation — it is mathematical fact.
+This is NOT an approximation, it is mathematical fact.
 
 Reference: Oppenheim & Schafer (2009). Discrete-Time Signal Processing.
 ```
@@ -160,9 +158,9 @@ Reference: Innamorati et al. (2020). Learning on the Edge.
 ### 3.5 AKIRA Theory Basis
 
 **Relevant Theory Documents:**
-- `foundations/FALSE_PROPHETS.md` — §2 (Heresy Catalog), §3 (Inquisition Protocol)
-- `architecture_theoretical/SPECTRAL_BELIEF_MACHINE.md` — §5 (FFT and Windowing), §7 (Conservation Laws)
-- `foundations/ORTHOGONALITY.md` — §6 (Nyquist and Aliasing)
+- `foundations/FALSE_PROPHETS.md`, §2 (Heresy Catalog), §3 (Inquisition Protocol)
+- `architecture_theoretical/SPECTRAL_BELIEF_MACHINE.md`, §5 (FFT and Windowing), §7 (Conservation Laws)
+- `foundations/ORTHOGONALITY.md`, §6 (Nyquist and Aliasing)
 
 **Key Concepts:**
 - **Heresy:** Processing artifacts that model believes (aliasing, spectral leakage, boundary effects)
@@ -172,7 +170,7 @@ Reference: Innamorati et al. (2020). Learning on the Edge.
 - **Boundary effects:** Edge pixels treated differently due to processing constraints
 
 **From FALSE_PROPHETS.md (§2.1):**
-> "Heresies are patterns that resonate with architecture rather than reality. Model has no oracle for truth. If we show it artifacts, it learns artifacts. Three primary heresies: (1) Aliasing — high freq folds to low, (2) Spectral leakage — FFT edge discontinuities create false freq, (3) Boundary effects — edges processed differently."
+> "Heresies are patterns that resonate with architecture rather than reality. Model has no oracle for truth. If we show it artifacts, it learns artifacts. Three primary heresies: (1) Aliasing, high freq folds to low, (2) Spectral leakage, FFT edge discontinuities create false freq, (3) Boundary effects, edges processed differently."
 
 **From SPECTRAL_BELIEF_MACHINE.md (§5.2):**
 > "Windowing reduces spectral leakage. Hamming window: -43 dB sidelobes. Blackman: -58 dB but wider main lobe. Tradeoff: frequency resolution vs leakage suppression. Without windowing, all spectral measurements are contaminated."
@@ -666,8 +664,9 @@ If heresy minimal:
 
 ---
 
-*Oscar Goldman — Shogu Research Group @ Datamutant.ai*
-
-*"The inquisition is not persecution — it is protection. We seek heresy not to punish the model, but to protect ourselves from false beliefs. If our measurements are artifacts, we must know before we build theory upon them."*
 
 
+*"The inquisition is not persecution, it is protection. We seek heresy not to punish the model, but to protect ourselves from false beliefs. If our measurements are artifacts, we must know before we build theory upon them."*
+
+
+*Oscar Goldman, Shogu Research Group @ Datamutant.ai subsidiary of 温心重工業*

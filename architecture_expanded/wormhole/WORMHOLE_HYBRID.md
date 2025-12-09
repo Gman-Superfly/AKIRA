@@ -453,7 +453,7 @@ STEP 3: APPLY THRESHOLD GATE
 │                                                                 │
 │  • Previous steps used GEOMETRY                                │
 │  • This step uses ENERGY (scalar threshold)                   │
-│  • The paradigm switches here                                  │
+│  • The approach switches here                                  │
 │                                                                 │
 └─────────────────────────────────────────────────────────────────┘
 ```
@@ -627,7 +627,7 @@ DISADVANTAGES OF HYBRID APPROACH:
 
 ┌─────────────────────────────────────────────────────────────────┐
 │                                                                 │
-│  1. PARADIGM MISMATCH                                           │
+│  1. APPROACH MISMATCH                                          │
 │     • Belief is geometric, trigger is energy                  │
 │     • Trigger doesn't use belief structure                    │
 │     • Potential for incoherent decisions                       │
@@ -789,5 +789,4 @@ DOCUMENT RELATIONSHIPS:
 
 ---
 
-*Oscar Goldman - Shogu Research Group @ Datamutant.ai*
-
+*Oscar Goldman, Shogu Research Group @ Datamutant.ai subsidiary of 温心重工業*

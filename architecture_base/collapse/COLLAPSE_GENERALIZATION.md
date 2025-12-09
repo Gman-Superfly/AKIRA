@@ -54,7 +54,7 @@ We observe a recurring pattern during prediction:
 │                                                                 │
 └─────────────────────────────────────────────────────────────────┘
 
-The uncertainty doesn't gradually shrink—it COLLAPSES suddenly.
+The uncertainty does not gradually shrink; it COLLAPSES suddenly.
 One moment: spread across possibilities
 Next moment: concentrated on the answer
 ```
@@ -275,8 +275,8 @@ THE FORMAL FRAMEWORK: COLLAPSE = BELIEF STATE DYNAMICS
 │  POMDP (Partially Observable Markov Decision Process):         │
 │                                                                 │
 │  The agent CANNOT observe the true state s directly.           │
-│  It maintains a BELIEF STATE b(s)—a probability distribution  │
-│  over possible states—and updates it based on observations.    │
+│  It maintains a BELIEF STATE b(s), a probability distribution  │
+│  over possible states, and updates it based on observations.   │
 │                                                                 │
 │      TRUE STATE s (hidden)                                      │
 │           │                                                     │
@@ -439,7 +439,7 @@ The generalization has crystallized.
 ### 3.4 What Happens to the Details?
 
 ```
-THE DETAILS ARE NOT STORED—THEY ARE ABSORBED
+THE DETAILS ARE NOT STORED, THEY ARE ABSORBED
 
 ┌─────────────────────────────────────────────────────────────────┐
 │                                                                 │
@@ -465,7 +465,7 @@ THE DETAILS ARE NOT STORED—THEY ARE ABSORBED
 │                                                                 │
 │  Model state: ▓▓▓▓▓▓▓▓▓▓▓▓░░░░░░░░░░░░░░                      │
 │                                                                 │
-│  The details were "fuel" for learning—consumed in the process  │
+│  The details were "fuel" for learning, consumed in the process │
 │                                                                 │
 └─────────────────────────────────────────────────────────────────┘
 ```
@@ -491,8 +491,8 @@ WHY DOES STRUCTURE SURVIVE AND DETAILS CANCEL?
 │  Pattern A at position Xₙ: Aₘₐg × e^(iφₙ)                     │
 │                                                                 │
 │  WHERE:                                                         │
-│  • Aₘₐg = magnitude (the pattern itself) — SAME for all       │
-│  • φᵢ = phase (position encoding) — DIFFERENT for each        │
+│  • Aₘₐg = magnitude (the pattern itself), SAME for all        │
+│  • φᵢ = phase (position encoding), DIFFERENT for each         │
 │                                                                 │
 │  SUMMING IN THE WEIGHTS:                                        │
 │                                                                 │
@@ -502,7 +502,7 @@ WHY DOES STRUCTURE SURVIVE AND DETAILS CANCEL?
 │                                                                 │
 │  Σᵢ e^(iφᵢ) → 0  (phases cancel in vector sum)                │
 │                                                                 │
-│  BUT Aₘₐg is factored out—it doesn't participate in the       │
+│  BUT Aₘₐg is factored out; it doesn't participate in the      │
 │  cancellation!                                                  │
 │                                                                 │
 │  RESULT:                                                        │
@@ -569,7 +569,7 @@ THE CENTRAL LIMIT EFFECT:
 │  N = 1000:  SNR = 32    (signal dominates)                     │
 │                                                                 │
 │  THE COLLAPSE HAPPENS WHEN:                                     │
-│  SNR exceeds some threshold—the pattern "crystallizes"         │
+│  SNR exceeds some threshold, the pattern "crystallizes"        │
 │                                                                 │
 │  THIS IS WHY:                                                   │
 │  • Few examples → memorization (noise dominates)               │
@@ -593,7 +593,7 @@ DIVERSITY IN TRAINING DATA:
 │  Sum: N × Aₘₐg × e^(iφ)                                        │
 │                                                                 │
 │  RESULT: Position is MEMORIZED along with pattern              │
-│  (No generalization—overfitting)                               │
+│  (No generalization, overfitting)                              │
 │                                                                 │
 │  ────────────────────────────────────────────────────────────  │
 │                                                                 │
@@ -681,7 +681,7 @@ THE PHASES OF GROKKING:
 │  • Pattern crystallizes                                         │
 │  • Test accuracy jumps                                          │
 │  • Details are discarded                                        │
-│  • Analogy: Return stroke—main channel forms                   │
+│  • Analogy: Return stroke, main channel forms                  │
 │                                                                 │
 └─────────────────────────────────────────────────────────────────┘
 ```
@@ -840,7 +840,7 @@ INFORMATION FLOW DURING LEARNING:
 ### 6.3 The Hidden Pattern
 
 ```
-THE GENERALIZATION WAS ALWAYS THERE—HIDDEN IN THE DETAILS
+THE GENERALIZATION WAS ALWAYS THERE, HIDDEN IN THE DETAILS
 
 ┌─────────────────────────────────────────────────────────────────┐
 │                                                                 │
@@ -1397,7 +1397,7 @@ ENGINEERING QUESTIONS:
 │  • The generalization was always there                          │
 │  • Hidden in the high-frequency noise of details               │
 │  • Training REMOVES the noise to reveal the signal             │
-│  • Details are "fuel"—consumed in the process                  │
+│  • Details are "fuel", consumed in the process                 │
 │                                                                 │
 │  IMPLICATIONS:                                                  │
 │  • Store structure in slow-learning manifolds                  │
@@ -1410,5 +1410,5 @@ ENGINEERING QUESTIONS:
 
 ---
 
-*This document explores the collapse phenomenon—the sudden transition from accumulated uncertainty to crystallized certainty. This pattern appears in physical systems (lightning, phase transitions, quantum measurement) and in learning systems (grokking, generalization, compression). The key mechanism is interference: shared structure reinforces while unique details cancel. Understanding collapse helps us design architectures that learn efficiently and generalize reliably.*
+*This document explores the collapse phenomenon, the sudden transition from accumulated uncertainty to crystallized certainty. This pattern appears in physical systems (lightning, phase transitions, quantum measurement) and in learning systems (grokking, generalization, compression). The key mechanism is interference: shared structure reinforces while unique details cancel. Understanding collapse helps us design architectures that learn efficiently and generalize reliably.*
 

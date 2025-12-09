@@ -1,6 +1,6 @@
 # Collapse Mechanisms: Decision Trees for Uncertainty Resolution
 
-A technical framework for implementing collapse—the transition from uncertainty to certainty—using decision tree structures that combine reactive triggers with knowledge-informed selection.
+A technical framework for implementing collapse, the transition from uncertainty to certainty, using decision tree structures that combine reactive triggers with knowledge-informed selection.
 
 ---
 
@@ -1679,5 +1679,5 @@ THE COMPLETE COLLAPSE FRAMEWORK:
 
 ---
 
-*Oscar Goldman - Shogu Research Group @ Datamutant.ai*
+*Oscar Goldman, Shogu Research Group @ Datamutant.ai subsidiary of 温心重工業*
 

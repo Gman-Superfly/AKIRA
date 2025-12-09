@@ -2,8 +2,6 @@
 
 ## Do Prompts Have Frequency?
 
-**Oscar Goldman — Shogu Research Group @ Datamutant.ai**
-
 ---
 
 ## Status: PLANNED
@@ -151,6 +149,5 @@ H4 (sensitivity follows hierarchy): SUPPORTED / NOT SUPPORTED
 
 ---
 
-*Oscar Goldman — Shogu Research Group @ Datamutant.ai*
-
+*Oscar Goldman, Shogu Research Group @ Datamutant.ai subsidiary of 温心重工業*
 

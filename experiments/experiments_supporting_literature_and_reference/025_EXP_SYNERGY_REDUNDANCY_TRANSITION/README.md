@@ -223,3 +223,4 @@ Based on the PID literature applied to AKIRA's architecture:
 
 *"The mechanism matters. If collapse IS synergy→redundancy conversion, we have a lever to pull. If it merely correlates, we must look elsewhere."*
 
+*Oscar Goldman — Shogu Research Group @ Datamutant.ai subsidiary of 温心重工業*

@@ -771,6 +771,10 @@ Layer 20: coherence separation = ____
 
 ---
 
-*Oscar Goldman — Shogu Research Group @ Datamutant.ai*
+*
 
 *"Meaning composes like waves. In-phase concepts reinforce; out-of-phase concepts cancel. The grammar of thought is the physics of interference."*
+
+
+*Oscar Goldman — Shogu Research Group @ Datamutant.ai subsidiary of 温心重工業*
+

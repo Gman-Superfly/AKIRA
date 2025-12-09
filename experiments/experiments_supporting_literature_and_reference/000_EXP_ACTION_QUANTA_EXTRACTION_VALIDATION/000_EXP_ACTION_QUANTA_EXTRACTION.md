@@ -676,6 +676,8 @@ WHY THIS MUST COME FIRST
 
 ---
 
-*Oscar Goldman — Shogu Research Group @ Datamutant.ai*
+
 
 *"Before measuring dynamics, we must know what we're measuring. Before tracking collapse, we must identify what collapses. Before counting quasiparticles, we must find the particles. This experiment comes first because it answers the fundamental question: Do Action Quanta exist, and if so, what are they?"*
+
+*Oscar Goldman — Shogu Research Group @ Datamutant.ai subsidiary of 温心重工業*

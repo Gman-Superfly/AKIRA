@@ -53,3 +53,4 @@ Mapping that story into AKIRA’s setting suggests that:
   Explains how Bayesian belief updates implement a chaos game with fractal belief attractors, providing a concrete model for branching and collapse in belief dynamics.
 
 
+*Oscar Goldman — Shogu Research Group @ Datamutant.ai subsidiary of 温心重工業*

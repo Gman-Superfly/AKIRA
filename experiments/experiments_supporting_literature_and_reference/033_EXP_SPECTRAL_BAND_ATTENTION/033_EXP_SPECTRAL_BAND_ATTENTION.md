@@ -175,5 +175,7 @@ What this implementation does NOT have:
 
 ---
 
-**Author**: Imported from spatio_temporal_attention repository
+**Author**: Imported from spatio_temporal_attention repository OG
 **Date**: December 2024
+
+*Oscar Goldman — Shogu Research Group @ Datamutant.ai subsidiary of 温心重工業*

@@ -7,7 +7,7 @@
 
 ### Why This Paper Supports EXP_010
 
-**Core Finding:** Verification-first prompting achieves significant performance improvements with minimal computational overhead—often fewer tokens than standard reasoning.
+**Core Finding:** Verification-first prompting achieves significant performance improvements with minimal computational overhead, often fewer tokens than standard reasoning.
 
 **Key Evidence:**
 1. **Verification is cognitively easier than generation** (Baker et al., 1975)
@@ -73,4 +73,6 @@ Wu, S., & Yao, Q. (2025). Asking LLMs to Verify First is Almost Free Lunch. *arX
 ## Additional References
 
 *(Space for future papers on tickling/cheap probing techniques)*
+
+*Oscar Goldman, Shogu Research Group @ Datamutant.ai subsidiary of 温心重工業*
 

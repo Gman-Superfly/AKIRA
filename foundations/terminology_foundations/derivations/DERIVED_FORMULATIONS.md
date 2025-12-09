@@ -9,8 +9,6 @@ This document presents **derived versions** of key claims from `ACTION_QUANTA.md
 3. **The derived formulation** (assuming theorems exist)
 4. **Status** (what we currently have vs. what's needed)
 
-**Oscar Goldman — Shogu Research Group @ Datamutant.ai**
-
 ---
 
 ## Table of Contents

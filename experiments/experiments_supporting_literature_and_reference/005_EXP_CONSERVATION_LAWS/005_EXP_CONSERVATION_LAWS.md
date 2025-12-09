@@ -2,8 +2,6 @@
 
 ## Is There a Conserved Quantity During Belief Dynamics?
 
-**Oscar Goldman — Shogu Research Group @ Datamutant.ai**
-
 ---
 
 ## Status: PENDING
@@ -568,8 +566,9 @@ If no conservation law:
 
 ---
 
-*Oscar Goldman — Shogu Research Group @ Datamutant.ai*
+
 
 *"Conservation laws are the deepest truths about a system. If they exist, they reveal hidden symmetries. If they don't, the system is fundamentally driven or dissipative. The experiment will tell us which."*
 
 
+*Oscar Goldman — Shogu Research Group @ Datamutant.ai subsidiary of 温心重工業*

@@ -2,8 +2,6 @@
 
 ## Running the Architecture
 
-**Oscar Goldman — Shogu Research Group @ Datamutant.ai**
-
 ---
 
 *"Theory tells us what is possible. Praxis shows us what is real. The architecture exists on paper as doctrine. It comes alive only when we run it. And in the running, we discover whether we have followed the laws or committed heresy."*

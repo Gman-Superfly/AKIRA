@@ -2,8 +2,6 @@
 
 ## Systematic Validation of Spectral Attention Theory
 
-**Oscar Goldman — Shogu Research Group @ Datamutant.ai**
-
 ---
 
 ## Philosophy
@@ -63,10 +61,10 @@ EXPERIMENT STRUCTURE
 
 ┌─────────────────────────────────────────────────────────────────────────┐
 │                                                                         │
-│  ★★★ CRUCIAL (4)     — Foundation. Must pass for theory to stand.    │
-│  ★★  CORE (10)       — Strong evidence for key claims.               │
-│  ★   SUPPORTING (10) — Additional depth and applications.            │
-│  ○   EXPLORATORY (4) — Bold predictions, speculative tests.          │
+│  ★★★ CRITICAL (4)    - Foundation. Must pass for theory to stand.    │
+│  ★★  CORE (10)       - Strong evidence for key claims.               │
+│  ★   SUPPORTING (10) - Additional depth and applications.            │
+│  ○   EXPLORATORY (4) - Bold predictions, speculative tests.          │
 │                                                                         │
 │  Total: 28 experiments                                                  │
 │                                                                         │
@@ -211,7 +209,7 @@ EXPERIMENT DEPENDENCIES
 
 ---
 
-### TIER ★★★ CRUCIAL (Foundation)
+### TIER ★★★ CRITICAL (Foundation)
 
 These four experiments establish whether the theory is even testable:
 
@@ -853,8 +851,8 @@ Each experiment references its own scientific basis. Core references:
 
 ---
 
-*Oscar Goldman — Shogu Research Group @ Datamutant.ai*
-
-*"We build the argument with calm precision, step by step. Each experiment stands on the shoulders of those before it. The goal is not to confirm our beliefs, but to discover the truth — whatever it may be."*
 
 
+*"We build the argument with calm precision, step by step. Each experiment stands on the shoulders of those before it. The goal is not to confirm our beliefs, but to discover the truth, whatever it may be."*
+
+*Oscar Goldman, Shogu Research Group @ Datamutant.ai subsidiary of 温心重工業*

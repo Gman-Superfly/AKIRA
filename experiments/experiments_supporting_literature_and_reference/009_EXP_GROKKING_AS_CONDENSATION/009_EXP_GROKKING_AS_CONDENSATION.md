@@ -2,8 +2,6 @@
 
 ## Is the Grokking Transition a Bose-Einstein Condensation?
 
-**Oscar Goldman — Shogu Research Group @ Datamutant.ai**
-
 ---
 
 ## Status: PLANNED
@@ -20,7 +18,7 @@
 
 Grokking is a well-documented phenomenon where neural networks suddenly generalize long after training loss has converged:
 
-**Is grokking a phase transition analogous to Bose-Einstein condensation — a sudden collapse from memorized details to generalized structure?**
+**Is grokking a phase transition analogous to Bose-Einstein condensation, a sudden collapse from memorized details to generalized structure?**
 
 ### 1.2 Why This Matters
 
@@ -95,9 +93,9 @@ Reference: Power et al. (2022), Nanda et al. (2023)
 ### 3.2 AKIRA Theory Basis
 
 **Relevant Theory Documents:**
-- `bec/BEC_CONDENSATION_INFORMATION.md` — §5 (Grokking as Condensation)
-- `architecture_theoretical/SPECTRAL_BELIEF_MACHINE.md` — §6 (Belief Collapse)
-- `CANONICAL_PARAMETERS.md` — collapse_threshold = 0.3
+- `bec/BEC_CONDENSATION_INFORMATION.md`, §5 (Grokking as Condensation)
+- `architecture_theoretical/SPECTRAL_BELIEF_MACHINE.md`, §6 (Belief Collapse)
+- `CANONICAL_PARAMETERS.md`, collapse_threshold = 0.3
 
 **Key Concepts:**
 - **Grokking as phase transition:** Sudden generalization = belief collapse from memorized (thermal) to structured (condensed)
@@ -106,7 +104,7 @@ Reference: Power et al. (2022), Nanda et al. (2023)
 - **Critical slowing down:** Long plateau before grokking analogous to critical slowing near phase transition
 
 **From BEC_CONDENSATION_INFORMATION.md (§5.2):**
-> "Grokking is late-time condensation. Initially, network memorizes examples (thermal phase, high entropy). As regularization removes spurious correlations, system approaches critical point. Sudden drop in test loss is condensation event — collapse from many memorized patterns to single generalized structure."
+> "Grokking is late-time condensation. Initially, network memorizes examples (thermal phase, high entropy). As regularization removes spurious correlations, system approaches critical point. Sudden drop in test loss is condensation event, collapse from many memorized patterns to single generalized structure."
 
 **From SPECTRAL_BELIEF_MACHINE.md (§6.2):**
 > "Collapse occurs when entropy H < collapse_threshold = 0.3. System transitions from diffuse (uncertain) to concentrated (certain) belief. Grokking is collapse at training timescale: long thermal phase → critical approach → sudden transition."
@@ -202,6 +200,5 @@ Grokking IS / IS NOT condensation.
 
 ---
 
-*Oscar Goldman — Shogu Research Group @ Datamutant.ai*
-
+*Oscar Goldman, Shogu Research Group @ Datamutant.ai subsidiary of 温心重工業*
 

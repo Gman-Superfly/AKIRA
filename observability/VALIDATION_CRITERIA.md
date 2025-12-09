@@ -2,8 +2,6 @@
 
 ## How We Know If The Theories Are Correct
 
-**Oscar Goldman — Shogu Research Group @ Datamutant.ai**
-
 ---
 
 ## Philosophy of Validation
@@ -849,7 +847,7 @@ def validate_phase_transition(loss_curve, accuracy_curve):
 
 ---
 
-*Oscar Goldman — Shogu Research Group @ Datamutant.ai*
+*Oscar Goldman, Shogu Research Group @ Datamutant.ai*
 
 *"Good theories make predictions. Predictions can be wrong. Being wrong is informative. Design experiments to falsify, not confirm. Survival of falsification attempts is stronger than confirmation."*
 

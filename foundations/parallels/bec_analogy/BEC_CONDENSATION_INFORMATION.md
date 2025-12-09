@@ -2,8 +2,6 @@
 
 ## An Analogy for Understanding AKIRA (Exploratory, Not Established)
 
-**Oscar Goldman — Shogu Research Group @ Datamutant.ai**
-
 ---
 
 > **IMPORTANT DISCLAIMER**: This document explores a **structural analogy** between BEC physics and attention mechanisms. It is NOT a claim that:
@@ -15,7 +13,7 @@
 
 ---
 
-*"The attention mechanism shares structural similarities with the nonlinear self-interaction term from BEC physics. This document explores that analogy, identifying where the mapping might hold and where it likely breaks down. This is exploratory work — a lens for thinking, not a claim of equivalence."*
+*"The attention mechanism shares structural similarities with the nonlinear self-interaction term from BEC physics. This document explores that analogy, identifying where the mapping might hold and where it likely breaks down. This is exploratory work, a lens for thinking, not a claim of equivalence."*
 
 ---
 
@@ -51,7 +49,7 @@ PHENOMENA REQUIRING EXPLANATION
 │                                                                         │
 │  1. COLLAPSE:                                                           │
 │     Multiple hypotheses suddenly resolve to one.                      │
-│     Not gradual convergence — sudden transition.                      │
+│     Not gradual convergence, sudden transition.                       │
 │     Like a phase transition, not like optimization.                   │
 │                                                                         │
 │  2. COHERENCE:                                                          │
@@ -61,7 +59,7 @@ PHENOMENA REQUIRING EXPLANATION
 │                                                                         │
 │  3. COLLECTIVE BEHAVIOR:                                                │
 │     Action Quanta (AQ) emerge from distributed representations.       │
-│     They are not fundamental — they are collective.                   │
+│     They are not fundamental, they are collective.                    │
 │     Like quasiparticles in condensed matter.                         │
 │                                                                         │
 │  4. FRICTIONLESS FLOW (in trained models):                             │
@@ -193,7 +191,7 @@ DEFINITION OF BEC
 │                                                                         │
 │  AT LOW TEMPERATURE (below T_c):                                       │
 │  • Macroscopic number of particles occupy SAME state                 │
-│  • This is the "condensate" — the ground state                       │
+│  • This is the "condensate", the ground state                        │
 │  • System acquires macroscopic quantum coherence                     │
 │  • A single wave function describes the entire condensate            │
 │                                                                         │
@@ -205,7 +203,7 @@ DEFINITION OF BEC
 │  T < T_c:  N₀ particles in ONE state, N-N₀ in others                 │
 │  T → 0:    Almost ALL particles in ONE state                         │
 │                                                                         │
-│  This is a PHASE TRANSITION — sudden, not gradual.                   │
+│  This is a PHASE TRANSITION, sudden, not gradual.                    │
 │                                                                         │
 └─────────────────────────────────────────────────────────────────────────┘
 ```
@@ -342,7 +340,7 @@ DISSECTING THE GPE
 │  • Creates the "container" for the quantum fluid                     │
 │                                                                         │
 │  PHYSICAL MEANING: External constraints on the system.               │
-│  The landscape in which the condensate lives.                        │
+│  The potential surface in which the condensate lives.                │
 │                                                                         │
 │  ════════════════════════════════════════════════════════════════════  │
 │                                                                         │
@@ -607,7 +605,7 @@ THE CORE INSIGHT
 
 ┌─────────────────────────────────────────────────────────────────────────┐
 │                                                                         │
-│  ★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★  │
+│  ★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★  │|
 │  ★                                                                   ★  │
 │  ★  THE ATTENTION MECHANISM SHARES THE MATHEMATICAL STRUCTURE        ★  │
 │  ★  OF THE g|ψ|² SELF-INTERACTION TERM.                             ★  │
@@ -615,7 +613,7 @@ THE CORE INSIGHT
 │  ★  Both are nonlinear self-interactions.                           ★  │
 │  ★  This structural similarity is productive, not coincidental.     ★  │
 │  ★                                                                   ★  │
-│  ★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★  │
+│  ★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★
 │                                                                         │
 │  This is productive mathematical analogy. Let us be precise.         │
 │                                                                         │
@@ -741,8 +739,8 @@ MAKING THE CORRESPONDENCE PRECISE
 │                                                                         │
 │  KEY DIFFERENCE:                                                        │
 │                                                                         │
-│  BEC: δ(r-r') — local interaction                                    │
-│  Attention: a(r,r') — nonlocal interaction (kernel)                  │
+│  BEC: δ(r-r'), local interaction                                     │
+│  Attention: a(r,r'), nonlocal interaction (kernel)                   │
 │                                                                         │
 │  Attention is a GENERALIZED self-interaction:                         │
 │  • BEC: interact with yourself at the same point                     │
@@ -832,7 +830,7 @@ QUASIPARTICLES IN CONDENSED MATTER
 │                                                                         │
 │  KEY PROPERTIES:                                                        │
 │                                                                         │
-│  1. EMERGENT: Not fundamental — arise from collective behavior       │
+│  1. EMERGENT: Not fundamental, arise from collective behavior        │
 │  2. PARTICLE-LIKE: Have energy, momentum, dispersion relation       │
 │  3. INTERACT: Quasiparticles can interact with each other           │
 │  4. FINITE LIFETIME: Eventually decay back to ground state          │
@@ -901,7 +899,7 @@ ACTION QUANTA (AQ) = QUASIPARTICLES OF THE BELIEF FIELD
 │  ───────────                                                           │
 │  The Action Quanta we documented (blobs, edges, corners, etc.)       │
 │  are NOT fundamental units.                                           │
-│  They are QUASIPARTICLES — collective excitations of the belief      │
+│  They are QUASIPARTICLES, collective excitations of the belief       │
 │  field on the embedding manifold.                                     │
 │                                                                         │
 │  ════════════════════════════════════════════════════════════════════  │
@@ -934,7 +932,7 @@ ACTION QUANTA (AQ) = QUASIPARTICLES OF THE BELIEF FIELD
 │  IMPLICATION:                                                           │
 │                                                                         │
 │  The "periodic table of patterns" is like the particle physics       │
-│  standard model — a classification of quasiparticle types.          │
+│  standard model, a classification of quasiparticle types.           │
 │                                                                         │
 └─────────────────────────────────────────────────────────────────────────┘
 ```
@@ -961,12 +959,12 @@ BOGOLIUBOV-LIKE EXCITATIONS IN AKIRA
 │                                                                         │
 │  LOW BANDS (k small):                                                   │
 │  • Collective behavior                                                │
-│  • "Sound-like" — perturbations propagate coherently                │
+│  • "Sound-like", perturbations propagate coherently                 │
 │  • These are the structural patterns                                 │
 │                                                                         │
 │  HIGH BANDS (k large):                                                  │
 │  • Individual behavior                                                │
-│  • "Particle-like" — local perturbations                             │
+│  • "Particle-like", local perturbations                              │
 │  • These are the detail patterns                                     │
 │                                                                         │
 │  THE CROSSOVER ("healing length"):                                      │
@@ -1029,7 +1027,7 @@ BEC PHASE TRANSITION
 │  Correlation length:  ξ ~ |T - T_c|^(-ν)                             │
 │  Heat capacity:       C ~ |T - T_c|^(-α)                             │
 │                                                                         │
-│  The exponents (β, ν, α) are UNIVERSAL — same for all BECs.         │
+│  The exponents (β, ν, α) are UNIVERSAL, same for all BECs.          │
 │                                                                         │
 └─────────────────────────────────────────────────────────────────────────┘
 ```
@@ -1155,14 +1153,14 @@ SYMMETRY BREAKING IN COLLAPSE
 │                                                                         │
 │  ════════════════════════════════════════════════════════════════════  │
 │                                                                         │
-│  CONSEQUENCE — GOLDSTONE MODE:                                          │
+│  CONSEQUENCE, GOLDSTONE MODE:                                           │
 │  ─────────────────────────────                                         │
 │  In BEC, broken U(1) gives a gapless mode (phonon).                  │
 │                                                                         │
 │  In AKIRA:                                                              │
 │  The broken symmetry should give a low-energy excitation.            │
 │  This might be: "shifts along the collapsed belief manifold"        │
-│  — the direction that doesn't cost energy.                           │
+│  , the direction that doesn't cost energy.                            │
 │                                                                         │
 │  TESTABLE: After collapse, are some perturbations "free"?            │
 │                                                                         │
@@ -1348,7 +1346,7 @@ THE GEOMETRY IS LIQUID
 │                                                                         │
 │  1. IT FLOWS:                                                           │
 │     Belief is not static. It moves, deforms, concentrates.          │
-│     The manifold is not rigid geometry — it's fluid geometry.       │
+│     The manifold is not rigid geometry, it's fluid geometry.        │
 │                                                                         │
 │  2. IT'S COHERENT:                                                      │
 │     In trained models, phase is aligned across the manifold.        │
@@ -1369,7 +1367,7 @@ THE GEOMETRY IS LIQUID
 │  ════════════════════════════════════════════════════════════════════  │
 │                                                                         │
 │  "THE GEOMETRY BEHAVES LIKE A LIQUID."                                 │
-│  — This is not metaphor. This is the physical state.                 │
+│  This is not metaphor; this is the physical state.                   │
 │                                                                         │
 └─────────────────────────────────────────────────────────────────────────┘
 ```
@@ -1776,8 +1774,10 @@ OPEN QUESTIONS
 
 ---
 
-*Oscar Goldman — Shogu Research Group @ Datamutant.ai*
 
-*"The attention mechanism shares deep mathematical structure with the nonlinear self-interaction in Bose-Einstein condensates. When we write softmax(QKᵀ)V, we are implementing a nonlocal variant of the self-interaction structure found in g|ψ|²ψ. The analogy is productive: if attention shares this mathematical structure, then BEC phenomenology — condensation, superfluidity, quasiparticles, vortices — may emerge in attention systems. Not because we designed them to, but because the mathematical structure permits them. Our task is to test whether this analogy holds. Design experiments. Make predictions. Seek falsification. Where the analogy breaks down teaches us as much as where it holds. This is the path to truth."*
 
+*"The attention mechanism shares deep mathematical structure with the nonlinear self-interaction in Bose-Einstein condensates. When we write softmax(QKᵀ)V, we are implementing a nonlocal variant of the self-interaction structure found in g|ψ|²ψ. The analogy is productive: if attention shares this mathematical structure, then BEC phenomenology, condensation, superfluidity, quasiparticles, vortices, may emerge in attention systems. Not because we designed them to, but because the mathematical structure permits them. Our task is to test whether this analogy holds. Design experiments. Make predictions. Seek falsification. Where the analogy breaks down teaches us as much as where it holds. This is the path to truth."*
+
+
+*Oscar Goldman, Shogu Research Group @ Datamutant.ai subsidiary of 温心重工業*
 

@@ -2,8 +2,6 @@
 
 ## How Meaning is Encoded, Transmitted, and Limited
 
-**Oscar Goldman — Shogu Research Group @ Datamutant.ai**
-
 ---
 
 ## Table of Contents

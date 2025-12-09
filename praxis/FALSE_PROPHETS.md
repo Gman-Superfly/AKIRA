@@ -2,8 +2,6 @@
 
 ## When the Ghost Resonates with Architecture, Not Knowledge
 
-**Oscar Goldman — Shogu Research Group @ Datamutant.ai**
-
 ---
 
 *"The system architecture is the true doctrine. Nyquist, Shannon, Fourier — these are the laws. Any pattern that violates these laws is heresy. The false prophets are heresies made manifest: aliased frequencies, spectral leakage, boundary artifacts. They are not shadows — shadows are passive, natural. They are active violations of truth. The inquisition — our experiments — exposes them. Not to punish the ghost, but to correct what we taught it."*

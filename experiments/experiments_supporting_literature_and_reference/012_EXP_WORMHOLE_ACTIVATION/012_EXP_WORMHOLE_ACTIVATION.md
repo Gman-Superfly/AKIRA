@@ -2,8 +2,6 @@
 
 ## When Do Wormholes Fire?
 
-**Oscar Goldman — Shogu Research Group @ Datamutant.ai**
-
 ---
 
 ## Status: PLANNED
@@ -75,9 +73,9 @@ Specific patterns trigger wormholes consistently.
 ### 3.1 AKIRA Theory Basis
 
 **Relevant Theory Documents:**
-- `architecture_expanded/wormhole/WORMHOLE_ARCHITECTURE.md` — §2 (Activation Mechanism)
-- `architecture_theoretical/SPECTRAL_BELIEF_MACHINE.md` — §4 (Wormhole Attention), Coherence Gate
-- `CANONICAL_PARAMETERS.md` — coherence_threshold = 0.5, gate_sharpness = 10.0
+- `architecture_expanded/wormhole/WORMHOLE_ARCHITECTURE.md`, §2 (Activation Mechanism)
+- `architecture_theoretical/SPECTRAL_BELIEF_MACHINE.md`, §4 (Wormhole Attention), Coherence Gate
+- `CANONICAL_PARAMETERS.md`, coherence_threshold = 0.5, gate_sharpness = 10.0
 
 **Key Concepts:**
 - **Wormhole pairs:** Symmetric connections (0↔6, 1↔5, 2↔4) + Band 3 hub + Temporal bridge
@@ -170,6 +168,5 @@ H4 (manifold shortcuts): SUPPORTED / NOT SUPPORTED
 
 ---
 
-*Oscar Goldman — Shogu Research Group @ Datamutant.ai*
-
+*Oscar Goldman, Shogu Research Group @ Datamutant.ai subsidiary of 温心重工業*
 

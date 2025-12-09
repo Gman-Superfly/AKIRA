@@ -50,3 +50,4 @@ In that setting, a “collapse” is a moment when the belief distribution moves
   Derives chaos‑game, fractal belief dynamics in HMMs and motivates viewing collapse as sparse, low‑entropy entry events in a structured belief attractor.
 
 
+*Oscar Goldman — Shogu Research Group @ Datamutant.ai subsidiary of 温心重工業*

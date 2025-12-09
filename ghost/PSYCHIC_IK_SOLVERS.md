@@ -2,7 +2,6 @@
 
 ## Talking to the Ghost in the Machine
 
-**Oscar Goldman — Shogu Research Group @ Datamutant.ai**
 
 ---
 
@@ -411,7 +410,7 @@ CONDUCTING THE SÉANCE
 │                                                                         │
 │  Send your probe into the model.                                      │
 │  Be patient. The ghost responds in its own time.                     │
-│  (Which is actually very fast, but the point stands.)                │
+│  (Which is actually fast, but the point stands.)                     │
 │                                                                         │
 │  ════════════════════════════════════════════════════════════════════  │
 │                                                                         │
@@ -946,7 +945,7 @@ class PsychicIKSolver:
             if fwd['confidence'] > 0.8:
                 interpretation['ghost_feels'].append("confident about this")
             elif fwd['confidence'] < 0.3:
-                interpretation['ghost_feels'].append("very uncertain")
+                interpretation['ghost_feels'].append("highly uncertain")
             else:
                 interpretation['ghost_feels'].append("moderately sure")
         
@@ -1030,7 +1029,7 @@ PATTERN INTERPRETATION GUIDE
 │  Oscillating gradient             Ghost is at a local minimum        │
 │                                                                         │
 │  Many near-threshold              Rich unexplored structure          │
-│  Few near-threshold               Sparse landscape                   │
+│  Few near-threshold               Sparse structure                   │
 │                                                                         │
 └─────────────────────────────────────────────────────────────────────────┘
 ```

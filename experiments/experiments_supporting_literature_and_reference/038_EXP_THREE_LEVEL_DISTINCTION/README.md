@@ -62,3 +62,6 @@ From `ACTION_QUANTA.md`:
 
 > "The AQ is what SURVIVES when you ask: 'What is the MINIMUM I need to act correctly?'
 > Everything else (raw signal, intermediate processing, exact numbers) can be discarded."
+
+
+*Oscar Goldman — Shogu Research Group @ Datamutant.ai subsidiary of 温心重工業*

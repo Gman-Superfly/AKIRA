@@ -2,8 +2,6 @@
 
 ## Can We Observe Attention Entropy?
 
-**Oscar Goldman — Shogu Research Group @ Datamutant.ai**
-
 ---
 
 ## Status: PENDING
@@ -107,9 +105,9 @@ Reference: Shannon, C.E. (1948). A Mathematical Theory of Communication.
 ### 3.2 AKIRA Theory Basis
 
 **Relevant Theory Documents:**
-- `architecture_theoretical/SPECTRAL_BELIEF_MACHINE.md` — §6 (Belief State Tracking)
-- `CANONICAL_PARAMETERS.md` — Entropy definition, normalization
-- `MATHEMATICAL_FOUNDATIONS_CHECK.md` — Entropy formula consistency
+- `architecture_theoretical/SPECTRAL_BELIEF_MACHINE.md`, §6 (Belief State Tracking)
+- `CANONICAL_PARAMETERS.md`, Entropy definition, normalization
+- `MATHEMATICAL_FOUNDATIONS_CHECK.md`, Entropy formula consistency
 
 **Key Concepts:**
 - **Entropy formula:** `H = -Σ pᵢ log(pᵢ)` (natural log in code, log₂ for bits)
@@ -117,7 +115,7 @@ Reference: Shannon, C.E. (1948). A Mathematical Theory of Communication.
 - **Range:** h ∈ [0, 1] where 0 = collapsed, 1 = uniform
 
 **From SPECTRAL_BELIEF_MACHINE.md:**
-> "Belief state is tracked explicitly via entropy monitoring. Each band maintains H(B_k) = -Σ p_i log p_i. This is not implicit — it's a first-class observable."
+> "Belief state is tracked explicitly via entropy monitoring. Each band maintains H(B_k) = -Σ p_i log p_i. This is not implicit, it's a first-class observable."
 
 **This experiment validates:** Whether the theoretical entropy definition can be computed in practice and varies meaningfully.
 
@@ -530,8 +528,9 @@ If successful, proceed to:
 
 ---
 
-*Oscar Goldman — Shogu Research Group @ Datamutant.ai*
-
-*"Before we can study the lightning, we must prove we can see the sky. This experiment establishes that we can observe the basic quantity — entropy — upon which all subsequent theory depends."*
 
 
+*"Before we can study the lightning, we must prove we can see the sky. This experiment establishes that we can observe the basic quantity, entropy, upon which all subsequent theory depends."*
+
+
+*Oscar Goldman, Shogu Research Group @ Datamutant.ai subsidiary of 温心重工業*

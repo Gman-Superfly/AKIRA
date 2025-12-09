@@ -8,8 +8,6 @@ This document catalogs the gaps, concerns, and required work identified during r
 - What experiments or programs to write
 - Step-by-step approach to completion
 
-**Oscar Goldman — Shogu Research Group @ Datamutant.ai**
-
 ---
 
 ## Summary of Theorem Status

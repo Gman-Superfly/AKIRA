@@ -2,8 +2,6 @@
 
 ## Hard-to-Observe ↔ Easy-to-Observe Swaps
 
-**Oscar Goldman — Shogu Research Group @ Datamutant.ai**
-
 ---
 
 ## The Observability Principle
@@ -48,11 +46,11 @@ THE SPATIAL-FREQUENCY RELATIONSHIP:
 │                                                                         │
 │  SPATIAL DOMAIN:                                                        │
 │  Tells you WHERE things are.                                           │
-│  Like looking at a photo — you see positions, edges, objects.          │
+│  Like looking at a photo, you see positions, edges, objects.           │
 │                                                                         │
 │  FREQUENCY DOMAIN:                                                      │
 │  Tells you WHAT PATTERNS exist.                                        │
-│  Like listening to music — you hear bass (low freq), treble (high).   │
+│  Like listening to music, you hear bass (low freq), treble (high).    │
 │                                                                         │
 │  THE RELATIONSHIP:                                                      │
 │  • A sharp spike in space → spread across all frequencies             │
@@ -72,8 +70,8 @@ SPATIAL ↔ FREQUENCY: HARD↔EASY FOR OBSERVABILITY
 
 ┌─────────────────────────────────────────────────────────────────────────┐
 │                                                                         │
-│  TRANSFORM: FFT — O(N log N)                                           │
-│  CONSERVED: Energy (Parseval) — use for validation                     │
+│  TRANSFORM: FFT, O(N log N)                                            │
+│  CONSERVED: Energy (Parseval), use for validation                      │
 │                                                                         │
 │  ════════════════════════════════════════════════════════════════════  │
 │                                                                         │
@@ -215,7 +213,7 @@ MAGNITUDE ↔ PHASE: HARD↔EASY FOR OBSERVABILITY
 
 ┌─────────────────────────────────────────────────────────────────────────┐
 │                                                                         │
-│  TRANSFORM: Polar decomposition — O(N)                                 │
+│  TRANSFORM: Polar decomposition, O(N)                                  │
 │  CONSERVED: Complex structure (mag × e^(iφ) = original)               │
 │                                                                         │
 │  ════════════════════════════════════════════════════════════════════  │
@@ -373,7 +371,7 @@ FORWARD ↔ BACKWARD: HARD↔EASY FOR OBSERVABILITY
 
 ┌─────────────────────────────────────────────────────────────────────────┐
 │                                                                         │
-│  TRANSFORM: Autodiff backward pass — O(N)                              │
+│  TRANSFORM: Autodiff backward pass, O(N)                               │
 │  CONSERVED: Inner products (gradient accuracy)                         │
 │                                                                         │
 │  ════════════════════════════════════════════════════════════════════  │
@@ -549,7 +547,7 @@ SHARP ↔ SOFT: HARD↔EASY FOR OBSERVABILITY
 
 ┌─────────────────────────────────────────────────────────────────────────┐
 │                                                                         │
-│  TRANSFORM: Temperature scaling — O(1) (just divide by τ)             │
+│  TRANSFORM: Temperature scaling, O(1) (just divide by τ)              │
 │  CONSERVED: Score ordering (same ranking at all temperatures)          │
 │                                                                         │
 │  ════════════════════════════════════════════════════════════════════  │
@@ -715,7 +713,7 @@ LOCAL ↔ GLOBAL: HARD↔EASY FOR OBSERVABILITY
 
 ┌─────────────────────────────────────────────────────────────────────────┐
 │                                                                         │
-│  TRANSFORM: Aggregation / Attention — varies                           │
+│  TRANSFORM: Aggregation / Attention, varies                            │
 │  CONSERVED: Total information (local + global = complete picture)     │
 │                                                                         │
 │  ════════════════════════════════════════════════════════════════════  │
@@ -861,11 +859,11 @@ THE LEARNING TRANSITION:
 │                                                                         │
 │  EXPLICIT:                                                              │
 │  Information is in the DATA you can see.                               │
-│  Like having a phone book — you look up each number.                   │
+│  Like having a phone book, you look up each number.                    │
 │                                                                         │
 │  IMPLICIT:                                                              │
 │  Information is in the WEIGHTS you can't easily see.                   │
-│  Like knowing the pattern — you can generate the answer.               │
+│  Like knowing the pattern, you can generate the answer.                │
 │                                                                         │
 │  THE TRADE-OFF:                                                         │
 │  • Explicit: easy to observe (it's the data!)                          │
@@ -1035,11 +1033,11 @@ THE ENERGY-GEOMETRY RELATIONSHIP:
 ┌─────────────────────────────────────────────────────────────────────────┐
 │                                                                         │
 │  ENERGY:                                                                │
-│  HOW MUCH is happening — magnitudes, norms, intensities.               │
+│  HOW MUCH is happening, magnitudes, norms, intensities.                │
 │  Like volume in music. Loud = something important.                     │
 │                                                                         │
 │  GEOMETRY:                                                              │
-│  WHAT STRUCTURE exists — patterns, relationships, distances.           │
+│  WHAT STRUCTURE exists, patterns, relationships, distances.            │
 │  Like harmony in music. Structure = meaningful arrangement.            │
 │                                                                         │
 │  THE ANALOGY:                                                           │
@@ -1271,7 +1269,7 @@ ENERGY vs GEOMETRY: Decision Types
 
 ---
 
-*Oscar Goldman — Shogu Research Group @ Datamutant.ai*
+*Oscar Goldman, Shogu Research Group @ Datamutant.ai*
 
 *"What's hard to observe directly is easy to observe dually. The transform is cheap. Use both domains. See everything."*
 

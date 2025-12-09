@@ -1,1 +1,4 @@
 are LLMS polarized? do the skew towards a positive (MUST ANSWER) charge? they are trained to answer but they might not have the correct quasiparticle excitations to do so, so the correct balance cannot be achieved or similar to massive fields in physics, the spontaneus ejection of particles (virtual particles) from this imbalance? is that why they are so prone to hallucinations? if they were balanced would they hallucinate less? this also includes the context window, if the context is positive or negative? how does thi interact with the LLM charge itself? what does it take for the dark attractor to take over?
+
+
+*Oscar Goldman — Shogu Research Group @ Datamutant.ai subsidiary of 温心重工業*

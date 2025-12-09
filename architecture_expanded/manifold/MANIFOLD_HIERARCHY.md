@@ -1511,3 +1511,4 @@ def train_hierarchical_manifolds(
 
 *This document describes a principled architecture for hierarchical spectral manifolds. The design is grounded in information theory, neuroscience, and signal processing. The key innovation is combining frequency-separated manifolds with learned routing and spectral attention for cross-scale communication.*
 
+*Oscar Goldman, Shogu Research Group @ Datamutant.ai subsidiary of 温心重工業*

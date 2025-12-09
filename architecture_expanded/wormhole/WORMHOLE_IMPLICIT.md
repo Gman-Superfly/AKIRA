@@ -399,7 +399,7 @@ WHAT ENERGY TRIGGER IGNORES:
 └───────────────────────────────────────────────────────────────────────────┘
 ```
 
-### 5.2 What Each Paradigm Offers
+### 5.2 What each approach offers
 
 ```
 TRUE IMPLICIT (Energy + Energy):
@@ -859,5 +859,4 @@ THE FIVE WORMHOLE APPROACHES:
 
 ---
 
-*Oscar Goldman - Shogu Research Group @ Datamutant.ai*
-
+*Oscar Goldman, Shogu Research Group @ Datamutant.ai subsidiary of 温心重工業*

@@ -2,8 +2,6 @@
 
 ## The Universal Principle Behind Belief Collapse, Phase Locking, and the Pythagorean Comma
 
-**Oscar Goldman — Shogu Research Group @ Datamutant.ai**
-
 ---
 
 ## Table of Contents

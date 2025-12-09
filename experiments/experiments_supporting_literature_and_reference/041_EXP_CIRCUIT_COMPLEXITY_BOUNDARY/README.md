@@ -66,3 +66,6 @@ From `CIRCUIT_COMPLEXITY.md`:
 > REQUIRED BREADTH = (k + 1) × β
 > This is NECESSARY and SUFFICIENT.
 > Less breadth → Cannot solve the problem (mathematical impossibility)"
+
+
+*Oscar Goldman — Shogu Research Group @ Datamutant.ai subsidiary of 温心重工業*

@@ -2,8 +2,6 @@
 
 ## How Network Theory Determines the Optimal Number of Spectral Bands
 
-**Oscar Goldman — Shogu Research Group @ Datamutant.ai**
-
 ---
 
 ## Table of Contents

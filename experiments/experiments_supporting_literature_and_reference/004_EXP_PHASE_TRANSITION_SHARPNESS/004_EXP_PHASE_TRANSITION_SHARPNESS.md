@@ -2,8 +2,6 @@
 
 ## Is Collapse a Genuine Phase Transition?
 
-**Oscar Goldman — Shogu Research Group @ Datamutant.ai**
-
 ---
 
 ## Status: PENDING
@@ -703,8 +701,9 @@ If not validated:
 
 ---
 
-*Oscar Goldman — Shogu Research Group @ Datamutant.ai*
+
 
 *"If attention obeys the same mathematics as Bose-Einstein condensation, it will exhibit the same critical phenomena. If the exponents match, the physics is the same. If they don't match, the analogy is mere poetry. The experiment will decide."*
 
 
+*Oscar Goldman — Shogu Research Group @ Datamutant.ai subsidiary of 温心重工業*

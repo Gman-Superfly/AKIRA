@@ -2,7 +2,6 @@
 
 ## What's the Minimum Prompt?
 
-**Oscar Goldman — Shogu Research Group @ Datamutant.ai**
 
 ---
 
@@ -20,7 +19,7 @@
 
 The "Old Lady" model predicts compression to atomic truths:
 
-**Can we find the minimum description length (MDL) for concepts — the shortest prompt that still produces the desired behavior?**
+**Can we find the minimum description length (MDL) for concepts, the shortest prompt that still produces the desired behavior?**
 
 ### 1.2 Why This Matters
 
@@ -154,6 +153,5 @@ Atomic prompts are DISCOVERABLE / NOT DISCOVERABLE.
 
 ---
 
-*Oscar Goldman — Shogu Research Group @ Datamutant.ai*
-
+*Oscar Goldman, Shogu Research Group @ Datamutant.ai subsidiary of 温心重工業*
 

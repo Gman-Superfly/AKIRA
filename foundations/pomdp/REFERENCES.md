@@ -3,7 +3,7 @@
 ## Verification as Belief Update
 
 **Wu, S., & Yao, Q. (2025).** *Asking LLMs to Verify First is Almost Free Lunch.* arXiv:2511.21734v1.  
-📄 Local: `supporting_literature_and_reference/010_EXP_TICKLING_TECHNIQUES/Wu_Yao_2024_Verification_First.pdf`
+Local: `supporting_literature_and_reference/010_EXP_TICKLING_TECHNIQUES/Wu_Yao_2024_Verification_First.pdf`
 
 **Key Findings:**
 - **Verification is cognitively easier than generation** (Baker et al., 1975)
@@ -41,7 +41,7 @@
 **Key Findings:**
 - **Transformers trained on HMM-generated sequences linearly encode Bayesian belief states** over hidden Markov states in their residual stream.
 - **Belief-state geometry forms a structured (often fractal) subset of the probability simplex**, matching the mixed-state presentation (MSP) from Computational Mechanics.
-- **Residual stream activations encode both a world model and synchronization dynamics**—how an observer updates beliefs over latent states.
+- **Residual stream activations encode both a world model and synchronization dynamics**, how an observer updates beliefs over latent states.
 
 **Relevance to AKIRA:**
 - Grounds our use of **POMDP belief states** as the correct abstraction for internal transformer state.
@@ -84,7 +84,7 @@
 - Resolves the problem that **classical interaction information can be negative**, which is uninterpretable as "negative information."
 
 **Relevance to AKIRA:**
-- **Justifies wormhole architecture:** Complementary band pairs (0↔6, 1↔5, 2↔4) have HIGH SYNERGY — combining them enables predictions neither can make alone. Wormholes REALIZE this synergy. See `architecture_base/attention/spectral_wormhole/SPECTRAL_WORMHOLE_ATTENTION.md` §3.3.
+- **Justifies wormhole architecture:** Complementary band pairs (0↔6, 1↔5, 2↔4) have HIGH SYNERGY, combining them enables predictions neither can make alone. Wormholes realize this synergy. See `architecture_base/attention/spectral_wormhole/SPECTRAL_WORMHOLE_ATTENTION.md` §3.3.
 - **Explains collapse as information phase transition:** Pre-collapse states have HIGH SYNERGY (need all bands to predict). Post-collapse states have HIGH REDUNDANCY (any band suffices). Collapse = synergy→redundancy conversion. See `architecture_theoretical/ORTHOGONALITY.md` §11.3.
 - **Refines conservation laws:** Total information I(Target; All Bands) is conserved, but its *decomposition* into R/U/S atoms changes during dynamics. This is the information-theoretic signature of a phase transition.
 - **Action Quanta (AQ) crystallize during collapse:** AQ are the PRODUCT of synergy→redundancy transition. They emerge when the belief field condenses.
@@ -103,16 +103,18 @@ Alternative synergy measure. Useful if Williams-Beer I_min underestimates synerg
 
 **Mediano, P. A. M. et al. (2025).** *Toward a unified taxonomy of information dynamics via Integrated Information Decomposition.* PNAS 122(39).  
 📄 Online: [DOI](https://doi.org/10.1073/pnas.2423297122)  
-Introduces **ΦID (Integrated Information Decomposition)** — extending PID to many-to-many dynamics. Provides framework for understanding "whole > sum of parts" dynamics and reveals modes of collective information flow. WHY synergy matters: it's the emergence of information that no single component has alone. Defines TDMI (Time-Delayed Mutual Information), information transfer, and information storage.
+Introduces **ΦID (Integrated Information Decomposition)**, extending PID to many-to-many dynamics. Provides framework for understanding "whole > sum of parts" dynamics and reveals modes of collective information flow. WHY synergy matters: it's the emergence of information that no single component has alone. Defines TDMI (Time-Delayed Mutual Information), information transfer, and information storage.
 
 **Lizier, J.T., Flecker, B., & Williams, P.L. (2013).** *Towards a Synergy-based Approach to Measuring Information Modification.* arXiv:1303.3440.  
 📄 Online: [PDF](https://arxiv.org/pdf/1303.3440)  
 **KEY PAPER for terminology:** Defines **information modification = synergy** in distributed computation. Shows that storage, transfer, and modification form the triad of information dynamics operations. Particle collisions in cellular automata = information modification = synergy. **AKIRA collapse events are information modification events.**
 
 **Sparacino, L. et al. (2025).** *Partial Information Rate Decomposition.* Physical Review Letters, 135, 187401. [arXiv:2502.04550](https://arxiv.org/pdf/2502.04550)  
-Extends PID to information **RATES** — the temporal dynamics of synergy/redundancy. HOW to measure synergy/redundancy changes over time. Critical for EXP_025 causality testing: does synergy rate drop PRECEDE collapse?
+Extends PID to information **RATES**, the temporal dynamics of synergy/redundancy. HOW to measure synergy/redundancy changes over time. Critical for EXP_025 causality testing: does synergy rate drop precede collapse?
 
 **Complementary roles:**
-- Mediano (2021): Conceptual framework — WHY synergy/integration matters
-- Sparacino (2025): Measurement framework — HOW to track temporal dynamics
+- Mediano (2021): Conceptual framework, WHY synergy/integration matters
+- Sparacino (2025): Measurement framework, HOW to track temporal dynamics
 
+
+*Oscar Goldman, Shogu Research Group @ Datamutant.ai subsidiary of 温心重工業*

@@ -361,7 +361,9 @@ Either outcome advances our understanding.
 *"The difference between emergence and design is the difference between discovering fire and building a furnace. Both give heat, but only one gives control."*
 
 ---
+*Oscar Goldman — Shogu Research Group @ Datamutant.ai subsidiary of 温心重工業*
 
+---
 ## References
 
 - AKIRA Framework Documentation (this repository)

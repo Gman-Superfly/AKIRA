@@ -1,7 +1,5 @@
 # AKIRA Design Decisions
 
-**Oscar Goldman — Shogu Research Group @ Datamutant.ai**
-
 ---
 
 ## Epistemological Note
@@ -131,7 +129,7 @@ Band 7 (Time):    τ = 0.8   HYBRID      (temporal = integration)
 **Why τ = 1.0 (not higher):**
 
 1. **Sharp responses needed:** Edge detection requires decisive attention to strong gradients
-2. **Not geometric:** Band 6 doesn't query "what is this edge?" — it just detects "there IS an edge"
+2. **Not geometric:** Band 6 doesn't query "what is this edge?", it just detects "there IS an edge"
 3. **Fast gating:** Acts as signal gate for lower bands ("is there anything here to process?")
 4. **Balance:** τ = 1.0 is sharp enough for detection but not brittle
 
@@ -150,7 +148,7 @@ Band 7 (Time):    τ = 0.8   HYBRID      (temporal = integration)
 
 **Option A:** Make Band 6 τ = 1.2+ (high temperature, diffuse)
 - **Rationale:** High frequency = high uncertainty
-- **Rejected:** Misunderstands Band 6's role. It's not uncertain about edges — edges ARE the information.
+- **Rejected:** Misunderstands Band 6's role. It's not uncertain about edges, edges ARE the information.
 
 **Option B:** Make Band 6 τ = 0.5 (very sharp, like Band 0)
 - **Rationale:** Maximum decisiveness for edge detection
@@ -198,7 +196,7 @@ Why were there **two incompatible learning rate specifications**?
 - Band 6: lr_base × 1.2
 - **Ratio: 12×** (if lr_base = 0.0001)
 
-These were **incompatible** — experiments couldn't know which to use.
+These were **incompatible**; experiments couldn't know which to use.
 
 ### The Resolution
 
@@ -234,8 +232,8 @@ WHY: Prevents instability during random initialization
 LOW FREQUENCY = SLOW CHANGE (identity, what something IS)
 HIGH FREQUENCY = FAST CHANGE (position, where something IS)
 
-Band 0 (DC):   0.00001  — Identity is eternal (~100k steps to change)
-Band 6 (High): 0.03     — Position changes every frame (~30 steps to adapt)
+Band 0 (DC):   0.00001, identity is eternal (~100k steps to change)
+Band 6 (High): 0.03, position changes every frame (~30 steps to adapt)
 ```
 
 **Physical intuition:**
@@ -433,7 +431,7 @@ How should we observe internal model states when direct inspection is difficult?
 
 ### The Design Choice
 
-Use **duality methods** — transform to a domain where the quantity is easy to observe.
+Use **duality methods** to transform to a domain where the quantity is easy to observe.
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────┐
@@ -498,5 +496,5 @@ These decisions reflect underlying principles:
 
 ---
 
-*"Every design choice should be testable. If we can't experiment to validate or falsify it, we haven't made a design decision — we've made an assumption."*
+*"Every design choice should be testable. If we can't experiment to validate or falsify it, we haven't made a design decision; we've made an assumption."*
 

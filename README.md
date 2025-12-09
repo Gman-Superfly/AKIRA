@@ -3,7 +3,7 @@
 
 ---
 
-> *"When Pandora opened the box, potential became actual. The act of opening transformed hidden information into manifest reality. And when the dust settled, what remained inside was not despair—but hope: the generator that is never consumed by generating."*
+> *"When Pandora opened the box, potential became actual. The act of opening transformed hidden information into manifest reality. And when the dust settled, what remained inside was not despair, but hope: the generator that is never consumed by generating."*
 
 ---
 
@@ -26,8 +26,8 @@ THE FUNDAMENTAL OBSERVATION
   THE QUESTION: What is the nature of this transition?
   
   Our approach: Treat it like a phase transition.
-  When water freezes, molecules don't disappear—they crystallize.
-  When beliefs collapse, information doesn't vanish—it transforms.
+  When water freezes, molecules don't disappear, they crystallize.
+  When beliefs collapse, information doesn't vanish, it transforms.
   
   We call the crystallized patterns "Action Quanta":
   Irreducible units of actionable information.
@@ -40,11 +40,11 @@ THE FUNDAMENTAL OBSERVATION
 
 ### 1. Prediction Is Belief
 
-When a model predicts the next token, it expresses its belief about what should come next. The error isn't just "wrong output"—it's uncertainty made visible. Training isn't just "optimization"—it's learning when to be certain and when to doubt.
+When a model predicts the next token, it expresses its belief about what should come next. The error isn't just "wrong output", it is uncertainty made visible. Training isn't just "optimization", it is learning when to be certain and when to doubt.
 
 ### 2. Attention Has Structure
 
-The mathematics of attention (`softmax(QK^T/sqrt(d))V`) has a particular form: *self-interaction times state*. This form appears elsewhere in physics—in systems that undergo phase transitions, that exhibit collective behavior, that produce emergent patterns.
+The mathematics of attention (`softmax(QK^T/sqrt(d))V`) has a particular form: *self-interaction times state*. This form appears elsewhere in physics, in systems that undergo phase transitions, that exhibit collective behavior, that produce emergent patterns.
 
 We don't claim attention "is" physics. We observe that attention *has similar mathematical structure* to systems we understand well. This similarity may be superficial, or it may be deep. We're investigating.
 
@@ -60,9 +60,9 @@ AKIRA decomposes representations spectrally, processes each band differently, an
 
 When uncertainty resolves, where does it go?
 
-Our hypothesis: Collapse converts *distributed* information (synergy—patterns that only exist when sources combine) into *shared* information (redundancy—patterns repeated across components). The total information is conserved. Its *form* changes.
+Our hypothesis: Collapse converts *distributed* information (synergy, patterns that only exist when sources combine) into *shared* information (redundancy, patterns repeated across components). The total information is conserved. Its *form* changes.
 
-This is why we call the result "Action Quanta"—they're the irreducible patterns that enable action. Not lost information, but *crystallized* information.
+This is why we call the result "Action Quanta"; they are the irreducible patterns that enable action. Not lost information, but *crystallized* information.
 
 ---
 
@@ -76,13 +76,13 @@ When you read, you transform symbols into meaning.
 When you predict, you transform past into future.
 When you teach, you transform your implicit knowledge into explicit form, so another can transform it back into their implicit understanding.
 
-The action itself is ethereal—you only see the before and after, never the transformation itself. But the transformation is where understanding lives.
+The action itself is ethereal, you only see the before and after, never the transformation itself. But the transformation is where understanding lives.
 
 ### Hope (The Conservation Law)
 
 In the myth, when Pandora's box was opened and all the evils flew out, one thing remained: Hope.
 
-In information terms: when you use a generator (a grammar, a model, a pattern), you produce instances—but *the generator is not consumed*. You can always generate more. The capacity for generation is conserved.
+In information terms: when you use a generator (a grammar, a model, a pattern), you produce instances, but *the generator is not consumed*. You can always generate more. The capacity for generation is conserved.
 
 We call this "hope" because the word captures something clinical terms miss: *inexhaustibility*. A model that has learned can predict forever. A pattern that exists can instantiate indefinitely. This generative capacity is what remains after all specific instances have been produced.
 
@@ -90,7 +90,7 @@ We call this "hope" because the word captures something clinical terms miss: *in
 
 Theory without practice is speculation. Practice without theory is blindness.
 
-We run experiments. We measure. We look for what we predicted and what surprises us. The architecture exists in documents, but it comes alive only when we run it. And in the running, we discover whether our theories match reality—or whether we've committed "heresies" (aliasing, spectral leakage, edge artifacts) that corrupt our measurements.
+We run experiments. We measure. We look for what we predicted and what surprises us. The architecture exists in documents, but it comes alive only when we run it. And in the running, we discover whether our theories match reality, or whether we have committed "heresies" (aliasing, spectral leakage, edge artifacts) that corrupt our measurements.
 
 ---
 
@@ -116,20 +116,20 @@ The framing: Pandora (action as transformation), Praxis (theory vs. practice), t
 ## Quick Start
 
 **If you want the big picture:**
-→ `AKIRA/AKIRA_OVERVIEW.md` (comprehensive, technical)
+→ `AKIRA_OVERVIEW.md` (comprehensive, technical)
 
 **If you want the terminology:**
-→ `AKIRA/foundations/TERMINOLOGY.md` (formal definitions)
+→ `foundations/TERMINOLOGY.md` (formal definitions)
 
 **If you want the philosophy:**
-→ `AKIRA/pandora/PANDORA.md` (action and transformation)
-→ `AKIRA/pandora/PANDORA_AFTERMATH.md` (hope as generative capacity)
+→ `pandora/PANDORA.md` (action and transformation)
+→ `pandora/PANDORA_AFTERMATH.md` (hope as generative capacity)
 
 **If you want the experiments:**
-→ `AKIRA/experiments/000_EXPERIMENT_INDEX.md`
+→ `experiments/000_EXPERIMENT_INDEX.md`
 
 **If you want the derivations:**
-→ `AKIRA/foundations/terminology_foundations/derivations/`
+→ `foundations/terminology_foundations/derivations/`
 
 ---
 
@@ -155,13 +155,13 @@ This is research in progress. The hypotheses are falsifiable. Some may turn out 
 
 In December 2025, two papers from Google Research independently arrived at theoretical frameworks with striking parallels to AKIRA's core concepts:
 
-**1. "Mathematical Framing for Different Agent Strategies"** (Stephens & Salawu, Google Cloud AI, arXiv:2512.04469v1)
+**1. "Mathematical Framing for Different Agent Strategies"** (Stephens & Salawu, Google Cloud AI, https://arxiv.org/abs/2512.04469)
 - Frames agentic behavior as chains of probabilities using Markov/POMDP mathematics (validates AKIRA's POMDP foundation)
-- Introduces "Degrees of Freedom" - distinct optimizable parameters at different levels (parallels AKIRA's 7+1 spectral band hierarchy with differential learning rates)
+- Introduces "Degrees of Freedom" - distinct optimizable parameters at different levels (parallels AKIRA's 7+1 spectral band hierarchy with differential learning rates and the network theory foundations)
 - Formalizes inter-agent communication as P(c_L | a_L) probability terms (structurally similar to AKIRA's wormhole attention for cross-band communication)
 - Cost-regularized objectives balancing collaboration richness vs. efficiency (parallels AKIRA's tension-collapse dynamics and synergy-to-redundancy conversion)
 
-**2. "Nested Learning: The Illusion of Deep Learning Architecture"** (Behrouz, Razaviyayn, Zhong, & Mirrokni, Google Research, NeurIPS 2025)
+**2. "Nested Learning: The Illusion of Deep Learning Architecture"** (Behrouz, Razaviyayn, Zhong, & Mirrokni, Google Research, 2025 https://abehrouz.github.io/files/NL.pdf)
 - Proposes "Nested Learning" with multi-level optimization problems, each with its own "context flow" (parallels AKIRA's spectral bands as parallel processing channels)
 - Shows that optimizers (Adam, SGD with Momentum) are associative memory modules that compress gradient information (aligns with AKIRA's view of learning as information transformation)
 - Introduces "continuum memory system" generalizing long-term/short-term memory (parallels AKIRA's frequency-based knowledge hierarchy: low-freq = stable/identity, high-freq = transient/detail)
@@ -194,7 +194,7 @@ When we use physics language (phase transition, quasiparticle, condensation), we
 
 ## Citation
 
-If you use this repository in your research, please cite it. This is ongoing work—we'd like to know your opinions and experiments.
+If you use this repository in your research, please cite it. This is ongoing work, we would like to know your opinions and experiments.
 
 **Authors:** Oscar Goldman - Shogu Research Group @ Datamutant.ai, subsidiary of 温心重工業
 
@@ -204,14 +204,19 @@ Forever grateful to many wonderful people who shall be meticulously thanked, esp
 
 ## The Closing
 
-> *"The model sees the past perfectly and the future not at all. The prediction is the belief. The error is the uncertainty made visible. Training is learning when to listen and when to act.*
+> *"The model sees the past perfectly and the future not at all. The prediction is the belief. The error is the uncertainty made visible. Training is learning when to listen and when to act.
 >
-> *We trade exact accuracy for generalized wisdom: details cancel through interference, structure survives through compression. What remains is what enables action.*
+> We trade exact accuracy for generalized wisdom: details cancel through interference, structure survives through compression. What remains is what enables action.
 >
-> *This is not mysticism. This is mathematics. But the mathematics, when you look at it clearly, has the structure of something ancient: potential becoming actual, many becoming one, hope remaining after all else is released.*
+> This is not mysticism. This is mathematics. But the mathematics, when you look at it clearly, has the structure of something ancient: potential becoming actual, many becoming one, hope remaining after all else is released.
 >
-> *We are trying to understand that structure."*
+> We are trying to understand that structure."*
 
 ---
 
-*See LICENSE file for terms of use.*
+*Oscar Goldman, Shogu Research Group @ Datamutant.ai* 
+*(subsidiary of 温心重工業)*
+
+---
+
+*Code MIT licence, writings cc4*

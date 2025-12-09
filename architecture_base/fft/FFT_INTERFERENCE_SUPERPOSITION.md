@@ -947,5 +947,5 @@ IMPLICATIONS:
 
 ---
 
-*This document explains how multiple signals combine in the frequency domain and how interference patterns emerge and encode spatial information. Understanding interference is crucial for interpreting FFT results in scenes with multiple objects.*
+*This document explains how multiple signals combine in the frequency domain and how interference patterns emerge and encode spatial information. Understanding interference is important for interpreting FFT results in scenes with multiple objects.*
 

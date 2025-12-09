@@ -2,8 +2,6 @@
 
 ## Can We Detect When Belief Collapses?
 
-**Oscar Goldman — Shogu Research Group @ Datamutant.ai**
-
 ---
 
 ## Status: PENDING

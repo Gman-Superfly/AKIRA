@@ -148,3 +148,5 @@ If wave tokens don't work for language but AKIRA works for signals:
 - [ ] FFT-based spectral decomposition
 - [ ] Ablation experiments
 - [ ] Analysis of coherence patterns
+
+*Oscar Goldman — Shogu Research Group @ Datamutant.ai subsidiary of 温心重工業*

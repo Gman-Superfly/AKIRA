@@ -2,10 +2,6 @@
 
 ## An Architecture Derived from First Principles
 
-**Oscar Goldman — Shogu Research Group @ Datamutant.ai**
-
----
-
 ## Table of Contents
 
 1. [Introduction: What Architecture Does the Theory Demand?](#1-introduction)
@@ -34,7 +30,7 @@
 
 ### 1.1 The Question
 
-After developing an extensive theoretical framework — spanning Action Quanta, conservation laws, BEC physics, POMDP dynamics, spectral decomposition, and the language of information — we must ask:
+After developing an extensive theoretical framework, spanning Action Quanta, conservation laws, BEC physics, POMDP dynamics, spectral decomposition, and the language of information, we must ask:
 
 **What architecture does this theory demand?**
 
@@ -85,9 +81,9 @@ THE FUNDAMENTAL CLAIM
 
 If meaning is spectral, the architecture must be **frequency-native**, not frequency-blind.
 
-Current transformers treat the frequency structure of information as emergent — if it appears, fine; if not, also fine. They hope the network will discover spectral structure on its own.
+Current transformers treat the frequency structure of information as emergent; if it appears, fine, if not, also fine. They hope the network will discover spectral structure on its own.
 
-The Spectral Belief Machine treats frequency structure as **fundamental** — the very syntax of meaning is spectral, and the architecture must respect this from the ground up.
+The Spectral Belief Machine treats frequency structure as **fundamental**; the very syntax of meaning is spectral, and the architecture must respect this from the ground up.
 
 ### 2.3 The Core Dynamic: Tension and Collapse
 
@@ -220,13 +216,13 @@ SPECTRAL DECOMPOSITION LAYER
 │  OUTPUT: 7 band tensors, each ∈ ℂ^(B × T × D_band)                   │
 │                                                                         │
 │  BAND BOUNDARIES (logarithmic spacing):                                │
-│  Band 0 (DC):     [0, f_max/64)      — Identity, existence           │
-│  Band 1:          [f_max/64, f_max/32) — Coarse structure           │
-│  Band 2:          [f_max/32, f_max/16) — Medium structure           │
-│  Band 3:          [f_max/16, f_max/8)  — Transitions                │
-│  Band 4:          [f_max/8, f_max/4)   — Fine structure             │
-│  Band 5:          [f_max/4, f_max/2)   — Textures                   │
-│  Band 6:          [f_max/2, f_max)     — Edges, details             │
+│  Band 0 (DC):     [0, f_max/64)      - Identity, existence           │
+│  Band 1:          [f_max/64, f_max/32) - Coarse structure           │
+│  Band 2:          [f_max/32, f_max/16) - Medium structure           │
+│  Band 3:          [f_max/16, f_max/8)  - Transitions                │
+│  Band 4:          [f_max/8, f_max/4)   - Fine structure             │
+│  Band 5:          [f_max/4, f_max/2)   - Textures                   │
+│  Band 6:          [f_max/2, f_max)     - Edges, details             │
 │                                                                         │
 │  PLUS TEMPORAL BAND (see THE_SEVEN_PLUS_ONE_ARCHITECTURE.md):         │
 │  Band 7 (Time):   Causal attention across sequence                   │
@@ -284,7 +280,7 @@ DIFFERENTIAL TIMESCALES
 │  7       0.001            Medium           Temporal (causal)          │
 │                                                                         │
 │  RATIO: Band 6 learns 3000× faster than Band 0                        │
-│  NOTE: Band 7 (temporal) has medium LR — adapts to context           │
+│  NOTE: Band 7 (temporal) has medium LR, adapts to context            │
 │                                                                         │
 │  This matches the natural timescales of meaning:                      │
 │  • "This is a cat" (Band 0) should rarely change                     │
@@ -327,8 +323,8 @@ BELIEF STATE ARCHITECTURE
 │                                                                         │
 │  Each B_k contains:                                                     │
 │  • Distribution: P(future | past, band=k)                             │
-│  • Entropy: H(B_k) — uncertainty in this band                        │
-│  • Confidence: 1 - H(B_k)/H_max — certainty measure                  │
+│  • Entropy: H(B_k), uncertainty in this band                         │
+│  • Confidence: 1 - H(B_k)/H_max, certainty measure                   │
 │  • History: Recent values for tracking collapse                      │
 │                                                                         │
 │  BELIEF TRACKER updates per step:                                      │
@@ -506,15 +502,15 @@ WHAT CHANGED FROM ORIGINAL:
 ### 7.7 Justification
 
 From `architecture_theoretical/ORTHOGONALITY.md`:
-> "Type 3: Space-Time Orthogonality — Time and frequency are orthogonal (Heisenberg)"
-> "Type 5: Wormhole Complementarity — Paired bands (0↔6, 1↔5, 2↔4) are complementary"
+> "Type 3: Space-Time Orthogonality, time and frequency are orthogonal (Heisenberg)"
+> "Type 5: Wormhole Complementarity, paired bands (0↔6, 1↔5, 2↔4) are complementary"
 
 From `architecture_base/collapse/COLLAPSE_DYNAMICS.md`:
 > "Temperature τ controls collapse sharpness"
 > "Coherence-based triggering, not magnitude threshold"
 
 From original `architecture_expanded/wormhole/WORMHOLE_HYBRID.md`:
-> "Geometric belief with energy trigger" — retained geometric belief, refined trigger
+> "Geometric belief with energy trigger", retained geometric belief, refined trigger
 
 ---
 
@@ -651,7 +647,7 @@ Standard transformers are vulnerable to:
 - Spectral leakage (windowing artifacts)
 - Boundary effects (edge artifacts)
 
-These create "heresies" — patterns that resonate with the architecture but not with reality.
+These create "heresies", patterns that resonate with the architecture but not with reality.
 
 ### 10.2 The Heresy-Resistant Solution
 
@@ -763,13 +759,13 @@ THE 7+1 ARCHITECTURE
 │                                                                         │
 │  SPECTRAL BANDS (7): Process SPACE/FREQUENCY                          │
 │  ───────────────────────────────────────────                            │
-│  Band 0 (DC):    Identity, existence       — eternal patterns        │
-│  Band 1:         Coarse structure          — slow change             │
-│  Band 2:         Medium structure          — moderate                │
-│  Band 3:         Transitions, boundaries   — bridge band             │
-│  Band 4:         Fine structure            — moderate                │
-│  Band 5:         Textures                  — fast change             │
-│  Band 6:         Edges, details            — immediate               │
+│  Band 0 (DC):    Identity, existence       - eternal patterns        │
+│  Band 1:         Coarse structure          - slow change             │
+│  Band 2:         Medium structure          - moderate                │
+│  Band 3:         Transitions, boundaries   - bridge band             │
+│  Band 4:         Fine structure            - moderate                │
+│  Band 5:         Textures                  - fast change             │
+│  Band 6:         Edges, details            - immediate               │
 │                                                                         │
 │  These answer: "WHAT exists at different scales?"                     │
 │  They store: Magnitude + Phase (complex numbers)                     │
@@ -849,7 +845,7 @@ TEMPORAL BAND REPRESENTATION
 │                                                                         │
 │  4. CAUSAL RELATIONSHIPS                                                │
 │     Does what happened before predict what happens next?             │
-│     This is causality — only the temporal band can capture it.      │
+│     This is causality; only the temporal band can capture it.       │
 │                                                                         │
 │  The temporal band tracks HOW spectral content EVOLVES.              │
 │                                                                         │
@@ -891,10 +887,10 @@ class TemporalBand(nn.Module):
     def forward(self, x: torch.Tensor) -> torch.Tensor:
         """
         Args:
-            x: (batch, seq_len, dim) — aggregated spectral representation
+            x: (batch, seq_len, dim) - aggregated spectral representation
             
         Returns:
-            (batch, seq_len, dim) — temporally contextualized output
+            (batch, seq_len, dim) - temporally contextualized output
         """
         B, T, D = x.shape
         
@@ -917,7 +913,7 @@ class TemporalBand(nn.Module):
 ### 11.7 Justification
 
 From `architecture_theoretical/PHASE_AND_TIME.md`:
-> "The temporal band doesn't store 'phase' in the spectral sense. It stores how phase evolves and relates across time — which is a different kind of information."
+> "The temporal band doesn't store 'phase' in the spectral sense. It stores how phase evolves and relates across time, which is a different kind of information."
 
 From `architecture_theoretical/ORTHOGONALITY.md`:
 > "7 spectral + 1 temporal = 8 orthogonal information channels"
@@ -1032,7 +1028,7 @@ DATA FLOW SUMMARY
 │                                                                         │
 │  7. BANDS → RECONSTRUCTION                                             │
 │     Inverse FFT with proper windowing.                              │
-│     Overlap-add for seamless output.                                │
+│     Overlap-add for continuous output.                              │
 │                                                                         │
 │  8. RECONSTRUCTION → OUTPUT                                            │
 │     Final prediction or embedding.                                   │
@@ -1482,12 +1478,12 @@ COMPLEXITY ANALYSIS (CORRECTED)
 │  • Total: O(9nd² + n²d) ≈ O(nd² + n²d)                               │
 │                                                                         │
 │  SPECTRAL BELIEF MACHINE (7+1 architecture, per layer):               │
-│  • FFT: O(nd log n) — negligible                                      │
-│  • Per-band projections: O(nd²/8) — 8× smaller                       │
-│  • Per-band attention: O(n²d) — SAME as standard!                    │
-│  • Per-band FFN: O(8nd²/8) = O(nd²) — 8× smaller                    │
-│  • Wormhole: O(nkd) where k << n — negligible                        │
-│  • IFFT: O(nd log n) — negligible                                     │
+│  • FFT: O(nd log n), negligible                                       │
+│  • Per-band projections: O(nd²/8), 8× smaller                        │
+│  • Per-band attention: O(n²d), SAME as standard!                     │
+│  • Per-band FFN: O(8nd²/8) = O(nd²), 8× smaller                     │
+│  • Wormhole: O(nkd) where k << n, negligible                         │
+│  • IFFT: O(nd log n), negligible                                      │
 │  • Total: O(nd²/8 + n²d + nd²) ≈ O(nd² + n²d)                       │
 │                                                                         │
 │  KEY INSIGHT:                                                           │
@@ -1806,14 +1802,14 @@ CIRCUIT COMPLEXITY THEOREM ALIGNMENT
 │                                                                         │
 │  AKIRA ARCHITECTURE:                                                    │
 │  ───────────────────                                                    │
-│  Band 0 (DC)  — Identity, existence                                    │
-│  Band 1       — Coarse structure                                       │
-│  Band 2       — Medium structure                                       │
-│  Band 3       — Bridge (transitions)              7 SPECTRAL           │
-│  Band 4       — Fine detail                                            │
-│  Band 5       — Texture                                                │
-│  Band 6       — Position, energy                                       │
-│  Band 7       — Temporal (causal)                 1 TEMPORAL           │
+│  Band 0 (DC)  - Identity, existence                                    │
+│  Band 1       - Coarse structure                                       │
+│  Band 2       - Medium structure                                       │
+│  Band 3       - Bridge (transitions)              7 SPECTRAL           │
+│  Band 4       - Fine detail                                            │
+│  Band 5       - Texture                                                │
+│  Band 6       - Position, energy                                       │
+│  Band 7       - Temporal (causal)                 1 TEMPORAL           │
 │  ───────────────────────────────────────────────────────────────────   │
 │  TOTAL:                                           8 BANDS              │
 │                                                                         │
@@ -1836,8 +1832,10 @@ Mao, J., Lozano-Pérez, T., Tenenbaum, J.B., & Kaelbling, L.P. (2023). "What Pla
 
 ---
 
-*Oscar Goldman — Shogu Research Group @ Datamutant.ai*
-
 *"The architecture is frequency-native, not frequency-blind. This is not a choice; it is a consequence of what meaning is."*
+
+*Oscar Goldman, Shogu Research Group @ Datamutant.ai subsidiary of 温心重工業*
+
+
 
 

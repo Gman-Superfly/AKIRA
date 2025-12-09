@@ -1,6 +1,6 @@
 # Physical Parallels in Spectral Attention
 
-This document collects analogies between the dynamics we observe in the spectral attention predictor and well-known physical phenomena. The goal is not to claim the model *is* physics, but to note as many have before that the same mathematical constraints—gradients, conservation, interference—appear in both domains and we observe them also.
+This document collects analogies between the dynamics we observe in the spectral attention predictor and well-known physical phenomena. The goal is not to claim the model *is* physics, but to note as many have before that the same mathematical constraints, gradients, conservation, interference, appear in both domains and we observe them also.
 
 ---
 
@@ -10,7 +10,7 @@ A system cannot perform work in a uniform environment. Work requires a gradient:
 
 - The **error map** is the gradient field. Regions of high |prediction − target| represent unexplained probability mass.
 - The model's weights update in the direction that reduces this gradient (via backpropagation of MSE loss).
-- Once the error is uniform (or zero), no further learning occurs—the system has reached equilibrium.
+- Once the error is uniform (or zero), no further learning occurs; the system has reached equilibrium.
 
 This mirrors thermodynamics: a heat engine extracts work from a temperature difference; when temperatures equalize, the engine stalls. Similarly, the predictor extracts "learning signal" from the error gradient; when error flattens, training saturates.
 
@@ -31,7 +31,7 @@ In a thundercloud, charge accumulates until the local electric field exceeds the
 
 Our spectral attention latent behaves like a dielectric storing charge:
 
-- **Probability mass (uncertainty) accumulates** wherever the model hasn't explained the target yet—the high-error zone.
+- **Probability mass (uncertainty) accumulates** wherever the model hasn't explained the target yet, the high-error zone.
 - **The prediction drifts toward that zone** because MSE loss treats it as the highest-gradient region; the model is effectively seeking the steepest part of the loss landscape.
 - **Once the pattern becomes unambiguous** (the "breakdown"), the prediction snaps to the true trajectory and error collapses locally.
 - **The uncertainty front then advances** to the next ambiguous region, restarting the accumulation cycle.
@@ -41,10 +41,10 @@ Our spectral attention latent behaves like a dielectric storing charge:
 The de Broglie-like fringes visible in the error map are analogous to the branching leader channels captured in high-speed lightning footage:
 
 - They trace out the **manifold of plausible continuations** before one path wins.
-- Each fringe represents a local maximum of unexplained probability—places the model "almost" predicted.
+- Each fringe represents a local maximum of unexplained probability, places the model "almost" predicted.
 - When the true trajectory is revealed, one branch "wins" and the others fade, just as unsuccessful leaders extinguish once the main channel forms.
 
-If we added a sharper, mode-seeking loss (e.g., a GAN discriminator or quantized cross-entropy), we would force earlier breakdown and lose the interference structure—analogous to lowering the dielectric strength so the field short-circuits before it can spread.
+If we added a sharper, mode-seeking loss (e.g., a GAN discriminator or quantized cross-entropy), we would force earlier breakdown and lose the interference structure, analogous to lowering the dielectric strength so the field short-circuits before it can spread.
 
 ### Summary
 
@@ -60,7 +60,7 @@ Classical and quantum waves exhibit constructive and destructive interference wh
 - **Destructive zones**: trajectories cancel; the model can commit confidently, producing low error.
 - **Nodal lines**: boundaries where probability mass is minimal; the error map shows sharp minima here.
 
-This is not a coincidence—MSE minimization over a mixture of Gaussians yields a mean that sits at the centroid of the mixture, exactly where classical wave superposition would place the amplitude peak.
+This is not a coincidence; MSE minimization over a mixture of Gaussians yields a mean that sits at the centroid of the mixture, exactly where classical wave superposition would place the amplitude peak.
 
 ---
 
@@ -84,7 +84,7 @@ These parallels suggest that any learning system operating under squared-error l
 2. **Interference patterns**: when multiple futures are plausible, the prediction hedges and fringes appear.
 3. **Collapse events**: when ambiguity resolves, the prediction snaps to a single mode and error drops sharply.
 
-If we want sharper, mode-seeking predictions (less "smearing"), we need a loss that penalizes hedging—e.g., adversarial losses, quantized cross-entropy, or energy-based models with explicit mode penalties. But doing so sacrifices the interpretable interference structure that makes the current demo compelling.
+If we want sharper, mode-seeking predictions (less "smearing"), we need a loss that penalizes hedging, for example adversarial losses, quantized cross-entropy, or energy-based models with explicit mode penalties. But doing so sacrifices the interpretable interference structure that makes the current demo compelling.
 
 ---
 

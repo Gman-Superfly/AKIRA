@@ -1288,7 +1288,7 @@ THE TWO FORMS OF BELIEF REPRESENTATION:
 │  PROPERTIES:                                                    │
 │  • Memory efficient                                             │
 │  • Hard to inspect or regularize directly                      │
-│  • This is GEOMETRY—the shape of belief in high-D space       │
+│  • This is GEOMETRY, the shape of belief in high-D space      │
 │                                                                 │
 │  USED FOR: Knowledge-informed decisions                        │
 │  • "Which hypothesis has most evidence?" (geometric query)    │
@@ -1310,7 +1310,7 @@ THE TWO FORMS OF BELIEF REPRESENTATION:
 │  PROPERTIES:                                                    │
 │  • Can regularize entropy directly                             │
 │  • More memory, clearer interpretation                         │
-│  • This is ENERGY—the intensity/concentration of belief       │
+│  • This is ENERGY, the intensity/concentration of belief      │
 │                                                                 │
 │  USED FOR: Reactive decisions                                   │
 │  • "Should we collapse NOW?" (entropy < threshold)            │
@@ -1546,7 +1546,7 @@ INTEGRATING POMDP CONCEPTS INTO EXISTING CODE:
 │                                                                 │
 │  PRACTICAL IMPLICATIONS:                                        │
 │                                                                 │
-│  1. Attention IS inference—design it accordingly              │
+│  1. Attention IS inference, design it accordingly             │
 │  2. Track entropy for collapse decisions                       │
 │  3. Spectral bands = factored belief components               │
 │  4. Multi-head = multiple belief facets                        │
@@ -1567,9 +1567,8 @@ INTEGRATING POMDP CONCEPTS INTO EXISTING CODE:
 
 ---
 
-*This document establishes that attention mechanisms are fundamentally Bayesian belief updates in a POMDP framework. The collapse phenomenon we observe is belief concentration—the transition from high-entropy uncertainty to low-entropy certainty. Understanding this connection provides principled guidance for designing and tuning attention-based predictive systems.*
+*This document establishes that attention mechanisms are fundamentally Bayesian belief updates in a POMDP framework. The collapse phenomenon we observe is belief concentration, the transition from high-entropy uncertainty to low-entropy certainty. Understanding this connection provides principled guidance for designing and tuning attention-based predictive systems.*
 
 ---
 
-*Oscar Goldman - Shogu Research Group @ Datamutant.ai*
-
+*Oscar Goldman, Shogu Research Group @ Datamutant.ai subsidiary of 温心重工業*

@@ -788,6 +788,10 @@ Ratio: ____
 
 ---
 
-*Oscar Goldman — Shogu Research Group @ Datamutant.ai*
+
 
 *"The model measures many things, infers some things, but acts on few things. Action Quanta are the bottleneck between understanding and doing. Everything else is scaffolding."*
+
+
+*Oscar Goldman — Shogu Research Group @ Datamutant.ai subsidiary of 温心重工業*
+

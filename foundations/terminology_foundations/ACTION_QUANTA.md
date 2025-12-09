@@ -4,8 +4,6 @@
 
 This document explains **Action Quanta (AQ)** - AKIRA's term for the irreducible units of actionable information that emerge during collapse. We build this concept **inductively**, starting from the physics of action and arriving at the complete framework through step-by-step reasoning.
 
-**Oscar Goldman — Shogu Research Group @ Datamutant.ai**
-
 ---
 
 ## Table of Contents

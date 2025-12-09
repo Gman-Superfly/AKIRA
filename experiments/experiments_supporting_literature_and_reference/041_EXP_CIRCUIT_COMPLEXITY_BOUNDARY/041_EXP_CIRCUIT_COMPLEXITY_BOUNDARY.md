@@ -767,6 +767,8 @@ k=4 failures - constraint violation pattern:
 
 ---
 
-*Oscar Goldman — Shogu Research Group @ Datamutant.ai*
+
 
 *"Architecture is destiny. A network with 8 bands can track 3 constraints. Ask it to track 4, and it will fail - not from lack of training, but from mathematical impossibility. Know your limits."*
+
+*Oscar Goldman — Shogu Research Group @ Datamutant.ai subsidiary of 温心重工業*

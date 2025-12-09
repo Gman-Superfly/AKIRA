@@ -2,8 +2,6 @@
 
 ## A Comprehensive Research Agenda for Spectral Belief Dynamics
 
-**Oscar Goldman — Shogu Research Group @ Datamutant.ai**
-
 ---
 
 ## Table of Contents
@@ -74,7 +72,7 @@ KNOWLEDGE STATUS AND DERIVATION APPROACH
 ### 1.1 What We're Building
 
 ```
-AKIRA PSYCHE: The Complete Science of Belief Dynamics
+AKIRA PSYCHE: A Framework for Belief Dynamics
 
 ┌─────────────────────────────────────────────────────────────────────────┐
 │                                                                         │
@@ -246,7 +244,7 @@ PRINCIPLE #6: DETECT HERESY THROUGH EXPERIMENTATION
 │                                                                         │
 │  THE DOCTRINE:                                                          │
 │  The system architecture IS the true doctrine.                        │
-│  Nyquist, Shannon, Fourier — these are the LAWS.                     │
+│  Nyquist, Shannon, Fourier: these are the LAWS.                      │
 │                                                                         │
 │  THE HERESY:                                                            │
 │  Any error against these laws is heresy.                              │
@@ -272,7 +270,7 @@ PRINCIPLE #6: DETECT HERESY THROUGH EXPERIMENTATION
 ### 2.7 Attention ≈ Self-Interaction Term (BEC Analogy)
 
 ```
-PRINCIPLE #7: ATTENTION ≈ g|ψ|² (BEC ANALOGY — TESTABLE)
+PRINCIPLE #7: ATTENTION ≈ g|ψ|² (BEC ANALOGY, TESTABLE)
 
 ┌─────────────────────────────────────────────────────────────────────────┐
 │                                                                         │
@@ -403,7 +401,7 @@ PRINCIPLE #10: USE DUALITY TO MAKE HARD OBSERVATIONS EASY
 │  THE PATTERN:                                                           │
 │  1. TRANSFORM: Cheap operation to switch domains                      │
 │  2. CONSERVED: Something preserved (verification check)               │
-│  3. INVERSION: Complexity swaps — what was hard is now easy          │
+│  3. INVERSION: Complexity swaps, what was hard is now easy           │
 │                                                                         │
 │  Reference: observability/DUALITY_METHODS.md                          │
 │             foundations/DUALITY_AND_EFFICIENCY.md                     │
@@ -470,7 +468,7 @@ ASSET USAGE GUIDE
 │  HOW: If top-2 scores are close, leaders are tied                    │
 │                                                                         │
 │  SIMILARITY MATRIX:                                                     │
-│  USE: Map the entire belief landscape                                 │
+│  USE: Map the entire belief manifold                                  │
 │  HOW: Histogram reveals distribution of potential connections        │
 │                                                                         │
 │  NEAR-THRESHOLD COUNT:                                                  │
@@ -636,7 +634,7 @@ TRACK E: PHYSICS OF LEARNING
 │  • Conservation law tests                                             │
 │  • Phase transition detector                                          │
 │  • Critical exponent measurements                                     │
-│  • Energy landscape visualizer                                        │
+│  • Energy surface visualizer                                          │
 │                                                                         │
 │  SUCCESS CRITERIA:                                                      │
 │  • Evidence for/against conservation laws                            │
@@ -750,7 +748,7 @@ TRACK H: HARMONY, COHERENCE, AND THE PYTHAGOREAN PRINCIPLE
 │  THE PYTHAGOREAN INSIGHT:                                               │
 │  The circle of fifths doesn't close (off by 23 cents).               │
 │  Equal temperament SPREADS the error for universal compatibility.     │
-│  This appears in ALL physical systems — including attention.         │
+│  This appears in ALL physical systems, including attention.          │
 │                                                                         │
 │  CORE HYPOTHESES:                                                       │
 │  H1. Attention "spreads error" like equal temperament                 │
@@ -813,7 +811,7 @@ EXPERIMENT TIERS
 
 ┌─────────────────────────────────────────────────────────────────────────┐
 │                                                                         │
-│  ★★★ CRUCIAL (Must Pass for Theory to Stand)                          │
+│  ★★★ KEY (must pass for theory to stand)                              │
 │  ─────────────────────────────────────────────                          │
 │  These experiments test the foundational claims.                       │
 │  If ANY fails, the theory needs revision.                             │
@@ -839,7 +837,7 @@ EXPERIMENT TIERS
 ### 5.1 Implemented Experiments (experiments/ folder)
 
 ```
-TIER 1: FOUNDATION ★★★ (CRUCIAL)
+TIER 1: FOUNDATION ★★★ (KEY)
 All experiments exist in: spectral_attention/docs/AKIRA/experiments/
 
 ┌─────────────────────────────────────────────────────────────────────────┐
@@ -893,7 +891,7 @@ TIER 2: BEC VALIDATION ★★ (CORE)
 │  Deep structure test.                                                 │
 │  • Is normalization conserved (always, by softmax)?                 │
 │  • Is there an energy-like conserved quantity?                       │
-│  • Does Parseval hold (must — it's math)?                           │
+│  • Does Parseval hold (must, it is math)?                           │
 │  STATUS: PENDING                                                       │
 │  CORE: Conservation reveals symmetries and deep structure           │
 │                                                                         │
@@ -1116,7 +1114,7 @@ WHAT EACH EXPERIMENT PRODUCES
 └───────────────────────────────────────────────────────────────────────┘
 
 TIER LEGEND:
-★★★ = CRUCIAL (must pass for theory to stand)
+★★★ = KEY (must pass for theory to stand)
 ★★  = CORE (strong evidence for key claims)  
 ★   = SUPPORTING (additional depth and applications)
 ○   = EXPLORATORY (bold predictions, failure is informative)
@@ -1344,7 +1342,7 @@ THEORETICAL QUESTIONS TO ANSWER
 ┌─────────────────────────────────────────────────────────────────────────┐
 │                                                                         │
 │  FUNDAMENTAL:                                                           │
-│  • What exactly IS the conserved quantity during learning?            │
+│  • What is the conserved quantity during learning?            │
 │  • Is there a "Noether's theorem" for neural networks?               │
 │  • What determines the number of optimal spectral bands?             │
 │  • Why does log(N) appear everywhere?                                │
@@ -1425,7 +1423,7 @@ PRACTICAL QUESTIONS TO ANSWER
 ### 9.1 Phase 1: Foundation ★★★
 
 ```
-PHASE 1: FOUNDATION (CRUCIAL EXPERIMENTS)
+PHASE 1: FOUNDATION (KEY EXPERIMENTS)
 
 EXPERIMENTS:
 • 001_EXP_ENTROPY_OBSERVATION ★★★
@@ -1433,10 +1431,10 @@ EXPERIMENTS:
 • 003_EXP_SPECTRAL_BAND_DYNAMICS ★★★
 
 INFRASTRUCTURE TO BUILD:
-• entropy_tracker.py — Compute attention entropy
-• collapse_detector.py — Detect sudden entropy drops
-• band_analyzer.py — Per-band statistics
-• attention_hooks.py — Extract weights from layers
+• entropy_tracker.py: compute attention entropy
+• collapse_detector.py: detect sudden entropy drops
+• band_analyzer.py: per-band statistics
+• attention_hooks.py: extract weights from layers
 
 GATE: ALL THREE MUST PASS
 • If 001 fails: Cannot measure → theory untestable
@@ -1461,10 +1459,10 @@ EXPERIMENTS:
 • 006_EXP_HERESY_DETECTION ★★
 
 INFRASTRUCTURE TO BUILD:
-• phase_transition.py — Critical exponent fitting
-• conservation_checker.py — Test conservation laws
-• heresy_detector.py — Windowing/aliasing tests
-• parseval_validator.py — Energy conservation
+• phase_transition.py: critical exponent fitting
+• conservation_checker.py: test conservation laws
+• heresy_detector.py: windowing and aliasing tests
+• parseval_validator.py: energy conservation
 
 GATE: CRITICAL EXPONENTS + NO FATAL HERESIES
 • If 004 fails: Collapse is gradual → not phase transition
@@ -1488,10 +1486,10 @@ EXPERIMENTS:
 • 009_EXP_GROKKING_AS_CONDENSATION ★★ (to create)
 
 INFRASTRUCTURE TO BUILD:
-• wavefront_visualizer.py — Real-time manifold view
-• trajectory_tracker.py — Belief state evolution
-• quasiparticle_probe.py — Dispersion measurement
-• grokking_monitor.py — Training phase detection
+• wavefront_visualizer.py: real-time manifold view
+• trajectory_tracker.py: belief state evolution
+• quasiparticle_probe.py: dispersion measurement
+• grokking_monitor.py: training phase detection
 
 GATE: VISUALIZATION MATCHES PREDICTIONS
 • Branching should be visible before collapse
@@ -1516,14 +1514,14 @@ EXPERIMENTS:
 • 015_EXP_ATTENTION_VORTICES ○
 
 INFRASTRUCTURE TO BUILD:
-• tickling_toolkit.py — Cheap probing methods
-• prompt_analyzer.py — Spectral prompt analysis
-• vortex_finder.py — Topological defect search
+• tickling_toolkit.py: cheap probing methods
+• prompt_analyzer.py: spectral prompt analysis
+• vortex_finder.py: topological defect search
 
 GATE: PRACTICAL UTILITY DEMONSTRATED
 • Tickling should predict collapse destination cheaply
 • Prompts should decompose spectrally
-• (Vortices are bonus — major discovery if found)
+• (Vortices are bonus, a major discovery if found)
 
 DELIVERABLES:
 • Prompt optimization speedup
@@ -1544,7 +1542,7 @@ DELIVERABLES:
 │                                                                         │
 │  EXPERIMENT HIERARCHY (17 experiments, 4 tiers):                       │
 │                                                                         │
-│  ★★★ CRUCIAL (3):  001 Entropy, 002 Collapse, 003 Spectral           │
+│  ★★★ KEY (3):  001 Entropy, 002 Collapse, 003 Spectral               │
 │                     If ANY fails → theory needs revision              │
 │                                                                         │
 │  ★★  CORE (6):     004 Phase, 005 Conservation, 006 Heresy           │
@@ -1596,7 +1594,7 @@ DELIVERABLES:
 
 | Document | Status | Tier |
 |----------|--------|------|
-| [experiments/000_EXPERIMENT_INDEX.md](./experiments/000_EXPERIMENT_INDEX.md) | Master index | — |
+| [experiments/000_EXPERIMENT_INDEX.md](./experiments/000_EXPERIMENT_INDEX.md) | Master index | - |
 | [experiments/001_EXP_ENTROPY_OBSERVATION.md](./experiments/001_EXP_ENTROPY_OBSERVATION.md) | PENDING | ★★★ |
 | [experiments/002_EXP_COLLAPSE_DETECTION.md](./experiments/002_EXP_COLLAPSE_DETECTION.md) | PENDING | ★★★ |
 | [experiments/003_EXP_SPECTRAL_BAND_DYNAMICS.md](./experiments/003_EXP_SPECTRAL_BAND_DYNAMICS.md) | PENDING | ★★★ |
@@ -1623,7 +1621,7 @@ DELIVERABLES:
 
 ---
 
-*Oscar Goldman — Shogu Research Group @ Datamutant.ai*
+*Oscar Goldman, Shogu Research Group @ Datamutant.ai*
 
 *"The information is already there. We just need to read it. The leaders are in the attention weights. The field is computed before the lightning strikes. We hypothesize that attention has BEC-like structure. We hypothesize that collapse converts synergy to redundancy. What's hard to observe directly may be easy to observe dually. Use everything that's free. Detect every heresy. Test every hypothesis. Operate at the edge. The hypotheses that survive experiments become knowledge."*
 

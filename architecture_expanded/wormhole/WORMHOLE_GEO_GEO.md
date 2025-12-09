@@ -42,7 +42,8 @@ GEO+GEO: GEOMETRY BELIEF + GEOMETRY TRIGGER
 │  • Compare to distribution, not fixed threshold               │
 │  • "Is this the BEST match?" not "Is this good enough?"       │
 │  • Entropy-based decisions                                      │
-│  • Adaptive to local similarity landscape                      │
+│  • Adaptive to local similarity landscape  / field?            |
+|                                   not what term I'd like to use│
 │                                                                 │
 │  ════════════════════════════════════════════════════════════  │
 │                                                                 │
@@ -85,7 +86,7 @@ THE KEY DIFFERENCE FROM HYBRID:
 │     if entropy(attention_weights) < threshold:  # Concentrated│
 │         connect_to_winner()  # Belief has collapsed           │
 │                                                                 │
-│  Adapts to the local similarity landscape.                     │
+│  Adapts to the local similarity landscape / field.             │
 │                                                                 │
 └─────────────────────────────────────────────────────────────────┘
 ```
@@ -814,5 +815,4 @@ THE FULL PICTURE:
 
 ---
 
-*Oscar Goldman - Shogu Research Group @ Datamutant.ai*
-
+*Oscar Goldman, Shogu Research Group @ Datamutant.ai subsidiary of 温心重工業*

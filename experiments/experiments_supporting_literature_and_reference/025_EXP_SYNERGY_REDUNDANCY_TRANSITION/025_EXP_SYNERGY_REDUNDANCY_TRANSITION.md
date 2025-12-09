@@ -575,7 +575,8 @@ Non-complementary pairs:
 
 ---
 
-*Oscar Goldman — Shogu Research Group @ Datamutant.ai*
+
 
 *"The mechanism matters. Correlation is observation; causation is understanding. If collapse IS synergy→redundancy conversion, we can engineer it. If it merely correlates, we must look elsewhere for the true mechanism."*
 
+*Oscar Goldman — Shogu Research Group @ Datamutant.ai subsidiary of 温心重工業*

@@ -203,4 +203,4 @@ The attention history approach naturally preserves these because:
 ---
 
 AKIRA Project - Experiment 028
-Oscar Goldman - Shogu Research Group @ Datamutant.ai
+*Oscar Goldman, Shogu Research Group @ Datamutant.ai subsidiary of 温心重工業*

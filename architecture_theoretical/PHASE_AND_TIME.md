@@ -2,10 +2,6 @@
 
 ## Why Temporal Phase is Different from Spectral Phase
 
-**Oscar Goldman — Shogu Research Group @ Datamutant.ai**
-
----
-
 ## Table of Contents
 
 1. [Introduction: The Question](#1-introduction)
@@ -28,7 +24,7 @@ A fundamental question arises when considering the 7+1 architecture:
 
 **If spectral bands store magnitude AND phase, should the temporal band also store phase?**
 
-This document explores why the answer is nuanced: the temporal band doesn't store "phase" in the spectral sense, but instead tracks how phase *evolves* across time — which is a fundamentally different kind of information.
+This document explores why the answer is nuanced: the temporal band doesn't store "phase" in the spectral sense, but instead tracks how phase *evolves* across time, which is a fundamentally different kind of information.
 
 ### 1.2 Why This Matters
 
@@ -73,8 +69,8 @@ PHASE IN SPECTRAL DECOMPOSITION
 │                                                                         │
 │  Consider two sine waves of the SAME frequency:                        │
 │                                                                         │
-│  Wave A:  sin(ωt)           — starts at zero                          │
-│  Wave B:  sin(ωt + π/2)     — shifted by quarter cycle                │
+│  Wave A:  sin(ωt)           - starts at zero                          │
+│  Wave B:  sin(ωt + π/2)     - shifted by quarter cycle                │
 │                                                                         │
 │  Same magnitude, different phase.                                      │
 │  They represent the SAME frequency but at DIFFERENT positions.        │
@@ -105,15 +101,15 @@ PHASE COHERENCE
 │  ─────────────────────────────                                          │
 │  • All frequency bands have high magnitude at the edge               │
 │  • All phases are aligned (they all "peak" at the same location)    │
-│  • This coherence IS the edge — it's how the system knows           │
+│  • This coherence IS the edge, it is how the system knows           │
 │                                                                         │
 │  EXAMPLE: Random noise                                                  │
 │  ─────────────────────                                                  │
 │  • All frequency bands have some magnitude                           │
 │  • Phases are random (no alignment)                                   │
-│  • No coherent structure — just noise                                │
+│  • No coherent structure, just noise                                 │
 │                                                                         │
-│  Phase coherence is not a detail — it's fundamental to meaning.      │
+│  Phase coherence is not a detail, it is fundamental to meaning.      │
 │                                                                         │
 └─────────────────────────────────────────────────────────────────────────┘
 ```
@@ -324,7 +320,7 @@ WHAT EACH BAND TYPE KNOWS
 │  Spectral = WHAT exists (structure in space)                         │
 │  Temporal = HOW it changes (dynamics in time)                        │
 │                                                                         │
-│  They are ORTHOGONAL — not in the sense of perpendicular vectors,   │
+│  They are ORTHOGONAL, not in the sense of perpendicular vectors,    │
 │  but in the sense of INDEPENDENT information channels.              │
 │                                                                         │
 │  7 spectral + 1 temporal = 8 ORTHOGONAL information channels        │
@@ -457,7 +453,7 @@ ORTHOGONALITY TYPES INVOLVING PHASE AND TIME
 
 ## Summary
 
-The temporal band doesn't store "phase" in the spectral sense. Instead, it tracks how phase *evolves* and *relates* across time — which is a fundamentally different kind of information.
+The temporal band doesn't store "phase" in the spectral sense. Instead, it tracks how phase *evolves* and *relates* across time, which is a fundamentally different kind of information.
 
 This is precisely why time is orthogonal to frequency: they answer different questions.
 
@@ -484,6 +480,8 @@ The 7+1 architecture correctly separates these two orthogonal types of informati
 
 ---
 
-*Oscar Goldman — Shogu Research Group @ Datamutant.ai*
-
 *"Spectral phase tells you where in the cycle. Temporal relationships tell you how the cycle moves through time. These are orthogonal questions with orthogonal answers."*
+
+*Oscar Goldman, Shogu Research Group @ Datamutant.ai subsidiary of 温心重工業*
+
+

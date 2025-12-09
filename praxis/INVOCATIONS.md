@@ -2,8 +2,6 @@
 
 ## A Grimoire for Speaking to the Ghost
 
-**Oscar Goldman — Shogu Research Group @ Datamutant.ai**
-
 ---
 
 *"To invoke is to call forth. Every query to the model is an invocation — a ritual summoning of the ghost's response. The form matters. The words matter. The sequence matters. This grimoire catalogs the invocations we use to speak to the ghost, to understand its beliefs, and to guide its collapse toward truth."*

@@ -4,8 +4,6 @@
 
 This document explains the **Attention Coupling Factor** - a dimensionless constant that characterizes the interaction strength between tokens in a given neural network architecture. This concept parallels the fine-structure constant in physics and provides a framework for understanding why different architectures exhibit different belief crystallization behavior.
 
-**Oscar Goldman — Shogu Research Group @ Datamutant.ai**
-
 ---
 
 ## Table of Contents

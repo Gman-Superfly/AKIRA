@@ -720,6 +720,9 @@ Separation p-value = ____
 
 ---
 
-*Oscar Goldman — Shogu Research Group @ Datamutant.ai*
+
 
 *"Language has a frequency structure given by Zipf's law. Common words are DC components; rare words are high-frequency detail. The spectrum of language is the spectrum of meaning."*
+
+*Oscar Goldman — Shogu Research Group @ Datamutant.ai subsidiary of 温心重工業*
+

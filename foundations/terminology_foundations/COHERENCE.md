@@ -2,8 +2,6 @@
 
 ## How Phase Alignment Determines What Survives
 
-**Oscar Goldman — Shogu Research Group @ Datamutant.ai**
-
 ---
 
 ## Table of Contents

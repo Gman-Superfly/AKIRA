@@ -3,7 +3,7 @@
 ## Bidirectional Links Between Hypotheses and Experimental Validation
 
 **Date:** December 2025  
-**Status:** ACTIVE — Update as experiments complete  
+**Status:** ACTIVE; update as experiments complete  
 **Purpose:** Ensure every hypothesis has experimental validation, trace reasoning from foundations to predictions
 
 ---
@@ -58,9 +58,9 @@ THE FUNDAMENTAL CYCLE OF BELIEF EVOLUTION
 
 ## How to Use This Document
 
-**For theorists:** Find which experiments test your hypotheses  
-**For experimentalists:** Find which hypothesis your experiment tests  
-**For reviewers:** Check derivation chain from foundations to predictions
+**For theorists:** Find which experiments test your hypotheses.  
+**For experimentalists:** Find which hypothesis your experiment tests.  
+**For reviewers:** Check derivation chain from foundations to predictions.
 
 ---
 
@@ -74,8 +74,8 @@ THE FUNDAMENTAL CYCLE OF BELIEF EVOLUTION
 **Hypothesis:** Attention weights encode belief as probability distribution with measurable entropy
 
 **Tested By:**
-- **Experiment 001** (Entropy Observation) — Can we compute entropy?
-- **Experiment 003** (Band Dynamics) — Does entropy differ across bands?
+- **Experiment 001** (Entropy Observation): can we compute entropy?
+- **Experiment 003** (Band Dynamics): does entropy differ across bands?
 
 **Falsification:** If entropy is constant or uncorrelated with prediction
 
@@ -89,8 +89,8 @@ THE FUNDAMENTAL CYCLE OF BELIEF EVOLUTION
 **Hypothesis:** IF the BEC analogy holds, belief collapse should behave like a sudden phase transition, not gradual
 
 **Tested By:**
-- **Experiment 002** (Collapse Detection) — Are drops sudden?
-- **Experiment 004** (Phase Transition Sharpness) — Critical exponents?
+- **Experiment 002** (Collapse Detection): are drops sudden?
+- **Experiment 004** (Phase Transition Sharpness): critical exponents?
 
 **Falsification:** If entropy decreases linearly (no sharp transition)
 
@@ -102,8 +102,8 @@ THE FUNDAMENTAL CYCLE OF BELIEF EVOLUTION
 **Hypothesis:** Low-freq bands are stable, high-freq bands adapt quickly
 
 **Tested By:**
-- **Experiment 003** (Band Dynamics) — Do bands differ in entropy/collapse?
-- **Experiment 013** (Differential LR) — Does LR hierarchy help?
+- **Experiment 003** (Band Dynamics): do bands differ in entropy and collapse?
+- **Experiment 013** (Differential LR): does LR hierarchy help?
 
 **Falsification:** If all bands behave identically
 
@@ -115,8 +115,8 @@ THE FUNDAMENTAL CYCLE OF BELIEF EVOLUTION
 **Hypothesis:** Pairs (0↔6, 1↔5, 2↔4) activate more than non-complementary
 
 **Tested By:**
-- **Experiment 012** (Wormhole Activation) — Activation patterns?
-- **Experiment 024** (Resonant Wormholes) — Are pairs special?
+- **Experiment 012** (Wormhole Activation): activation patterns?
+- **Experiment 024** (Resonant Wormholes): are pairs special?
 
 **Falsification:** If non-complementary pairs activate equally
 
@@ -130,8 +130,8 @@ THE FUNDAMENTAL CYCLE OF BELIEF EVOLUTION
 **Hypothesis:** Energy conserved in spectral decomposition (this is verification, not hypothesis)
 
 **Tested By:**
-- **Experiment 005** (Conservation Laws) — Parseval holds?
-- **Experiment 006** (Heresy Detection) — Violations = artifacts?
+- **Experiment 005** (Conservation Laws): does Parseval hold?
+- **Experiment 006** (Heresy Detection): are violations artifacts?
 
 **Falsification:** If energy is not conserved → implementation bug, not theory failure
 
@@ -156,8 +156,8 @@ THE FUNDAMENTAL CYCLE OF BELIEF EVOLUTION
 **Hypothesis:** Stable, composite patterns (analogous to quasiparticles) emerge
 
 **Tested By:**
-- **Experiment 008** (Quasiparticle Dispersion) — Do atoms have dispersion?
-- **Experiment 017** (MDL Atomic Truth) — Minimum description length?
+- **Experiment 008** (Quasiparticle Dispersion): do atoms have dispersion?
+- **Experiment 017** (MDL Atomic Truth): minimum description length?
 
 **Falsification:** If no stable composite patterns exist
 
@@ -169,8 +169,8 @@ THE FUNDAMENTAL CYCLE OF BELIEF EVOLUTION
 **Hypothesis:** Time and frequency are orthogonal (Heisenberg)
 
 **Tested By:**
-- **Experiment 003** (Band Dynamics) — Band 7 behavior distinct?
-- **Experiment 023** (Timeline Coherence) — Temporal vs spectral entropy?
+- **Experiment 003** (Band Dynamics): is Band 7 behavior distinct?
+- **Experiment 023** (Timeline Coherence): temporal vs spectral entropy?
 
 **Falsification:** If Band 7 behaves like another spectral band
 
@@ -182,8 +182,8 @@ THE FUNDAMENTAL CYCLE OF BELIEF EVOLUTION
 **Hypothesis:** Error spreads via manifold geometry, analogous to lightning
 
 **Tested By:**
-- **Experiment 007** (Wavefront Interference) — Visual propagation patterns?
-- **Experiment 019** (Belief Geometry) — Manifold distance predicts spread?
+- **Experiment 007** (Wavefront Interference): visual propagation patterns?
+- **Experiment 019** (Belief Geometry): does manifold distance predict spread?
 
 **Falsification:** If error spreads randomly, not along manifold
 
@@ -195,7 +195,7 @@ THE FUNDAMENTAL CYCLE OF BELIEF EVOLUTION
 **Hypothesis:** Sudden generalization shows signatures similar to belief condensation
 
 **Tested By:**
-- **Experiment 009** (Grokking as Condensation) — Entropy drop at grokking?
+- **Experiment 009** (Grokking as Condensation): entropy drop at grokking?
 
 **Falsification:** If grokking shows no entropy signature
 
@@ -209,8 +209,8 @@ THE FUNDAMENTAL CYCLE OF BELIEF EVOLUTION
 **Hypothesis:** Before collapse, bands hold synergistic information (need all to predict). After collapse, bands hold redundant information (any can predict). Total information conserved.
 
 **Tested By:**
-- **Experiment 005** (Conservation Laws) — Is total information conserved?
-- **Experiment 020** (Cross-Band Flow) — Does synergy decrease and redundancy increase during collapse?
+- **Experiment 005** (Conservation Laws): is total information conserved?
+- **Experiment 020** (Cross-Band Flow): does synergy decrease and redundancy increase during collapse?
 
 **Falsification:** If synergy and redundancy don't show inverse relationship during collapse
 
@@ -224,8 +224,8 @@ THE FUNDAMENTAL CYCLE OF BELIEF EVOLUTION
 **Hypothesis:** What is hard to observe in one domain becomes easy in the dual domain. The transform is cheap, so using both views costs little.
 
 **Tested By:**
-- **Experiment 006** (Heresy Detection) — Can we detect artifacts via dual view?
-- **Experiment 010** (Tickling) — Does temperature sweep reveal uncertainty cheaply?
+- **Experiment 006** (Heresy Detection): can we detect artifacts via dual view?
+- **Experiment 010** (Tickling): does temperature sweep reveal uncertainty cheaply?
 
 **Falsification:** If dual view doesn't reveal additional information, or if transform cost is prohibitive
 
@@ -239,9 +239,9 @@ THE FUNDAMENTAL CYCLE OF BELIEF EVOLUTION
 **Hypothesis:** Collapse is not merely correlated with synergy→redundancy conversion; it IS that conversion. Synergy drop CAUSES collapse (Granger causality). Total information is conserved.
 
 **Tested By:**
-- **Experiment 025** (Synergy-Redundancy Transition) — Does synergy Granger-cause collapse? Is total information conserved?
-- **Experiment 005** (Conservation Laws) — Is I_total = I_syn + I_red + I_uni constant?
-- **Experiment 020** (Cross-Band Flow) — Do complementary pairs show highest conversion?
+- **Experiment 025** (Synergy-Redundancy Transition): does synergy Granger-cause collapse, and is total information conserved?
+- **Experiment 005** (Conservation Laws): is I_total = I_syn + I_red + I_uni constant?
+- **Experiment 020** (Cross-Band Flow): do complementary pairs show highest conversion?
 
 **Falsification:** If synergy does not drop at collapse, or redundancy does not increase, or total information changes dramatically, or Granger test fails
 
@@ -249,7 +249,7 @@ THE FUNDAMENTAL CYCLE OF BELIEF EVOLUTION
 
 ## Experiment → Theory Mapping
 
-### Foundation Experiments (★★★ CRUCIAL)
+### Foundation experiments (★★★ key)
 
 | Experiment | Theory Documents | Key Parameters |
 |------------|------------------|----------------|
@@ -259,7 +259,7 @@ THE FUNDAMENTAL CYCLE OF BELIEF EVOLUTION
 
 ---
 
-### Core Experiments (★★ CORE)
+### Core experiments (★★ core)
 
 | Experiment | Theory Documents | Key Parameters |
 |------------|------------------|----------------|
@@ -271,7 +271,7 @@ THE FUNDAMENTAL CYCLE OF BELIEF EVOLUTION
 
 ---
 
-### Supporting Experiments (★ SUPPORTING)
+### Supporting experiments (★ supporting)
 
 | Experiment | Theory Documents | Key Parameters |
 |------------|------------------|----------------|
@@ -288,7 +288,7 @@ THE FUNDAMENTAL CYCLE OF BELIEF EVOLUTION
 
 ---
 
-### Exploratory Experiments (○ EXPLORATORY)
+### Exploratory experiments (○ exploratory)
 
 | Experiment | Theory Documents | Key Parameters |
 |------------|------------------|----------------|
@@ -366,21 +366,21 @@ Experiment Dependency:
 
 ## Status Tracking
 
-| Hypothesis | Experiments | Status | Last Updated |
+| Hypothesis | Experiments | Status | Last updated |
 |------------|-------------|--------|--------------|
-| Entropy observable | 001, 003 | PENDING | — |
-| Collapse is sharp | 002, 004 | PENDING | — |
-| Bands differ | 003, 013 | PENDING | — |
-| Wormholes selective | 012, 024 | PENDING | — |
-| Conservation holds | 005, 006 | PENDING | — |
-| Differential LR helps | 013 | PENDING | — |
-| Info atoms emerge | 008, 017 | PENDING | — |
-| Temporal orthogonal | 003, 023 | PENDING | — |
-| Wavefront propagation | 007, 019 | PENDING | — |
-| Grokking ≈ condensation | 009 | PENDING | — |
-| Collapse ≈ synergy→redundancy (PID) | 005, 020 | PENDING | — |
-| Duality methods work | 006, 010 | PENDING | — |
-| Collapse IS syn→red (causal) | 025, 005, 020 | PENDING | — |
+| Entropy observable | 001, 003 | PENDING | - |
+| Collapse is sharp | 002, 004 | PENDING | - |
+| Bands differ | 003, 013 | PENDING | - |
+| Wormholes selective | 012, 024 | PENDING | - |
+| Conservation holds | 005, 006 | PENDING | - |
+| Differential LR helps | 013 | PENDING | - |
+| Info atoms emerge | 008, 017 | PENDING | - |
+| Temporal orthogonal | 003, 023 | PENDING | - |
+| Wavefront propagation | 007, 019 | PENDING | - |
+| Grokking ≈ condensation | 009 | PENDING | - |
+| Collapse ≈ synergy→redundancy (PID) | 005, 020 | PENDING | - |
+| Duality methods work | 006, 010 | PENDING | - |
+| Collapse IS syn→red (causal) | 025, 005, 020 | PENDING | - |
 
 ---
 
@@ -403,12 +403,12 @@ When an experiment completes:
 
 ## References
 
-- `experiments/000_EXPERIMENT_INDEX.md` — Master experiment list
-- `CANONICAL_PARAMETERS.md` — Parameter specifications
-- `EXPERIMENT_THEORY_CROSSREF_CHECK.md` — Consistency audit
-- `pomdp/REFERENCES.md` — Williams & Beer (2010) PID, external literature
-- `observability/DUALITY_METHODS.md` — Seven duality methods for observability
-- `foundations/DUALITY_AND_EFFICIENCY.md` — Transform-conserved-inversion pattern
+- `experiments/000_EXPERIMENT_INDEX.md`: master experiment list
+- `CANONICAL_PARAMETERS.md`: parameter specifications
+- `EXPERIMENT_THEORY_CROSSREF_CHECK.md`: consistency audit
+- `pomdp/REFERENCES.md`: Williams & Beer (2010) PID, external literature
+- `observability/DUALITY_METHODS.md`: seven duality methods for observability
+- `foundations/DUALITY_AND_EFFICIENCY.md`: transform-conserved-inversion pattern
 
 ---
 

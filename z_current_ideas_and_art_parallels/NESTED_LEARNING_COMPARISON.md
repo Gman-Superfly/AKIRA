@@ -1,8 +1,5 @@
 # AKIRA vs Nested Learning: Comparing Notes on Generative Capacity
 
-**Oscar Goldman — Shogu Research Group @ Datamutant.ai**
-
-
 ---
 
 > **NOTE ON TIMING:**

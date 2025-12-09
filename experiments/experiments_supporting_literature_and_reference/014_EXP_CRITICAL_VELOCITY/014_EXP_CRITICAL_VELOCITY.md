@@ -2,7 +2,6 @@
 
 ## Is There a Coherence Breakdown Threshold?
 
-**Oscar Goldman — Shogu Research Group @ Datamutant.ai**
 
 ---
 
@@ -20,7 +19,7 @@
 
 In superfluid BEC, there's a critical velocity above which superfluidity breaks down:
 
-**Is there an analogous "critical velocity" in AKIRA — an input rate of change above which coherent processing breaks down?**
+**Is there an analogous "critical velocity" in AKIRA, an input rate of change above which coherent processing breaks down?**
 
 ### 1.2 Why This Matters
 
@@ -76,9 +75,9 @@ Above some threshold, prediction error increases discontinuously.
 ### 3.1 AKIRA Theory Basis
 
 **Relevant Theory Documents:**
-- `bec/BEC_CONDENSATION_INFORMATION.md` — §6 (Critical Velocity and Superfluidity)
-- `architecture_theoretical/SPECTRAL_BELIEF_MACHINE.md` — §5 (Spectral Bandwidth)
-- `CANONICAL_PARAMETERS.md` — Band frequencies, Nyquist limits
+- `bec/BEC_CONDENSATION_INFORMATION.md`, §6 (Critical Velocity and Superfluidity)
+- `architecture_theoretical/SPECTRAL_BELIEF_MACHINE.md`, §5 (Spectral Bandwidth)
+- `CANONICAL_PARAMETERS.md`, Band frequencies, Nyquist limits
 
 **Key Concepts:**
 - **Critical velocity:** Maximum rate of input change before coherent belief tracking breaks down
@@ -160,6 +159,5 @@ This is a MAJOR / MINOR / NULL finding.
 
 ---
 
-*Oscar Goldman — Shogu Research Group @ Datamutant.ai*
-
+*Oscar Goldman, Shogu Research Group @ Datamutant.ai subsidiary of 温心重工業*
 

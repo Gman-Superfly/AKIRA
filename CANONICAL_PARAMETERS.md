@@ -3,7 +3,7 @@
 ## Single Source of Truth for All Hyperparameters
 
 **Date:** December 2025  
-**Status:**  CANONICAL — All implementations must use these values  
+**Status:**  CANONICAL; all implementations must use these values  
 **Purpose:** Eliminate inconsistencies across documents
 
 **Resolution:** Learning rate inconsistency resolved. Specification A (absolute values, 3000× ratio) is canonical for all experiments. Specification B (relative multipliers, 12× ratio) is for optional warm-start only.
@@ -18,7 +18,7 @@ Different frequency bands represent different types of knowledge that change at 
 - **Mid-frequency band (3):** Bridge, transitional → medium rate
 - **Temporal band (7):** Sequential patterns → medium rate
 
-The **3000× ratio** between Band 0 and Band 6 is not arbitrary — it reflects the different timescales at which meaning operates at different scales.
+The **3000× ratio** between Band 0 and Band 6 is not arbitrary; it reflects the different timescales at which meaning operates at different scales.
 
 ---
 
@@ -27,7 +27,7 @@ The **3000× ratio** between Band 0 and Band 6 is not arbitrary — it reflects 
 **These are the target values for full training:**
 
 ```
-CANONICAL LEARNING RATES — SPECIFICATION A
+CANONICAL LEARNING RATES, SPECIFICATION A
 (Use these for experiments and production)
 
 ┌─────────────────────────────────────────────────────────────────────────┐
@@ -67,7 +67,7 @@ CANONICAL LEARNING RATES — SPECIFICATION A
 **For early training or when you want more conservative adaptation:**
 
 ```
-WARM-START LEARNING RATES — SPECIFICATION B
+WARM-START LEARNING RATES, SPECIFICATION B
 (Use these for first 50k-100k steps, then transition to Spec A)
 
 ┌─────────────────────────────────────────────────────────────────────────┐
@@ -429,7 +429,7 @@ DUALITY PARAMETERS
 - `experiments/013_EXP_DIFFERENTIAL_LR_VALIDATION.md` (lines 22-23)
 
 **Documents previously using Specification B:**
-- `praxis/PRETRAINING.md` — NOW UPDATED to use Spec B as warm-start only
+- `praxis/PRETRAINING.md`, now updated to use Spec B as warm-start only
 
 ---
 
@@ -437,7 +437,7 @@ DUALITY PARAMETERS
 
 | Aspect | Specification A (Canonical) | Specification B (Warm-Start) |
 |--------|----------------------------|------------------------------|
-| **Status** | ✅ Canonical for all work | Optional gentle start |
+| **Status** | Canonical for all work | Optional gentle start |
 | **Ratio** | 3000× (Band 0 to 6) | 12× (Band 0 to 6) |
 | **Band 0** | 0.00001 | lr_base × 0.1 |
 | **Band 6** | 0.03 | lr_base × 1.2 |
@@ -447,5 +447,5 @@ DUALITY PARAMETERS
 
 ---
 
-*"One canonical specification. Many experiments. No ambiguity."*
+*"Did you expect a quip here too?."*
 

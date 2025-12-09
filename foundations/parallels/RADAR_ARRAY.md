@@ -2,7 +2,7 @@
 
 ## Document Purpose
 
-This document demonstrates how Action Quanta (AQ) manifest in **radar array signal processing** - a concrete physical domain where the principles of irreducible action primitives, composition, and task-relative meaning become tangible. Radar provides an excellent parallel to AKIRA because it involves spectral decomposition, phase relationships, and the crystallization of actionable patterns from noisy signals.
+This document demonstrates how Action Quanta (AQ) manifest in **radar array signal processing**, a concrete physical domain where the principles of irreducible action primitives, composition, and task-relative meaning become tangible. Radar provides an excellent parallel to AKIRA because it involves spectral decomposition, phase relationships, and the crystallization of actionable patterns from noisy signals.
 
 ---
 
@@ -989,3 +989,6 @@ PREDICTIONS FROM THE RADAR PARALLEL
 ---
 
 *This document is part of AKIRA's foundational parallels. For the linguistic parallel, see `LANGUAGE_ACTION_CONTEXT.md`. For core terminology, see `TERMINOLOGY.md`. For AQ specification, see `ACTION_QUANTA.md`.*
+
+
+*Oscar Goldman, Shogu Research Group @ Datamutant.ai subsidiary of 温心重工業*

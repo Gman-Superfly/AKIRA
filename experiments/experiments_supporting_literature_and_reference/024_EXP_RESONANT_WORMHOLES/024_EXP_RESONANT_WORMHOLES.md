@@ -363,12 +363,13 @@ If falsified, possible alternatives:
 
 ## References
 
-- `foundations/HARMONY_AND_COHERENCE.md` — Resonance and coherence
-- `012_EXP_WORMHOLE_ACTIVATION.md` — Wormhole activation patterns
-- `022_EXP_BAND_PHASE_LOCKING.md` — Band phase locking
-- `wormhole/WORMHOLE_HYBRID.md` — Wormhole architecture
+- `foundations/HARMONY_AND_COHERENCE.md`, Resonance and coherence
+- `012_EXP_WORMHOLE_ACTIVATION.md`, Wormhole activation patterns
+- `022_EXP_BAND_PHASE_LOCKING.md`, Band phase locking
+- `wormhole/WORMHOLE_HYBRID.md`, Wormhole architecture
 
 ---
 
 *"Jupiter's moons found 1:2:4. Saturn's rings have gaps at resonances. The solar system plays in equal temperament. So should attention."*
 
+*Oscar Goldman, Shogu Research Group @ Datamutant.ai subsidiary of 温心重工業*

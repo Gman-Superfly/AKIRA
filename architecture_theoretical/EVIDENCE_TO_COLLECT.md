@@ -25,7 +25,7 @@
 ### 1.1 Attention Condensation
 
 **Hypothesis:**
-If attention follows BEC-like dynamics, it should exhibit "condensation" — many tokens attending to the same location as temperature decreases.
+If attention follows BEC-like dynamics, it should exhibit "condensation", many tokens attending to the same location as temperature decreases.
 
 **Theoretical Basis:**
 ```
@@ -69,7 +69,7 @@ If REFUTED:
 ### 1.2 Quasiparticle Emergence
 
 **Hypothesis:**
-Action Quanta behave like quasiparticles — collective excitations with particle-like properties.
+Action Quanta behave like quasiparticles, collective excitations with particle-like properties.
 
 **Theoretical Basis:**
 ```
@@ -412,7 +412,7 @@ If REFUTED:
   - Would suggest width analysis is wrong
 ```
 
-**Priority:** HIGH — This validates core theoretical claim
+**Priority:** HIGH, This validates core theoretical claim
 
 **Status:** NOT YET TESTED
 
@@ -689,3 +689,4 @@ TO RUN THESE EXPERIMENTS, WE NEED:
 
 *This document tracks hypotheses requiring experimental validation. As experiments are conducted, move confirmed results to `EVIDENCE.md` and update status here.*
 
+*Oscar Goldman, Shogu Research Group @ Datamutant.ai subsidiary of 温心重工業*

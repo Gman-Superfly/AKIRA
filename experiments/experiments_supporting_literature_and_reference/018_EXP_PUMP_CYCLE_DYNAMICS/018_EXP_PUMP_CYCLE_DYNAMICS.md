@@ -2,7 +2,6 @@
 
 ## Does the Tension-Discharge-Recovery Cycle Exist?
 
-**Oscar Goldman — Shogu Research Group @ Datamutant.ai**
 
 ---
 
@@ -80,9 +79,9 @@ Tension (entropy up) → Discharge (entropy down) → Recovery (entropy up).
 ### 3.1 AKIRA Theory Basis
 
 **Relevant Theory Documents:**
-- `pomdp/POMDP_SIM.md` — §5 (Pump Cycle Dynamics)
-- `architecture_theoretical/SPECTRAL_BELIEF_MACHINE.md` — §6 (Belief Dynamics)
-- `bec/BEC_CONDENSATION_INFORMATION.md` — §4 (Collapse Dynamics)
+- `pomdp/POMDP_SIM.md`, §5 (Pump Cycle Dynamics)
+- `architecture_theoretical/SPECTRAL_BELIEF_MACHINE.md`, §6 (Belief Dynamics)
+- `bec/BEC_CONDENSATION_INFORMATION.md`, §4 (Collapse Dynamics)
 
 **Key Concepts:**
 - **Tension phase:** Uncertainty accumulates as input arrives, entropy rises, multiple hypotheses coexist
@@ -176,6 +175,5 @@ Pump cycle is REAL / PARTIAL / NOT FOUND.
 
 ---
 
-*Oscar Goldman — Shogu Research Group @ Datamutant.ai*
-
+*Oscar Goldman, Shogu Research Group @ Datamutant.ai subsidiary of 温心重工業*
 

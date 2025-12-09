@@ -2,8 +2,6 @@
 
 ## Critical Analysis and Roadmap for AKIRA's Theoretical Foundations
 
-**Oscar Goldman — Shogu Research Group @ Datamutant.ai**
-
 **Document Purpose:** This document serves as a detailed roadmap for fixing and strengthening AKIRA's theoretical foundations. It tracks concerns, evidence found, and provides step-by-step actions for repository cleanup.
 
 **Last Updated:** Analysis session incorporating circuit complexity theory and small-world network insights.
@@ -90,7 +88,7 @@ STATUS INDICATORS
 
 ### 2.1 Fundamental Identity
 
-**Status: [SOLID]** — This definition is correct and does not need revision.
+**Status: [SOLID]**, This definition is correct (note to self for sanity)
 
 AKIRA is a **Spectral Action Quanta Extractor for continuous real-time signals**.
 
@@ -105,7 +103,7 @@ INPUT:
   - Must be FFT-decomposable with meaningful frequency structure
 
 OUTPUT:
-  1. Predictions (belief means — expected next state)
+  1. Predictions (belief means, expected next state)
   2. Action Quanta (emergent irreducible actionable patterns)
   3. Observable belief dynamics (attention, entropy, collapse events)
 
@@ -117,7 +115,7 @@ CORE OPERATION:
 
 ### 2.2 Domain Constraints
 
-**Status: [SOLID]** — Important clarification that should be emphasized.
+**Status: [SOLID]**, Important clarification that should be emphasized.
 
 AKIRA is fundamentally incompatible with tokenization:
 - FFT requires continuous signals
@@ -274,7 +272,7 @@ CORRECT APPLICATION (COMBINATION):
   - This network should have small-world properties:
     • High clustering (related concepts bond)
     • Short paths (any concept reachable in ~6-7 hops)
-    • Hub structure (common patterns bridge domains)
+    • Hub structure (common patterns connect domains)
   - Wormholes implement "weak ties" in this network
   - ~6-7 AQ per stable molecule (combination limit)
 ```
@@ -340,7 +338,7 @@ Some documents referenced Dunbar's number (150 social connections) as related to
 **Analysis:**
 - Dunbar's number is about social relationship capacity
 - No meaningful connection to spectral processing found
-- No relocation possible — this is pure pattern-matching
+- No relocation possible, this is pure pattern-matching
 
 **Action Required:**
 - Search all documents for "Dunbar"
@@ -404,7 +402,7 @@ CIRCUIT COMPLEXITY FRAMEWORK (Mao et al., 2023)
 ### 4.6 CONCERN C6: Fixed Band Count for Variable Problems
 
 **Original Concern:**
-Different problems may require different "widths" — fixed 7 bands might be insufficient for some tasks.
+Different problems may require different "widths"; fixed 7 bands might be insufficient for some tasks.
 
 **Status: [EVIDENCE FOUND]**
 
@@ -435,7 +433,7 @@ CONCLUSION:
 - Global scene reasoning with constraints
 - Planning problems (Sokoban-like)
 
-This is a FEATURE, not a bug — it defines AKIRA's scope.
+This is a FEATURE, not a bug, it defines AKIRA's scope.
 ```
 
 **Action Required:**
@@ -828,7 +826,7 @@ Some AQ are highly connected:
 ```
 WEAK TIES THEORY (Granovetter, 1973):
 ─────────────────────────────────────
-In social networks, "weak ties" (acquaintances) are crucial
+In social networks, "weak ties" (acquaintances) are essential
 for information flow because they bridge otherwise separate
 communities.
 
@@ -847,7 +845,7 @@ With wormholes (0↔6, 1↔5, 2↔4):
   Small-world structure achieved
 
 THEORETICAL JUSTIFICATION:
-Wormholes are not just engineering — they implement
+Wormholes are not just engineering, they implement
 the weak ties necessary for small-world efficiency.
 ```
 
@@ -1520,14 +1518,14 @@ ACTUAL AKIRA STRUCTURE
 ──────────────────────
 
 BANDS:
-  Band 0 (DC)  — Identity, existence (crossband hub?)
-  Band 1       — Coarse structure
-  Band 2       — Medium structure
-  Band 3       — Bridge (connects to all)
-  Band 4       — Fine detail
-  Band 5       — Texture  
-  Band 6       — Position, energy
-  Band 7       — Temporal (causal)
+  Band 0 (DC)  - Identity, existence (crossband hub?)
+  Band 1       - Coarse structure
+  Band 2       - Medium structure
+  Band 3       - Bridge (connects to all)
+  Band 4       - Fine detail
+  Band 5       - Texture  
+  Band 6       - Position, energy
+  Band 7       - Temporal (causal)
 
 WORMHOLE PAIRS (as documented):
   0 ↔ 6  (Identity ↔ Position)
@@ -1693,7 +1691,7 @@ REQUIRED WORK
 
 *This document serves as the authoritative roadmap for AKIRA's theoretical cleanup. Follow the action items in Section 8-10 to update the repository. All claims are backed by the references in Section 11.*
 
-*Oscar Goldman — Shogu Research Group @ Datamutant.ai*
+*Oscar Goldman, Shogu Research Group @ Datamutant.ai subsidiary of 温心重工業*
 
 ---
 

@@ -156,4 +156,4 @@ If per-position temporal memory works:
 ---
 
 AKIRA Project - Experiment 027
-Oscar Goldman - Shogu Research Group @ Datamutant.ai
+*Oscar Goldman — Shogu Research Group @ Datamutant.ai subsidiary of 温心重工業*

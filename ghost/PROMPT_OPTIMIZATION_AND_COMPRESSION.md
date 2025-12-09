@@ -1,8 +1,7 @@
 # Prompt Optimization and Information Compression
 
-## What Prompt Search Reveals About the Nature of Meaning
+## What prompt search reveals about the nature of meaning
 
-**Oscar Goldman — Shogu Research Group @ Datamutant.ai**
 
 ---
 
@@ -521,7 +520,7 @@ LOWER FREQUENCIES ARE MORE ROBUST
 │  ROBUSTNESS PATTERN:                                                    │
 │                                                                         │
 │  • DC: Essential (can't remove without breaking)                      │
-│  • Low-freq: Important (affects quality significantly)                │
+│  • Low-freq: Important (affects quality)                              │
 │  • Mid-freq: Task-critical (defines what to do)                       │
 │  • High-freq: Adjustable (affects details, not essence)               │
 │                                                                         │

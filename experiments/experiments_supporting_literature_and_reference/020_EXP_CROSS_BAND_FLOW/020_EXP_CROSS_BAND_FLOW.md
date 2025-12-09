@@ -2,7 +2,6 @@
 
 ## How Do Bands Communicate?
 
-**Oscar Goldman — Shogu Research Group @ Datamutant.ai**
 
 ---
 
@@ -20,7 +19,7 @@
 
 SPECTRAL_ATTENTION.md describes wormhole shortcuts between bands:
 
-**How does information flow between spectral bands — does low-freq (WHAT) guide high-freq (WHERE) as predicted?**
+**How does information flow between spectral bands, does low-freq (WHAT) guide high-freq (WHERE) as predicted?**
 
 ### 1.2 Why This Matters
 
@@ -78,9 +77,9 @@ Low→High dominates early, High→Low dominates later.
 ### 3.1 AKIRA Theory Basis
 
 **Relevant Theory Documents:**
-- `architecture_expanded/wormhole/WORMHOLE_ARCHITECTURE.md` — §3 (WHAT↔WHERE Flow)
-- `architecture_theoretical/SPECTRAL_BELIEF_MACHINE.md` — §4 (Wormhole Attention)
-- `architecture_theoretical/ORTHOGONALITY.md` — §4 (Band Independence)
+- `architecture_expanded/wormhole/WORMHOLE_ARCHITECTURE.md`, §3 (WHAT↔WHERE Flow)
+- `architecture_theoretical/SPECTRAL_BELIEF_MACHINE.md`, §4 (Wormhole Attention)
+- `architecture_theoretical/ORTHOGONALITY.md`, §4 (Band Independence)
 
 **Key Concepts:**
 - **Symmetric pairs:** Band 0↔6, 1↔5, 2↔4 (frequency complements)
@@ -171,6 +170,5 @@ Cross-band communication is STRUCTURED / RANDOM.
 
 ---
 
-*Oscar Goldman — Shogu Research Group @ Datamutant.ai*
-
+*Oscar Goldman, Shogu Research Group @ Datamutant.ai subsidiary of 温心重工業*
 

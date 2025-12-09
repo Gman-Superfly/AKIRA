@@ -668,6 +668,9 @@ Jaccard similarity: ____
 
 ---
 
-*Oscar Goldman — Shogu Research Group @ Datamutant.ai*
+
 
 *"The same signal carries different meaning for different tasks. The ball is RED when you ask about color, but ON THE TABLE when you ask about location. Action Quanta are not discovered; they are crystallized from the signal-task interaction."*
+
+
+*Oscar Goldman — Shogu Research Group @ Datamutant.ai subsidiary of 温心重工業*

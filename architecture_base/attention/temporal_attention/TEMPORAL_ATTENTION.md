@@ -2,8 +2,6 @@
 
 ## The Time Dimension in the Spectral Belief Machine
 
-**Oscar Goldman — Shogu Research Group @ Datamutant.ai**
-
 ---
 
 ## Table of Contents

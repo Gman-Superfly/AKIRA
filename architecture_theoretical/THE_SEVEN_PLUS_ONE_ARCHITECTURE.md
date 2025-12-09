@@ -2,10 +2,6 @@
 
 ## Why 7 Spectral Bands + 1 Temporal Band = 8 is Optimal
 
-**Oscar Goldman — Shogu Research Group @ Datamutant.ai**
-
----
-
 ## Table of Contents
 
 1. [Introduction: The Alignment Problem](#1-introduction)
@@ -63,7 +59,7 @@ But the question is not just about hardware efficiency. The deeper question is:
 **Is 7 the correct number of spectral bands, or should it be 8?**
 
 This document argues:
-1. **7 spectral bands is fundamentally correct** — backed by information theory, perception, and network theory
+1. **7 spectral bands is fundamentally correct**, backed by information theory, perception, and network theory
 2. **The 8th "band" should be TEMPORAL**, not another frequency band
 3. **This gives us 7+1 = 8**, achieving both theoretical correctness AND hardware alignment
 
@@ -178,7 +174,7 @@ MILLER'S LAW
 │  or by the design of our nervous systems, a limit that keeps our     │
 │  channel capacities in this general range."                          │
 │                                                                         │
-│  — George Miller, 1956                                                 │
+│  - George Miller, 1956                                                 │
 │                                                                         │
 │  OBSERVATIONS:                                                          │
 │  • Digit span: 7 ± 2 digits                                           │
@@ -186,7 +182,7 @@ MILLER'S LAW
 │  • Tone discrimination: ~6-7 distinct pitches                        │
 │  • Absolute judgment: ~7 categories per dimension                    │
 │                                                                         │
-│  This is NOT arbitrary — it reflects fundamental information         │
+│  This is NOT arbitrary; it reflects fundamental information          │
 │  processing constraints in neural systems.                            │
 │                                                                         │
 └─────────────────────────────────────────────────────────────────────────┘
@@ -253,7 +249,7 @@ INFORMATION THEORY EXPLANATION
 │  ─────────                                                              │
 │  Miller noted that the 7±2 limit applies to CHUNKS, not raw bits.   │
 │  We can hold 7 chunks, each chunk containing many bits.              │
-│  This is HIERARCHICAL compression — exactly what spectral bands do! │
+│  This is HIERARCHICAL compression, exactly what spectral bands do!  │
 │                                                                         │
 └─────────────────────────────────────────────────────────────────────────┘
 ```
@@ -274,8 +270,8 @@ SMALL WORLD NETWORK STRUCTURE
 │  • Short path lengths (like random graphs)                            │
 │                                                                         │
 │  ACHIEVED BY:                                                           │
-│  1. Local connections (neighbors) — high clustering                  │
-│  2. Long-range shortcuts — short paths                               │
+│  1. Local connections (neighbors), high clustering                   │
+│  2. Long-range shortcuts, short paths                                │
 │                                                                         │
 │  IN AKIRA TERMS:                                                        │
 │  1. Within-band attention = local connections                        │
@@ -531,7 +527,7 @@ NYQUIST AND THE 7TH BAND LIMIT
 │  Band 6: f_max/2 to f_max (NYQUIST LIMIT)                            │
 │                                                                         │
 │  Band 7?: Would need f_max to 2×f_max                                │
-│           But this VIOLATES NYQUIST — cannot be represented!         │
+│           But this VIOLATES NYQUIST, cannot be represented!          │
 │                                                                         │
 │  AN 8TH SPECTRAL BAND IS PHYSICALLY IMPOSSIBLE.                       │
 │  It would alias back to lower bands.                                  │
@@ -584,7 +580,7 @@ MUSICAL PERCEPTION AND SEVEN
 │  C  →  D  →  E  →  F  →  G  →  A  →  B  →  C'                        │
 │  1     2     3     4     5     6     7     8 (= 1 again)             │
 │                                                                         │
-│  The 8th note is NOT a new category — it's the first at double      │
+│  The 8th note is NOT a new category; it is the first at double      │
 │  frequency. The octave WRAPS.                                         │
 │                                                                         │
 │  WHY 7 NOTES?                                                           │
@@ -655,14 +651,14 @@ WHY 8 SPECTRAL BANDS FAILS
 │  ────────────────────────────                                           │
 │  7 bands already spans DC to f_max (Nyquist).                        │
 │  An 8th spectral band would need frequencies > f_max.               │
-│  These cannot exist — they alias to lower bands.                    │
+│  These cannot exist; they alias to lower bands.                     │
 │                                                                         │
 │  REASON 2: REDUNDANCY                                                   │
 │  ────────────────────                                                   │
 │  If we add a band by subdividing existing bands:                     │
 │  • E.g., split Band 3 into 3a and 3b                                │
 │  • Now we have finer resolution in transitions                      │
-│  • But nearby frequencies are CORRELATED — redundant!               │
+│  • But nearby frequencies are CORRELATED, redundant!                │
 │                                                                         │
 │  REASON 3: LOGARITHMIC MISMATCH                                        │
 │  ──────────────────────────────                                         │
@@ -702,9 +698,9 @@ THE OCTAVE PRINCIPLE: 7 BEFORE WRAP
 │  7 distinct days, then WRAP                                           │
 │                                                                         │
 │  The pattern is universal:                                             │
-│  7 is the natural count before a cyclic system wraps.               │
+│  7 is the natural count before a cyclic system wraps.                │
 │                                                                         │
-│  An "8th" element is not a new category — it's the first at a       │
+│  An "8th" element is not a new category; it is the first at a       │
 │  new scale or position. In music, C' is C. In bands, f_max aliases. │
 │                                                                         │
 └─────────────────────────────────────────────────────────────────────────┘
@@ -807,8 +803,8 @@ COULD WE SPECTRALLY DECOMPOSE TIME TOO?
 │  Total: 7 + 1 = 8.                                                    │
 │                                                                         │
 │  This respects the DIFFERENCE between space and time:               │
-│  • Space is symmetric — can decompose freely                        │
-│  • Time is asymmetric — must preserve causality                     │
+│  • Space is symmetric, can decompose freely                         │
+│  • Time is asymmetric, must preserve causality                      │
 │                                                                         │
 └─────────────────────────────────────────────────────────────────────────┘
 ```
@@ -930,8 +926,8 @@ TEMPORAL BAND SPECIFICATION
 │  LEARNING RATE:                                                         │
 │  ──────────────                                                         │
 │  Band 7 should have MEDIUM learning rate:                             │
-│  • Faster than DC (Band 0) — adapts to context                       │
-│  • Slower than high-freq (Band 6) — stable memory                    │
+│  • Faster than DC (Band 0), adapts to context                        │
+│  • Slower than high-freq (Band 6), stable memory                     │
 │  • Suggested: ~Band 3 learning rate                                  │
 │                                                                         │
 └─────────────────────────────────────────────────────────────────────────┘
@@ -1019,7 +1015,7 @@ DIMENSION ALLOCATION FOR 7+1
 │  SPECTRAL BANDS (7):                                                    │
 │  ───────────────────                                                    │
 │  Each spectral band gets d/8 = 64 dimensions.                        │
-│  Wait — that's only 7 × 64 = 448 dimensions for spectral.           │
+│  Wait, that is only 7 × 64 = 448 dimensions for spectral.           │
 │                                                                         │
 │  TEMPORAL BAND (1):                                                     │
 │  ──────────────────                                                     │
@@ -1076,10 +1072,10 @@ class TemporalBand(nn.Module):
     def forward(self, x: torch.Tensor) -> torch.Tensor:
         """
         Args:
-            x: (batch, seq_len, dim) — integrated representation from spectral bands
+            x: (batch, seq_len, dim) - integrated representation from spectral bands
             
         Returns:
-            (batch, seq_len, dim) — temporally contextualized representation
+            (batch, seq_len, dim) - temporally contextualized representation
         """
         B, T, D = x.shape
         
@@ -1227,7 +1223,7 @@ THEORETICAL JUSTIFICATION FOR 7+1
 │  5. SIGNAL PROCESSING                                                   │
 │     • 7 octave bands before Nyquist (2^7 = 128 = typical range)     │
 │     • An 8th spectral band would alias                               │
-│     • Time is not a frequency band — it's a dimension               │
+│     • Time is not a frequency band; it is a dimension                │
 │                                                                         │
 │  CONCLUSION:                                                            │
 │  7 spectral bands + 1 temporal band = 8 total                        │
@@ -1449,7 +1445,7 @@ THE PRINCIPLE
 
 ---
 
-*Oscar Goldman — Shogu Research Group @ Datamutant.ai*
+*Oscar Goldman, Shogu Research Group @ Datamutant.ai subsidiary of 温心重工業*
 
 *"Seven is the count of the octave before it wraps. Time is the dimension that makes the music unfold. 7+1 is the complete architecture of meaning."*
 

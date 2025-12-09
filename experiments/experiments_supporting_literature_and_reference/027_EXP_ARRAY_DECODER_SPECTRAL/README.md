@@ -23,8 +23,6 @@ python train_decoder.py
 - `code/synthetic_signals.py` - Signal generation utilities
 - `code/train_decoder.py` - Training script
 
-## Citation
 
-If you use this experiment in your research, please cite it. This is ongoing work - we would appreciate knowing about your opinions and experiments.
 
-Authors: Oscar Goldman - Shogu Research Group @ Datamutant.ai subsidiary of 温心重工業
+*Oscar Goldman — Shogu Research Group @ Datamutant.ai subsidiary of 温心重工業*

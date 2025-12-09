@@ -2,8 +2,6 @@
 
 ## How Mathematical Dualities Inform AKIRA's Architecture
 
-**Oscar Goldman — Shogu Research Group @ Datamutant.ai**
-
 ---
 
 ## Table of Contents

@@ -2,8 +2,6 @@
 
 ## How Spectral, Temporal, and Wormhole Attention Work Together
 
-**Oscar Goldman — Shogu Research Group @ Datamutant.ai**
-
 ---
 
 ## Table of Contents
@@ -212,7 +210,7 @@ ORDER MATTERS:
 ### 3.1 Purpose
 
 ```
-SPECTRAL ATTENTION — BANDS 0-6:
+SPECTRAL ATTENTION, BANDS 0-6:
 
 ┌─────────────────────────────────────────────────────────────────────────┐
 │                                                                         │
@@ -260,7 +258,7 @@ For each band b ∈ {0, 1, 2, 3, 4, 5, 6}:
 ### 4.1 Purpose
 
 ```
-TEMPORAL ATTENTION — BAND 7:
+TEMPORAL ATTENTION, BAND 7:
 
 ┌─────────────────────────────────────────────────────────────────────────┐
 │                                                                         │
@@ -311,7 +309,7 @@ For band 7 (temporal):
 ### 5.1 Purpose
 
 ```
-SPECTRAL WORMHOLE — CROSS-BAND:
+SPECTRAL WORMHOLE, CROSS-BAND:
 
 ┌─────────────────────────────────────────────────────────────────────────┐
 │                                                                         │
@@ -369,7 +367,7 @@ WHICH BANDS COMMUNICATE:
 ### 6.1 Complete Flow
 
 ```
-THE COMPLETE ATTENTION STACK — VISUAL:
+THE COMPLETE ATTENTION STACK, VISUAL:
 
 ┌─────────────────────────────────────────────────────────────────────────┐
 │                                                                         │
@@ -692,7 +690,7 @@ THEORY → ARCHITECTURE MAPPING:
 ## Summary
 
 ```
-THE ATTENTION STACK — SUMMARY
+THE ATTENTION STACK, SUMMARY
 
 ┌─────────────────────────────────────────────────────────────────────────┐
 │                                                                         │
@@ -719,7 +717,7 @@ THE ATTENTION STACK — SUMMARY
 
 ---
 
-*Oscar Goldman — Shogu Research Group @ Datamutant.ai*
+*Oscar Goldman, Shogu Research Group @ Datamutant.ai*
 
 *"Three mechanisms, one system. Spectral attention sees space. Temporal attention respects time. Wormhole attention connects them. Together, they form the complete attention architecture."*
 

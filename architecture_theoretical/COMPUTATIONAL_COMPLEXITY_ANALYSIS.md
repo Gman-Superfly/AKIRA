@@ -2,8 +2,6 @@
 
 ## Honest Evaluation of Spectral Belief Machine Performance
 
-**Oscar Goldman — Shogu Research Group @ Datamutant.ai**
-
 ---
 
 ## Table of Contents
@@ -243,7 +241,7 @@ WORMHOLE ATTENTION COMPLEXITY
 │  Step 2: Compute full similarity matrix (naive approach)              │
 │    sim = norm_0 @ norm_6^T  → O(n² × d/7)                            │
 │                                                                         │
-│  Wait — this is as expensive as attention itself!                    │
+│  Wait, this is as expensive as attention itself!                     │
 │                                                                         │
 │  EFFICIENT ALTERNATIVE: Approximate top-k                             │
 │  ─────────────────────────────────────────────                          │
@@ -257,7 +255,7 @@ WORMHOLE ATTENTION COMPLEXITY
 │  OPTIMIZED WORMHOLE (approximate):                                     │
 │  ─────────────────────────────────                                      │
 │  3 pairs × O(n × k × d/7) = O(3nkd/7)                               │
-│  For k << n, this is O(nkd) — sublinear in n!                       │
+│  For k << n, this is O(nkd), sublinear in n!                        │
 │                                                                         │
 │  BAND 3 BRIDGE:                                                         │
 │  ───────────────                                                        │
@@ -267,8 +265,8 @@ WORMHOLE ATTENTION COMPLEXITY
 │                                                                         │
 │  TOTAL WORMHOLE:                                                        │
 │  ────────────────                                                       │
-│  Naive: O(n² × d × 9/7) — worse than skipping wormholes!            │
-│  Optimized: O(nkd) — much better                                     │
+│  Naive: O(n² × d × 9/7), worse than skipping wormholes!             │
+│  Optimized: O(nkd), much better                                      │
 │                                                                         │
 │  VERDICT: Wormhole MUST use approximate nearest neighbors.           │
 │           With k=8, wormhole is negligible compared to attention.   │
@@ -310,7 +308,7 @@ BELIEF STATE TRACKING COMPLEXITY
 │                                                                         │
 │  COLLAPSE DETECTION:                                                    │
 │  ────────────────────                                                   │
-│  Compare current entropy to history: O(7) — constant                 │
+│  Compare current entropy to history: O(7), constant                  │
 │                                                                         │
 │  TOTAL: O(7n²)                                                         │
 │                                                                         │
@@ -453,9 +451,9 @@ SPECTRAL BELIEF MACHINE LAYER COST
 │                                                                         │
 │  1. SPECTRAL DECOMPOSITION (FFT + windowing)                           │
 │     ─────────────────────────────────────────                           │
-│     Windowing: O(nd) — multiply by window                             │
+│     Windowing: O(nd), multiply by window                              │
 │     FFT: O(nd log n)                                                   │
-│     Band extraction: O(nd) — masking                                  │
+│     Band extraction: O(nd), masking                                   │
 │     Total: O(nd log n)                                                │
 │                                                                         │
 │  2. PER-BAND ATTENTION (7 parallel bands)                              │
@@ -506,7 +504,7 @@ SPECTRAL BELIEF MACHINE LAYER COST
 │  = O(nd log n + 5nd²/7 + n²d + nkd + n²)                            │
 │  ≈ O(nd² + n²d) for large n, d                                      │
 │                                                                         │
-│  WAIT — this is ALMOST THE SAME as standard transformer!             │
+│  This is ALMOST THE SAME as standard transformer!              │
 │                                                                         │
 └─────────────────────────────────────────────────────────────────────────┘
 ```
@@ -549,7 +547,7 @@ CONCRETE COMPARISON (n=1024, d=512, k=8)
 │  SBM:      1,483M                                                      │
 │  Ratio:    SBM is 2.5× FEWER operations!                             │
 │                                                                         │
-│  BUT WAIT — let's check this more carefully...                        │
+│  BUT WAIT, let's check this more carefully...                         │
 │                                                                         │
 └─────────────────────────────────────────────────────────────────────────┘
 ```
@@ -780,12 +778,12 @@ MEMORY HIERARCHY ADVANTAGE
 │  V matrix: 2 MB                                                        │
 │  Total working set: ~10 MB                                            │
 │                                                                         │
-│  This FITS in L2 cache (40 MB) — good!                               │
+│  This FITS in L2 cache (40 MB), good!                                │
 │                                                                         │
 │  PER-BAND ATTENTION (7+1 Architecture):                                │
 │  ───────────────────────────────────────                                │
 │  Q, K matrices: each (n × d/8) = (1024 × 64) × 4 = 256 KB            │
-│  Attention matrix: 4 MB (same — n×n)                                 │
+│  Attention matrix: 4 MB (same, n×n)                                  │
 │  V matrix: 256 KB                                                      │
 │  Total working set: ~4.5 MB per band                                  │
 │                                                                         │
@@ -831,7 +829,7 @@ CUDA STREAM PARALLELISM
 │  • Standard: ~6 kernels (proj, attn_scores, softmax, attn_sum,      │
 │              ffn_up, ffn_down)                                        │
 │  • Additional overhead: ~35 µs per layer                             │
-│  • For layer taking 1 ms: 3.5% overhead — acceptable                 │
+│  • For layer taking 1 ms: 3.5% overhead, acceptable                  │
 │                                                                         │
 └─────────────────────────────────────────────────────────────────────────┘
 ```
@@ -854,7 +852,7 @@ TENSOR CORE CONSIDERATIONS (UPDATED FOR 7+1 ARCHITECTURE)
 │                                                                         │
 │  ═══════════════════════════════════════════════════════════════════  │
 │                                                                         │
-│  ORIGINAL SBM (7 bands) — THE PROBLEM:                                 │
+│  ORIGINAL SBM (7 bands), THE PROBLEM:                                  │
 │  ──────────────────────────────────────                                 │
 │  • d/7 = 512/7 = 73 → NOT divisible by 8 ✗                          │
 │  • Padding needed: 73 → 80 (round up to multiple of 8)              │
@@ -862,7 +860,7 @@ TENSOR CORE CONSIDERATIONS (UPDATED FOR 7+1 ARCHITECTURE)
 │                                                                         │
 │  ═══════════════════════════════════════════════════════════════════  │
 │                                                                         │
-│  7+1 ARCHITECTURE (7 spectral + 1 temporal) — THE SOLUTION:           │
+│  7+1 ARCHITECTURE (7 spectral + 1 temporal), THE SOLUTION:            │
 │  ───────────────────────────────────────────────────────────            │
 │  • Total bands = 8 (7 spectral + 1 temporal)                         │
 │  • d/8 = 512/8 = 64 → PERFECTLY divisible by 8 ✓                    │
@@ -873,7 +871,7 @@ TENSOR CORE CONSIDERATIONS (UPDATED FOR 7+1 ARCHITECTURE)
 │  WHY THIS WORKS:                                                        │
 │  ────────────────                                                       │
 │  The 8th "band" is not another spectral band (which would alias).   │
-│  It is TEMPORAL attention — processing sequence/time dimension.      │
+│  It is TEMPORAL attention, processing sequence/time dimension.       │
 │  This is theoretically correct AND hardware optimal.                 │
 │                                                                         │
 │  See THE_SEVEN_PLUS_ONE_ARCHITECTURE.md for full justification.      │
@@ -938,7 +936,7 @@ FLASH ATTENTION VS SBM
 ### 10.1 The Problem and Solution
 
 ```
-THE TENSOR CORE ALIGNMENT PROBLEM — SOLVED
+THE TENSOR CORE ALIGNMENT PROBLEM, SOLVED
 
 ┌─────────────────────────────────────────────────────────────────────────┐
 │                                                                         │
@@ -1045,7 +1043,7 @@ THE TEMPORAL BAND IS NOT JUST FOR ALIGNMENT
 
 ┌─────────────────────────────────────────────────────────────────────────┐
 │                                                                         │
-│  The 8th band (temporal) is not padding — it adds functionality:     │
+│  The 8th band (temporal) is not padding; it adds functionality:      │
 │                                                                         │
 │  WHAT SPECTRAL BANDS DO:                                                │
 │  ─────────────────────────                                              │
@@ -1179,7 +1177,7 @@ TRADEOFFS (7+1 ARCHITECTURE)
 │  ─────────────                                                          │
 │  ✗ Implementation complexity (more components)                        │
 │  ✗ FFT overhead (negligible but exists)                               │
-│  ✓ Tensor Core alignment — SOLVED with 7+1                           │
+│  ✓ Tensor Core alignment, SOLVED with 7+1                            │
 │  ✗ Less mature tooling (Flash Attention needs adaptation)            │
 │  ✗ Debugging complexity (8 parallel paths to monitor)                │
 │  ✗ Training curriculum (gradual wormhole activation)                 │
@@ -1208,7 +1206,7 @@ TRADEOFFS (7+1 ARCHITECTURE)
 ### 13.1 Corrected Claims (Updated for 7+1)
 
 ```
-CORRECTED CLAIMS — FINAL VERSION
+CORRECTED CLAIMS, FINAL VERSION
 
 ┌─────────────────────────────────────────────────────────────────────────┐
 │                                                                         │
@@ -1260,12 +1258,12 @@ THE BOTTOM LINE (7+1 ARCHITECTURE)
 │  • 7 spectral bands: theoretically correct (Nyquist, perception)    │
 │  • 1 temporal band: orthogonal dimension (time ≠ frequency)         │
 │  • 8 total: perfect Tensor Core alignment as a BONUS                │
-│  • Not a hack — this is the CORRECT decomposition of space+time     │
+│  • This is the CORRECT decomposition of space+time      │
 │                                                                         │
 │  WHAT'S THE CATCH?                                                      │
 │  ─────────────────                                                      │
 │  • More implementation complexity                                     │
-│  ✓ Tensor Core alignment — SOLVED with 7+1                           │
+│  ✓ Tensor Core alignment, SOLVED with 7+1                            │
 │  • Less mature tooling                                                │
 │  • Training requires curriculum                                       │
 │                                                                         │
@@ -1355,7 +1353,11 @@ MEMORY USAGE (n=1024, d=512, batch=32)
 
 ---
 
-*Oscar Goldman — Shogu Research Group @ Datamutant.ai*
 
-*"The 7+1 architecture achieves the rare combination: theoretical correctness (7 spectral is right), practical efficiency (8 total for hardware), and semantic clarity (space and time separated). This is not compromise — this is convergence."*
+*"The 7+1 architecture achieves the rare combination: theoretical correctness (7 spectral is right), practical efficiency (8 total for hardware), and semantic clarity (space and time separated). This is not compromise, this is convergence."*
+
+
+*Oscar Goldman, Shogu Research Group @ Datamutant.ai subsidiary of 温心重工業*
+
+
 

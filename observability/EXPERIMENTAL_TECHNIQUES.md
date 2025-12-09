@@ -2,8 +2,6 @@
 
 ## A Practical Guide to Observing and Validating AKIRA Psyche
 
-**Oscar Goldman — Shogu Research Group @ Datamutant.ai**
-
 ---
 
 ## Table of Contents
@@ -185,7 +183,7 @@ def compute_entropy(attention_weights, dim=-1, eps=1e-10):
     return entropy, normalized_entropy
 
 
-def entropy_landscape(attention_weights):
+def entropy_landscape(attention_weights):  # I think I'd rather use field instead of landscape but I'm not sure, if you are reading this, choose what you prefer, I need to nail this down before this project starts to get out of hand.
     """
     Create a spatial map of attention entropy.
     """
@@ -1578,7 +1576,7 @@ class EntropyTechnique(ExperimentalTechnique):
 
 ---
 
-*Oscar Goldman — Shogu Research Group @ Datamutant.ai*
+*Oscar Goldman, Shogu Research Group @ Datamutant.ai*
 
 *"The best experiment is the one you don't have to run because the information is already there. Extract everything free. Tickle before searching. Validate with statistics. This is the experimental method."*
 

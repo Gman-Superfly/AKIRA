@@ -2,8 +2,6 @@
 
 ## Theory-Mandated Collapse Mechanisms
 
-**Oscar Goldman — Shogu Research Group @ Datamutant.ai**
-
 ---
 
 ## Table of Contents
@@ -100,7 +98,7 @@ THEORY-MANDATED COLLAPSE PROPERTIES:
 ### 1.2 What This Means Physically
 
 ```
-COLLAPSE IS NOT A DECISION — IT IS COHERENCE SELECTION
+COLLAPSE IS NOT A DECISION, IT IS COHERENCE SELECTION
 
 ┌─────────────────────────────────────────────────────────────────────────┐
 │                                                                         │
@@ -402,7 +400,7 @@ THE PYTHAGOREAN PRINCIPLE IN COLLAPSE:
 │                                                                         │
 │  COHERENT STATES DOMINATE BY FACTOR OF N.                             │
 │                                                                         │
-│  The winner is not "chosen" — it's what survives interference.       │
+│  The winner is not "chosen"; it is what survives interference.       │
 │  Incoherent alternatives cancel themselves out.                       │
 │                                                                         │
 └─────────────────────────────────────────────────────────────────────────┘
@@ -624,16 +622,16 @@ NOT IN THIS FILE (implementation alternatives):
 ```
 COMPLEMENTS THESE BASE DOCUMENTS:
 
-• COLLAPSE_GENERALIZATION.md — The phenomenon (what collapse IS)
-• This file (COLLAPSE_DYNAMICS.md) — The physics (how collapse WORKS)
+• COLLAPSE_GENERALIZATION.md: The phenomenon (what collapse IS)
+• This file (COLLAPSE_DYNAMICS.md): The physics (how collapse WORKS)
 
 REFERENCES:
-• BEC_CONDENSATION_INFORMATION.md — g|ψ|² framework
-• HARMONY_AND_COHERENCE.md — Pythagorean coherence principle
-• THE_OLD_LADY_AND_THE_TIGER.md — Optimal stopping theory
-• Shai, A. (2024). *Transformers Represent Belief State Geometry in their Residual Stream.* LessWrong. [Link](https://www.lesswrong.com/posts/gTZ2SxesbHckJ3CkF/transformers-represent-belief-state-geometry-in-their) — external evidence that transformer residual streams instantiate POMDP-style belief-state geometry, consistent with collapse-as-belief-concentration.
-• Wentworth, J., & Lorell, D. (2024). *Why Would Belief-States Have A Fractal Structure, And Why Would That Matter For Interpretability? An Explainer.* LessWrong. [Link](https://www.lesswrong.com/posts/mBw7nc4ipdyeeEpWs/why-would-belief-states-have-a-fractal-structure-and-why) — explains why Bayesian belief-state dynamics for HMMs produce fractal geometry via chaos games, and why such self-similar belief manifolds matter for interpreting latent structure in trained networks.
-• Williams, P.L., & Beer, R.D. (2010). *Nonnegative Decomposition of Multivariate Information.* arXiv:1004.2515. [PDF](https://arxiv.org/pdf/1004.2515) — foundational paper on Partial Information Decomposition (PID). Collapse can be understood as SYNERGY→REDUNDANCY conversion: pre-collapse states have high synergy (need all bands), post-collapse states have high redundancy (any band suffices). Total information is conserved but its decomposition changes. See ORTHOGONALITY.md §11.3 for full treatment.
+• BEC_CONDENSATION_INFORMATION.md: g|ψ|² framework
+• HARMONY_AND_COHERENCE.md: Pythagorean coherence principle
+• THE_OLD_LADY_AND_THE_TIGER.md: optimal stopping theory
+• Shai, A. (2024). *Transformers Represent Belief State Geometry in their Residual Stream.* LessWrong. [Link](https://www.lesswrong.com/posts/gTZ2SxesbHckJ3CkF/transformers-represent-belief-state-geometry-in-their). External evidence that transformer residual streams instantiate POMDP-style belief-state geometry, consistent with collapse-as-belief-concentration.
+• Wentworth, J., & Lorell, D. (2024). *Why Would Belief-States Have A Fractal Structure, And Why Would That Matter For Interpretability? An Explainer.* LessWrong. [Link](https://www.lesswrong.com/posts/mBw7nc4ipdyeeEpWs/why-would-belief-states-have-a-fractal-structure-and-why). Explains why Bayesian belief-state dynamics for HMMs produce fractal geometry via chaos games, and why such self-similar belief manifolds matter for interpreting latent structure in trained networks.
+• Williams, P.L., & Beer, R.D. (2010). *Nonnegative Decomposition of Multivariate Information.* arXiv:1004.2515. [PDF](https://arxiv.org/pdf/1004.2515). Foundational paper on Partial Information Decomposition (PID). Collapse can be understood as SYNERGY→REDUNDANCY conversion: pre-collapse states have high synergy (need all bands), post-collapse states have high redundancy (any band suffices). Total information is conserved but its decomposition changes. See ORTHOGONALITY.md §11.3 for full treatment.
 ```
 
 ---
@@ -660,7 +658,7 @@ WHAT THEORY DEMANDS FOR COLLAPSE:
 
 ---
 
-*Oscar Goldman — Shogu Research Group @ Datamutant.ai*
+*Oscar Goldman, Shogu Research Group @ Datamutant.ai*
 
-*"Collapse is not a decision. It is coherence selection. The winner survives interference — it is not chosen."*
+*"Collapse is not a decision. It is coherence selection. The winner survives interference, it is not chosen."*
 

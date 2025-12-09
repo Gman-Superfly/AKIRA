@@ -9,7 +9,7 @@ This document describes how the spectral attention predictor behaves like a **Pa
 A POMDP models an agent that:
 
 1. Cannot observe the true state of the environment directly.
-2. Maintains a **belief state**—a probability distribution over possible true states.
+2. Maintains a **belief state**, a probability distribution over possible true states.
 3. Takes actions that update the belief based on noisy observations.
 4. Receives rewards (or incurs costs) that depend on the hidden state.
 
@@ -35,7 +35,7 @@ In our spectral attention predictor:
 
 | POMDP Component | Predictor Equivalent | Explanation |
 |-----------------|---------------------|-------------|
-| **Hidden state s** | Next frame `x_{t+1}` | The ground truth we're trying to predict—never observed until after we commit |
+| **Hidden state s** | Next frame `x_{t+1}` | The ground truth we're trying to predict, never observed until after we commit |
 | **Observation o** | Current frame `x_t` + history buffer `[x_{t-T}, ..., x_{t-1}]` | What the model actually sees |
 | **Belief b(s)** | The prediction `ŷ_t` | A point estimate representing the model's implicit distribution over futures |
 | **Action a** | Weight update `θ ← θ - η∇L` | The model "acts" by adjusting parameters |
@@ -54,7 +54,7 @@ This is the key question. The partial observability in our system is **temporal*
 ```
 Time axis:
   [t-T] [t-T+1] ... [t-1] [t]  |  [t+1] [t+2] ...
-  ←——— OBSERVED ———→          |  ←——— HIDDEN ———→
+  ←--- OBSERVED ---→          |  ←--- HIDDEN ---→
        (history buffer)       |  (future frames)
                               ↑
                          prediction boundary
@@ -71,7 +71,7 @@ Given only past frames, **multiple future trajectories are plausible**:
 - The blob could split (bifurcation pattern)
 - The blob could reverse (phase jump pattern)
 
-The model cannot distinguish between these possibilities from the observation alone—it must **infer** which future is most likely. This inference is the belief update.
+The model cannot distinguish between these possibilities from the observation alone, it must **infer** which future is most likely. This inference is the belief update.
 
 ### 3.3 The Prediction Is a Belief State
 
@@ -81,7 +81,7 @@ Under MSE loss, the optimal prediction is the **expected value** (mean) of the b
 ŷ_t = E[x_{t+1} | x_{t-T:t}] = ∫ x_{t+1} · p(x_{t+1} | x_{t-T:t}) dx_{t+1}
 ```
 
-When the belief is uncertain (multiple futures plausible), this mean sits in the **center of the uncertainty cloud**—not on any single trajectory. This is why:
+When the belief is uncertain (multiple futures plausible), this mean sits in the **center of the uncertainty cloud**, not on any single trajectory. This is why:
 
 1. The prediction appears to "lag" behind the true position
 2. The error map shows where the belief is spread
@@ -97,7 +97,7 @@ In a classic POMDP, partial observability often comes from **noisy sensors**. In
 | State uncertainty | **Yes** | The future is fundamentally unobserved |
 | Process noise | Pattern-dependent | Some patterns (noisy_motion, bifurcation) have stochastic dynamics |
 
-Our partial observability is "clean"—we see the past perfectly but the future not at all. This is actually a **harder** problem than noisy observations of the current state, because no amount of sensor improvement can reveal the future.
+Our partial observability is "clean", we see the past perfectly but the future not at all. This is actually a **harder** problem than noisy observations of the current state, because no amount of sensor improvement can reveal the future.
 
 ---
 
@@ -177,7 +177,7 @@ The model is constantly "pumping" information from the future (via the loss sign
 - Frame `t=1` arrives; the model now has one real history entry.
 - The prediction for `t=2` is slightly better, but uncertainty is still high.
 - The error map shows a broad blob: the model hedges across many plausible continuations.
-- This is the "pressure building" phase—loss gradient is large but diffuse.
+- This is the "pressure building" phase, loss gradient is large but diffuse.
 - **POMDP state**: b(s) is a wide Gaussian centered on the mean trajectory
 
 ### Step 3: Pattern Recognition (Tension Continues)
@@ -192,7 +192,7 @@ The model is constantly "pumping" information from the future (via the loss sign
 
 - The pattern becomes unambiguous; one trajectory dominates the belief.
 - The prediction snaps to the true position; error collapses to near zero locally.
-- This is the "valve opening"—probability mass transfers from the uncertain manifold to a committed point.
+- This is the "valve opening", probability mass transfers from the uncertain manifold to a committed point.
 - Temporal entropy drops; wormhole sparsity increases (fewer connections needed).
 - **POMDP state**: b(s) ≈ δ(s - s_true), a delta function at the true state
 
@@ -241,7 +241,7 @@ Each cycle corresponds to one "step" of learning: the model commits to a predict
 - Frame `t=1` arrives; the model now has one real history entry.
 - The prediction for `t=2` is slightly better, but uncertainty is still high.
 - The error map shows a broad blob: the model hedges across many plausible continuations.
-- This is the "pressure building" phase—loss gradient is large but diffuse.
+- This is the "pressure building" phase, loss gradient is large but diffuse.
 
 ### Step 3: Pattern Recognition (Tension Continues)
 
@@ -254,7 +254,7 @@ Each cycle corresponds to one "step" of learning: the model commits to a predict
 
 - The pattern becomes unambiguous; one trajectory dominates the belief.
 - The prediction snaps to the true position; error collapses to near zero locally.
-- This is the "valve opening"—probability mass transfers from the uncertain manifold to a committed point.
+- This is the "valve opening", probability mass transfers from the uncertain manifold to a committed point.
 - Temporal entropy drops; wormhole sparsity increases (fewer connections needed).
 
 ### Step 5: Advance (Recovery)
@@ -290,7 +290,7 @@ The expected squared error at this optimal point is:
 E[(μ - x_{t+1})²] = Var(x_{t+1}) = σ²
 ```
 
-So **error equals variance**—the more uncertain the belief, the higher the error at the prediction point.
+So **error equals variance**, the more uncertain the belief, the higher the error at the prediction point.
 
 ### 7.2 Why Error "Leads" the Prediction
 
@@ -306,7 +306,7 @@ But the error at position 10.8 is high because:
 - If truth is 10: error = 0.8²
 - If truth is 12: error = 1.2²
 
-The error map shows this uncertainty—it's brightest where the model is hedging between hypotheses.
+The error map shows this uncertainty, it's brightest where the model is hedging between hypotheses.
 
 ---
 
@@ -345,11 +345,11 @@ Wormhole attention asks: "Have I seen this situation before, anywhere in history
 - Finds distant frames with similar features
 - Enables "teleportation" of information across time
 - Reduces partial observability by leveraging pattern recurrence
-- **POMDP role**: Belief shortcut—if I've seen this before, I know what comes next
+- **POMDP role**: Belief shortcut, if I've seen this before, I know what comes next
 
 ### 8.4 How Wormhole Reduces Partial Observability
 
-This is crucial. Wormhole attention partially **defeats** the partial observability:
+This is important. Wormhole attention partially **defeats** the partial observability:
 
 ```
 Without wormhole:
@@ -407,7 +407,7 @@ Tuning these parameters lets us trade off between interpretability (visible frin
 
 ## 11. Implications for Latent Geometry
 
-The pump cycle reveals that the latent space is not static—it oscillates between:
+The pump cycle reveals that the latent space is not static, it oscillates between:
 
 1. **Exploration**: belief spreads, fringes form, multiple hypotheses coexist.
 2. **Exploitation**: belief collapses, prediction commits, error drops.
@@ -424,9 +424,9 @@ The interplay of these forces shapes the equipotential surfaces we see in the er
 
 The vec2vec paper (arXiv:2505.12540) argues that diverse models converge to similar geometric structures in their latent spaces. Our observations support this:
 
-1. **The error fringes are geometric invariants**—they appear regardless of initialization
-2. **The pump cycle is universal**—it emerges from the MSE loss structure, not model specifics
-3. **The equipotential surfaces follow physical laws**—they're shaped by gradient flow, not arbitrary
+1. **The error fringes are geometric invariants**, they appear regardless of initialization
+2. **The pump cycle is universal**, it emerges from the MSE loss structure, not model specifics
+3. **The equipotential surfaces follow physical laws**, they're shaped by gradient flow, not arbitrary
 
 This suggests the latent space has intrinsic geometry determined by the task, not the architecture.
 
@@ -438,7 +438,7 @@ The key insight: **gradient descent on MSE loss is equivalent to energy minimiza
 minimize E[‖ŷ - x_{t+1}‖²]  subject to  ŷ = f_θ(x_{t-T:t})
 ```
 
-This is a **Lagrangian mechanics** problem. The error map shows the potential energy surface. The prediction follows gradient flow on this surface. The pump cycle is a **limit cycle** in the energy landscape.
+This is a **Lagrangian mechanics** problem. The error map shows the potential energy surface. The prediction follows gradient flow on this surface. The pump cycle is a **limit cycle** in the energy surface.
 
 Physical analogies emerge because the math is the same:
 - MSE ↔ potential energy
@@ -513,3 +513,5 @@ The spectral attention architecture can be viewed as a continuous relaxation of 
 - Bayesian filtering: Thrun, Burgard, Fox, *Probabilistic Robotics* (MIT Press, 2005), Chapter 2.
 - Variational inference: Blei, Kucukelbir, McAuliffe, "Variational Inference: A Review for Statisticians," *JASA* 112 (2017).
 
+
+*Oscar Goldman, Shogu Research Group @ Datamutant.ai subsidiary of 温心重工業*

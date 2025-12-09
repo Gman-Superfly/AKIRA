@@ -2,8 +2,6 @@
 
 ## Visualizing Belief Dynamics, Error Propagation, and System State
 
-**Oscar Goldman — Shogu Research Group @ Datamutant.ai**
-
 ---
 
 ## Table of Contents
@@ -28,7 +26,7 @@ THE GOAL:
 
 We are building a LABORATORY to study every part of the AKIRA system.
 
-Not just the outputs—the INTERNALS:
+Not just the outputs, the INTERNALS:
 • How belief forms and collapses
 • How error propagates through the manifold
 • How spectral bands interact
@@ -266,7 +264,7 @@ WORMHOLE ATTENTION OBSERVABLES
 │  ├─ Temporal reach          avg time distance     [H×W]                │
 │  └─ Spatial reach           avg spatial distance  [H×W]                │
 │                                                                         │
-│  SIMILARITY LANDSCAPE                                                   │
+│  SIMILARITY FIELD                                                       │
 │  ├─ Similarity histogram    hist(sim)             [N_bins]             │
 │  ├─ Threshold margin        sim - threshold       [H×W, K]             │
 │  ├─ Near-threshold count    |margin| < ε          [1]                  │
@@ -604,7 +602,7 @@ THE BELIEF CLOUD: Multiple Samples from the Belief Distribution
 ┌─────────────────────────────────────────────────────────────────────────┐
 │                                                                         │
 │  The model's prediction ŷ is the MEAN of its belief distribution.     │
-│  But the belief has SHAPE—it's not just a point.                       │
+│  But the belief has SHAPE, it's not just a point.                      │
 │                                                                         │
 │  To visualize the full belief, we need SAMPLES:                        │
 │                                                                         │
@@ -712,19 +710,19 @@ Track how different parts of the system co-vary:
 ┌─────────────────────────────────────────────────────────────────────────┐
 │                                                                         │
 │  SPECTRAL BAND CORRELATIONS:                                            │
-│  Corr[band_i, band_j] — how bands move together                        │
+│  Corr[band_i, band_j], how bands move together                         │
 │                                                                         │
 │  ATTENTION HEAD CORRELATIONS:                                           │
-│  Corr[head_i, head_j] — how attention mechanisms agree                 │
+│  Corr[head_i, head_j], how attention mechanisms agree                  │
 │                                                                         │
 │  ERROR-ATTENTION CORRELATIONS:                                          │
-│  Corr[error, attention] — does attention predict error?                │
+│  Corr[error, attention], does attention predict error?                 │
 │                                                                         │
 │  ERROR-GRADIENT CORRELATIONS:                                           │
-│  Corr[error, gradient] — how error drives learning                     │
+│  Corr[error, gradient], how error drives learning                      │
 │                                                                         │
 │  TEMPORAL CROSS-CORRELATIONS:                                           │
-│  Corr[X_t, Y_{t+τ}] — lagged relationships                            │
+│  Corr[X_t, Y_{t+τ}], lagged relationships                             │
 │                                                                         │
 └─────────────────────────────────────────────────────────────────────────┘
 ```
@@ -1059,7 +1057,7 @@ DASHBOARD LAYOUT
 
 ---
 
-*Oscar Goldman — Shogu Research Group @ Datamutant.ai*
+*Oscar Goldman, Shogu Research Group @ Datamutant.ai*
 
-*"To understand the system, we must SEE the manifold. The wavefront error is in there. We must collapse it and view it. In real-time, if possible. This is not debugging—this is science."*
+*"To understand the system, we must SEE the manifold. The wavefront error is in there. We must collapse it and view it. In real-time, if possible. This is not debugging, this is science."*
 

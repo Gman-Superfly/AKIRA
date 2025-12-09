@@ -2,8 +2,6 @@
 
 ## Everything We Already Compute (And Usually Throw Away)
 
-**Oscar Goldman — Shogu Research Group @ Datamutant.ai**
-
 ---
 
 ## The Core Insight
@@ -268,7 +266,7 @@ PRE-SOFTMAX SCORES → TRUE COMPETITION
 ### What's Computed
 
 ```
-SIMILARITY MATRIX: The Full Landscape
+SIMILARITY MATRIX: The fields of flowers
 
 ┌─────────────────────────────────────────────────────────────────────────┐
 │                                                                         │
@@ -695,7 +693,7 @@ NEAR-THRESHOLD → LEADER STRUCTURE
 │  Attention weights      0       Where model attends                    │
 │  Entropy                0       Uncertainty per position               │
 │  Pre-softmax scores     0       True competition                       │
-│  Similarity matrix      0       Full connection landscape              │
+│  Similarity matrix      0       Full connection field                  │
 │  Gradient (training)    0       Direction of improvement               │
 │  Hidden states          0       Belief evolution                       │
 │  Spectral bands         0       Frequency decomposition                │
@@ -723,7 +721,7 @@ NEAR-THRESHOLD → LEADER STRUCTURE
 
 ---
 
-*Oscar Goldman — Shogu Research Group @ Datamutant.ai*
+*Oscar Goldman, Shogu Research Group @ Datamutant.ai*
 
 *"The electric field is already there. The leaders are in the attention weights. The competition is in the pre-softmax scores. We compute all of this and throw it away. Stop. Read it first. The information is free."*
 

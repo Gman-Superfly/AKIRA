@@ -3,7 +3,7 @@
 ## Cheap Probing Techniques
 
 **Wu, S., & Yao, Q. (2025).** *Asking LLMs to Verify First is Almost Free Lunch.* arXiv:2511.21734v1.  
-📄 Local: `supporting_literature_and_reference/010_EXP_TICKLING_TECHNIQUES/Wu_Yao_2024_Verification_First.pdf`
+Local: `supporting_literature_and_reference/010_EXP_TICKLING_TECHNIQUES/Wu_Yao_2024_Verification_First.pdf` (not in repo, note is personal reminder)
 
 **Key Findings:**
 - Verification requires minimal additional tokens (sometimes none explicit)

@@ -2,7 +2,6 @@
 
 ## Does Uncertainty Have Shape?
 
-**Oscar Goldman — Shogu Research Group @ Datamutant.ai**
 
 ---
 
@@ -20,7 +19,7 @@
 
 SHAPE_OF_UNCERTAINTY.md claims that prediction error has geometric structure:
 
-**Does the error/uncertainty have a meaningful shape — a crescent, wave packet, or other structured geometry rather than uniform spread?**
+**Does the error/uncertainty have a meaningful shape, a crescent, wave packet, or other structured geometry rather than uniform spread?**
 
 ### 1.2 Why This Matters
 
@@ -76,9 +75,9 @@ Not uniform spread, but shaped by the type of uncertainty.
 ### 3.1 AKIRA Theory Basis
 
 **Relevant Theory Documents:**
-- `pomdp/SHAPE_OF_UNCERTAINTY.md` — §2 (Error Geometry), §3 (Crescent Structure)
-- `architecture_theoretical/SPECTRAL_BELIEF_MACHINE.md` — §6 (Belief State)
-- `pomdp/WAVEFRONT_PROPAGATION.md` — §2 (Wave Packet Interpretation)
+- `pomdp/SHAPE_OF_UNCERTAINTY.md`, §2 (Error Geometry), §3 (Crescent Structure)
+- `architecture_theoretical/SPECTRAL_BELIEF_MACHINE.md`, §6 (Belief State)
+- `pomdp/WAVEFRONT_PROPAGATION.md`, §2 (Wave Packet Interpretation)
 
 **Key Concepts:**
 - **Belief as wave packet:** Prediction is mean of distribution, error is its spatial extent
@@ -87,7 +86,7 @@ Not uniform spread, but shaped by the type of uncertainty.
 - **Observable projection:** Error map is belief state projected to observable space
 
 **From SHAPE_OF_UNCERTAINTY.md (§3.1):**
-> "For moving blob, error forms CRESCENT ahead of prediction. Crescent width encodes speed uncertainty (wider = less certain about speed). Crescent orientation encodes direction uncertainty. The shape IS the belief — not just magnitude but structure."
+> "For moving blob, error forms CRESCENT ahead of prediction. Crescent width encodes speed uncertainty (wider = less certain about speed). Crescent orientation encodes direction uncertainty. The shape IS the belief, not just magnitude but structure."
 
 **From WAVEFRONT_PROPAGATION.md (§2.3):**
 > "Wave packet interpretation: Prediction is packet center (⟨x⟩), error is packet width (Δx). For moving packet, spatial distribution reveals velocity uncertainty (Δv). Heisenberg: ΔxΔv ≥ ℏ/2. Tighter position → broader velocity spread."
@@ -169,6 +168,5 @@ Belief geometry is INFORMATIVE / NOT INFORMATIVE.
 
 ---
 
-*Oscar Goldman — Shogu Research Group @ Datamutant.ai*
-
+*Oscar Goldman, Shogu Research Group @ Datamutant.ai subsidiary of 温心重工業*
 

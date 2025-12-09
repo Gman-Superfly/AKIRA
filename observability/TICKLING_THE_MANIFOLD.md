@@ -2,8 +2,6 @@
 
 ## Finding Where the Lightning Will Strike Before It Strikes
 
-**Oscar Goldman — Shogu Research Group @ Datamutant.ai**
-
 ---
 
 ## Table of Contents
@@ -67,7 +65,7 @@ THE LEADERS ARE VISIBLE IN:
 • The full similarity matrix (before top-k)
 • The attention distribution (before sharpening)
 • The gradient direction (before stepping)
-• The entropy landscape (before collapse)
+• The entropy manifold (before collapse)
 
 WE DON'T NEED TO PAY MORE.
 WE NEED TO READ WHAT WE ALREADY HAVE.
@@ -98,10 +96,10 @@ SEEING THE FIELD BEFORE THE STRIKE
 │  Before collapse:                                                      │
 │  • Similarity values show potential matches                           │
 │  • High similarity = likely connection                                │
-│  • The "field" (attention landscape) is already computed             │
+│  • The "field" (attention manifold) is already computed              │
 │                                                                         │
-│  We can MAP the belief landscape WITHOUT collapsing.                  │
-│  The mapping is CHEAP — it's a by-product of inference.              │
+│  We can MAP the belief manifold WITHOUT collapsing.                   │
+│  The mapping is CHEAP, it is a by-product of inference.               │
 │                                                                         │
 └─────────────────────────────────────────────────────────────────────────┘
 ```
@@ -113,7 +111,7 @@ SEEING THE FIELD BEFORE THE STRIKE
 ### 2.1 The Wormhole Similarity Matrix
 
 ```
-ALREADY COMPUTED: Full Similarity Landscape
+ALREADY COMPUTED: Full Similarity Manifold
 
 ┌─────────────────────────────────────────────────────────────────────────┐
 │                                                                         │
@@ -285,7 +283,7 @@ SENSITIVITY = MAP OF THE LEADERS
 │    sensitivity[position] = entropy(attention_weights[position])       │
 │    High entropy = many hypotheses = leader zone                       │
 │                                                                         │
-│  Method 3 is NEARLY FREE — just read the attention!                  │
+│  Method 3 is NEARLY FREE, just read the attention!                   │
 │                                                                         │
 └─────────────────────────────────────────────────────────────────────────┘
 ```
@@ -447,7 +445,7 @@ TECHNIQUE: MAP THE ENTROPY LANDSCAPE
 │  └───────────────────────────┘                                        │
 │                                                                         │
 │  The high-entropy regions ARE the leader zones.                       │
-│  This is ALREADY COMPUTED — just read it!                             │
+│  This is ALREADY COMPUTED, just read it!                              │
 │                                                                         │
 │  COST: Zero additional computation                                     │
 │                                                                         │
@@ -628,7 +626,7 @@ APPLYING TO PROMPT OPTIMIZATION
 │                                                                         │
 │  TECHNIQUE 1: EMBEDDING SIMILARITY                                     │
 │  ─────────────────────────────────                                      │
-│  Embed the prompt (cheap — one forward pass)                          │
+│  Embed the prompt (cheap, one forward pass)                           │
 │  Compare to known "good prompt" embeddings                            │
 │  High similarity → likely in good region                              │
 │                                                                         │
@@ -736,7 +734,7 @@ MANIFOLD TICKLING FUNCTIONS
 def compute_entropy_map(attention_weights):
     """
     Compute entropy at each position from attention weights.
-    This is FREE — already computed during forward pass.
+    This is FREE, already computed during forward pass.
     """
     # attention_weights: [batch, heads, seq, seq] or [batch, positions, history]
     
@@ -1025,7 +1023,7 @@ THE DEEP INSIGHT
 │  ═══════════════════════════════════════════════════════════════════   │
 │                                                                         │
 │  TICKLING TECHNIQUES:                                                   │
-│  • Entropy mapping (free — just read attention)                       │
+│  • Entropy mapping (free, just read attention)                        │
 │  • Temperature probing (2-3 forward passes)                           │
 │  • Threshold sweeping (see near-threshold connections)                │
 │  • Sparse probing (targeted perturbation)                             │
@@ -1052,7 +1050,7 @@ THE DEEP INSIGHT
 
 ---
 
-*Oscar Goldman — Shogu Research Group @ Datamutant.ai*
+*Oscar Goldman, Shogu Research Group @ Datamutant.ai*
 
-*"The leaders are in the attention weights. The field is already computed. We don't need to pay to listen — we need to read what we already have. Tickle the manifold. See where the lightning wants to go. Then decide whether to let it strike."*
+*"The leaders are in the attention weights. The field is already computed. We don't need to pay to listen, we need to read what we already have. Tickle the manifold. See where the lightning wants to go. Then decide whether to let it strike."*
 

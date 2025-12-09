@@ -436,4 +436,4 @@ The model's blindness to hallucination is structural, not a measurement limitati
 ---
 
 AKIRA Project - Experiment 035
-Oscar Goldman - Shogu Research Group @ Datamutant.ai
+*Oscar Goldman — Shogu Research Group @ Datamutant.ai subsidiary of 温心重工業*

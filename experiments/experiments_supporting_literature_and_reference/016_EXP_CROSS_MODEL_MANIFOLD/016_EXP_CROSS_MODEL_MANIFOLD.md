@@ -2,7 +2,6 @@
 
 ## Are Manifolds Universal?
 
-**Oscar Goldman — Shogu Research Group @ Datamutant.ai**
 
 ---
 
@@ -20,7 +19,7 @@
 
 Prompts sometimes transfer across different models. Why?
 
-**Do different models have similar internal manifolds — does the same "belief geometry" emerge from similar training?**
+**Do different models have similar internal manifolds, does the same "belief geometry" emerge from similar training?**
 
 ### 1.2 Why This Matters
 
@@ -137,6 +136,5 @@ Universal manifold is REAL / PARTIAL / NOT FOUND.
 
 ---
 
-*Oscar Goldman — Shogu Research Group @ Datamutant.ai*
-
+*Oscar Goldman, Shogu Research Group @ Datamutant.ai subsidiary of 温心重工業*
 

@@ -2,8 +2,6 @@
 
 ## The Mathematical Foundations of AKIRA
 
-**Oscar Goldman — Shogu Research Group @ Datamutant.ai**
-
 ---
 
 *"The architecture is not arbitrary. It rests on axioms — mathematical truths that constrain what is possible and define what is optimal. Polar coordinates, polarization, Taylor expansions, hyperbolic geometry — these are not decorations. They are the bones of the system. To understand AKIRA, understand its axioms."*

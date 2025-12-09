@@ -1,8 +1,8 @@
 # Precision and Ambiguity: The Zen of Collapse
 
-## Trading Precision for Coverage, Ambiguity for Knowledge
+## Trading precision for coverage, ambiguity for knowledge
 
-**Oscar Goldman — Shogu Research Group @ Datamutant.ai**
+
 
 ---
 
@@ -283,7 +283,7 @@ FREE COLLAPSE (Embeddings)        PAID COLLAPSE (Prompts)
 │  Can observe pre-collapse       Can delete/edit tokens                │
 │                                                                         │
 │  SPEED:                         SPEED:                                 │
-│  Very fast (one forward)        Slow (iterative refinement)          │
+│  Fast (one forward)             Slow (iterative refinement)           │
 │                                                                         │
 │  ════════════════════════════════════════════════════════════════════  │
 │                                                                         │
@@ -576,7 +576,7 @@ THE ZEN OF COLLAPSE
 │     Don't commit too early                                             │
 │     Let all hypotheses live                                            │
 │                                                                         │
-│  2. OBSERVE THE FIELD (map the landscape)                             │
+│  2. OBSERVE THE FIELD (map the field)                                 │
 │     What lights up?                                                    │
 │     Where are the resonances?                                          │
 │     What are the leaders?                                              │

@@ -213,7 +213,7 @@ AKIRA operates at the intersection of three levels, connected by a clear INDUCTI
 
 ### 1.3 The Three Complementary Levels
 
-The three levels are COMPLEMENTARY — each serves a distinct purpose:
+The three levels are COMPLEMENTARY, each serves a distinct purpose:
 
 ```
 THE THREE COMPLEMENTARY LEVELS
@@ -1197,3 +1197,6 @@ Key insights from this work:
 ---
 
 *This document establishes that AKIRA's physical framework and computational mechanics are equivalent descriptions. AKIRA exists to make computational mechanics accessible to engineers building real systems, using physical vocabulary they already understand. For AKIRA-specific terminology, see `TERMINOLOGY.md`. For the physical parallel in radar, see `RADAR_ARRAY.md`. For the linguistic parallel, see `LANGUAGE_ACTION_CONTEXT.md`.*
+
+
+*Oscar Goldman, Shogu Research Group @ Datamutant.ai subsidiary of 温心重工業*

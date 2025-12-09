@@ -1,7 +1,5 @@
 # AKIRA Terminology: Formal Definitions
 
-**Oscar Goldman — Shogu Research Group @ Datamutant.ai**
-
 ---
 
 ## Purpose
@@ -604,7 +602,7 @@ AKIRA TERMINOLOGY
 │  INTERPRETATIONS (how collapse/tension manifest in different contexts)│
 │  ─────────────────────────────────────────────────────────────────────  │
 │                                                                         │
-│  These are NOT separate definitions — they are how the single Bayesian│
+│  These are NOT separate definitions; they are how the single Bayesian│
 │  phenomenon appears when viewed through different lenses:             │
 │                                                                         │
 │  PID (Information Theory):                                             │
@@ -1130,19 +1128,19 @@ WHEN TO USE WHICH TERM
 
 ### Circuit Complexity
 
-6. Mao, J., Lozano-Perez, T., Tenenbaum, J.B., & Kaelbling, L.P. (2023). *What Planning Problems Can A Relational Neural Network Solve?* ICLR 2024. arXiv:2312.03682v2. https://arxiv.org/html/2312.03682v2 — Foundational work on SOS width and circuit complexity for planning; provides the theoretical basis for AKIRA's 7+1 architecture.
+6. Mao, J., Lozano-Perez, T., Tenenbaum, J.B., & Kaelbling, L.P. (2023). *What Planning Problems Can A Relational Neural Network Solve?* ICLR 2024. arXiv:2312.03682v2. https://arxiv.org/html/2312.03682v2. Foundational work on SOS width and circuit complexity for planning; provides the theoretical basis for AKIRA's 7+1 architecture.
 
 ### Bayesian Statistics (Posterior Contraction)
 
-6. van der Vaart, A.W., & van Zanten, J.H. (2008). *Rates of contraction of posterior distributions based on Gaussian process priors.* Annals of Statistics, 36(3), 1435-1463. — Foundational work on posterior contraction rates; establishes how quickly posteriors concentrate around truth.
+6. van der Vaart, A.W., & van Zanten, J.H. (2008). *Rates of contraction of posterior distributions based on Gaussian process priors.* Annals of Statistics, 36(3), 1435-1463. Foundational work on posterior contraction rates; establishes how quickly posteriors concentrate around truth.
 
-7. Ghosal, S., & van der Vaart, A. (2017). *Fundamentals of Nonparametric Bayesian Inference.* Cambridge University Press. — Comprehensive treatment of posterior contraction in nonparametric settings.
+7. Ghosal, S., & van der Vaart, A. (2017). *Fundamentals of Nonparametric Bayesian Inference.* Cambridge University Press. Comprehensive treatment of posterior contraction in nonparametric settings.
 
 ### Recursive Estimation (Propagation/Belief Expansion)
 
-8. Kalman, R.E. (1960). *A New Approach to Linear Filtering and Prediction Problems.* Journal of Basic Engineering, 82(1), 35-45. — Original Kalman filter; establishes prediction step where covariance expands.
+8. Kalman, R.E. (1960). *A New Approach to Linear Filtering and Prediction Problems.* Journal of Basic Engineering, 82(1), 35-45. Original Kalman filter; establishes prediction step where covariance expands.
 
-9. Evensen, G. (2003). *The Ensemble Kalman Filter: theoretical formulation and practical implementation.* Ocean Dynamics, 53, 343-367. — Ensemble methods; covariance inflation to counteract underestimation of uncertainty.
+9. Evensen, G. (2003). *The Ensemble Kalman Filter: theoretical formulation and practical implementation.* Ocean Dynamics, 53, 343-367. Ensemble methods; covariance inflation to counteract underestimation of uncertainty.
 
 ---
 
@@ -1154,10 +1152,10 @@ For readers familiar with condensed matter physics: AQ properties have natural a
 
 *This document establishes the formal terminology for AKIRA, integrating four theoretical layers:*
 
-1. *Information theory (PID/ΦID) — static and temporal decomposition*
-2. *Bayesian statistics — posterior contraction/propagation*
-3. *Circuit complexity (Mao et al.) — tractability bounds*
-4. *Emergent structure — Action Quanta and collapse dynamics*
+1. *Information theory (PID/ΦID), static and temporal decomposition*
+2. *Bayesian statistics, posterior contraction/propagation*
+3. *Circuit complexity (Mao et al.), tractability bounds*
+4. *Emergent structure, Action Quanta and collapse dynamics*
 
 *Key terminological distinctions:*
 - *PID "information atoms" (decomposition terms) vs AKIRA "Action Quanta" (emergent patterns)*
@@ -1167,5 +1165,5 @@ For readers familiar with condensed matter physics: AQ properties have natural a
 
 *The 7+1 band architecture is formally justified by circuit complexity: for visual prediction with SOS width k ≈ 3 and binary relations (β = 2), required breadth = (3+1) × 2 = 8 bands.*
 
-*Oscar Goldman — Shogu Research Group @ Datamutant.ai*
+*Oscar Goldman, Shogu Research Group @ Datamutant.ai*
 
