@@ -120,4 +120,4 @@ See `032_EXP_MINI_AKIRA_PLASMA_CONTROLLER.md` for full experimental design.
 
 ---
 
-*Oscar Goldman - Shogu Research Group @ Datamutant.ai*
+*Oscar Goldman, Shogu Research Group @ Datamutant.ai subsidiary of 温心重工業*

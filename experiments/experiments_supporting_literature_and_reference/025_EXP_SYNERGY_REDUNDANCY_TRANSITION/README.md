@@ -12,12 +12,12 @@ This document provides the scientific foundation for Experiment 025, which tests
 
 **Why this paper is foundational:**
 
-The original PID paper solves a fundamental problem in information theory. Traditional mutual information I(X;Y) tells you how much information X has about Y, but when you have multiple sources S1, S2, ... about a target T, the interaction information I(S1;S2;T) can be NEGATIVE. This is confusing — how can information be negative?
+The original PID paper solves a fundamental problem in information theory. Traditional mutual information I(X;Y) tells you how much information X has about Y, but when you have multiple sources S1, S2, ... about a target T, the interaction information I(S1;S2;T) can be NEGATIVE. This is confusing: how can information be negative?
 
 Williams & Beer showed that multivariate information decomposes into:
 - **Redundancy (I_red):** Information ALL sources share about target
 - **Unique (I_uni):** Information only ONE source has
-- **Synergy (I_syn):** Information that requires ALL sources together — no subset suffices
+- **Synergy (I_syn):** Information that requires ALL sources together, no subset suffices
 
 The key insight: negative interaction information arises when synergy exceeds redundancy. PID separates these, giving nonnegative terms.
 
@@ -31,7 +31,7 @@ This framework lets us ask: Before collapse, is information about the answer SYN
 
 **Why this paper is critical:**
 
-This 2025 paper extends PID to information RATES — not just static information decomposition, but how synergy and redundancy flow over time. Published in Physical Review Letters, it provides a rigorous framework for decomposing the rate at which information flows through a system into redundant, unique, and synergistic components.
+This 2025 paper extends PID to information RATES, not just static information decomposition, but how synergy and redundancy flow over time. Published in Physical Review Letters, it provides a rigorous framework for decomposing the rate at which information flows through a system into redundant, unique, and synergistic components.
 
 Key contributions:
 - Defines partial information rate (not just mutual information)
@@ -45,7 +45,7 @@ This is THE paper for our experiment. It provides:
 2. Methods to track synergy→redundancy conversion as it happens
 3. Tools for testing whether synergy rate changes PRECEDE collapse events
 
-The rate formulation is more appropriate than static PID for testing causality — we need to know how information structure changes moment-to-moment, not just snapshots.
+The rate formulation is more appropriate than static PID for testing causality, we need to know how information structure changes moment-to-moment, not just snapshots.
 
 **Link:** [arXiv:2502.04550](https://arxiv.org/pdf/2502.04550)
 
@@ -55,7 +55,7 @@ The rate formulation is more appropriate than static PID for testing causality �
 
 **Why this paper matters:**
 
-Provides the BROJA measure — a specific algorithm for computing PID that has desirable properties (uniqueness, consistency). Different PID measures exist; BROJA is well-studied and recommended.
+Provides the BROJA measure, a specific algorithm for computing PID that has desirable properties (uniqueness, consistency). Different PID measures exist; BROJA is well-studied and recommended.
 
 **Relevance to EXP 025:**
 
@@ -98,7 +98,7 @@ BEFORE COLLAPSE:
 ─────────────────
 Multiple hypotheses coexist. The model is uncertain.
 To predict the answer, you need ALL bands working together.
-No single band "knows" the answer — the knowledge is distributed.
+No single band "knows" the answer, the knowledge is distributed.
 This is HIGH SYNERGY: I(Bands ; Answer) comes mostly from I_syn.
 
 ┌────────────────────────────────────────────────────────────┐
@@ -158,7 +158,7 @@ This is testable via Experiment 005 (Conservation Laws).
 
 **Why this paper matters:**
 
-Introduces **ΦID (Integrated Information Decomposition)** — combining PID with Integrated Information Theory. The key insight: complex systems exhibit behavior where the "whole is more than the sum of parts." ΦID provides tools to quantify this.
+Introduces **ΦID (Integrated Information Decomposition)**, combining PID with Integrated Information Theory. The key insight: complex systems exhibit behavior where the "whole is more than the sum of parts." ΦID provides tools to quantify this.
 
 Key contributions:
 - Reveals previously unreported modes of collective information flow
@@ -167,7 +167,7 @@ Key contributions:
 
 **Relevance to EXP 025:**
 
-ΦID provides the *conceptual framework* — why synergy matters for understanding "emergence." When bands work together to produce information neither has alone, that's the "whole > sum of parts." Collapse might be the transition from high-ΦID state to low-ΦID state.
+ΦID provides the *conceptual framework*, why synergy matters for understanding "emergence." When bands work together to produce information neither has alone, that's the "whole > sum of parts." Collapse might be the transition from high-ΦID state to low-ΦID state.
 
 **Link:** [arXiv:2109.13186](https://arxiv.org/abs/2109.13186)
 
@@ -189,7 +189,7 @@ Alternative: Use k-nearest neighbor estimators for continuous PID (more complex,
 
 ### Why Granger Causality?
 
-Granger causality tests whether past values of X help predict Y beyond what past values of Y predict. If synergy Granger-causes entropy drop, then synergy changes PRECEDE collapse — consistent with causal relationship.
+Granger causality tests whether past values of X help predict Y beyond what past values of Y predict. If synergy Granger-causes entropy drop, then synergy changes PRECEDE collapse, consistent with causal relationship.
 
 Limitations: Granger causality is not true causality (correlation + temporal precedence), but it's a reasonable first test.
 
@@ -223,4 +223,4 @@ Based on the PID literature applied to AKIRA's architecture:
 
 *"The mechanism matters. If collapse IS synergy→redundancy conversion, we have a lever to pull. If it merely correlates, we must look elsewhere."*
 
-*Oscar Goldman — Shogu Research Group @ Datamutant.ai subsidiary of 温心重工業*
+*Oscar Goldman, Shogu Research Group @ Datamutant.ai subsidiary of 温心重工業*

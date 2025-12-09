@@ -64,4 +64,4 @@ From `ACTION_QUANTA.md`:
 > Everything else (raw signal, intermediate processing, exact numbers) can be discarded."
 
 
-*Oscar Goldman — Shogu Research Group @ Datamutant.ai subsidiary of 温心重工業*
+*Oscar Goldman, Shogu Research Group @ Datamutant.ai subsidiary of 温心重工業*

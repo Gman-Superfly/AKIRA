@@ -16,7 +16,7 @@
 
 ### 1.1 The Question
 
-If attention dynamics follow BEC physics, then Action Quanta should be **quasiparticles** — collective excitations with a characteristic dispersion relation:
+If attention dynamics follow BEC physics, then Action Quanta should be **quasiparticles**, collective excitations with a characteristic dispersion relation:
 
 **Do perturbations at different spatial frequencies propagate differently, following a Bogoliubov-like dispersion relation?**
 
@@ -92,9 +92,9 @@ Reference: Bogoliubov (1947), Pethick & Smith (2008)
 ### 3.2 AKIRA Theory Basis
 
 **Relevant Theory Documents:**
-- `bec/BEC_CONDENSATION_INFORMATION.md` — §8 (Action Quanta as Quasiparticles)
-- `architecture_theoretical/SPECTRAL_BELIEF_MACHINE.md` — §5 (Spectral Propagation)
-- `foundations/HARMONY_AND_COHERENCE.md` — §8 (Collective Excitations)
+- `bec/BEC_CONDENSATION_INFORMATION.md`, §8 (Action Quanta as Quasiparticles)
+- `architecture_theoretical/SPECTRAL_BELIEF_MACHINE.md`, §5 (Spectral Propagation)
+- `foundations/HARMONY_AND_COHERENCE.md`, §8 (Collective Excitations)
 
 **Key Concepts:**
 - **Action Quanta:** Emergent collective excitations of belief field (not fundamental units)
@@ -103,13 +103,13 @@ Reference: Bogoliubov (1947), Pethick & Smith (2008)
 - **Healing length:** Crossover scale where behavior transitions from collective to local
 
 **From BEC_CONDENSATION_INFORMATION.md (§8.1):**
-> "Action Quanta are quasiparticles — collective excitations analogous to phonons in solid or Bogoliubov excitations in BEC. NOT fundamental particles but emergent structures. Dispersion E(k) = √[ε(k)(ε(k) + 2gn)]: low-k sound waves (collective), high-k particles (local)."
+> "Action Quanta are quasiparticles, collective excitations analogous to phonons in solid or Bogoliubov excitations in BEC. NOT fundamental particles but emergent structures. Dispersion E(k) = √[ε(k)(ε(k) + 2gn)]: low-k sound waves (collective), high-k particles (local)."
 
 **From SPECTRAL_BELIEF_MACHINE.md (§5.4):**
 > "Perturbation propagation depends on frequency. Low-freq (Bands 0-2): global influence, slow propagation, collective response. High-freq (Bands 5-6): local influence, fast decay, individual response. Mid-bands (3-4): crossover regime (healing length)."
 
 **From HARMONY_AND_COHERENCE.md (§8.2):**
-> "Collective excitations exhibit Bogoliubov dispersion. Low-k: linear E ∝ k (sound speed c = √(interaction/mass)). High-k: quadratic E ∝ k² (free particle). This crossover is signature of emergent quasiparticle — proves atoms are collective, not fundamental."
+> "Collective excitations exhibit Bogoliubov dispersion. Low-k: linear E ∝ k (sound speed c = √(interaction/mass)). High-k: quadratic E ∝ k² (free particle). This crossover is signature of emergent quasiparticle, proves atoms are collective, not fundamental."
 
 **This experiment validates:**
 1. Whether **perturbations propagate differently** by frequency (dispersion exists)
@@ -197,4 +197,4 @@ H3 (crossover at mid-bands): SUPPORTED / NOT SUPPORTED
 
 ---
 
-*Oscar Goldman — Shogu Research Group @ Datamutant.ai subsidiary of 温心重工業*
+*Oscar Goldman, Shogu Research Group @ Datamutant.ai subsidiary of 温心重工業*

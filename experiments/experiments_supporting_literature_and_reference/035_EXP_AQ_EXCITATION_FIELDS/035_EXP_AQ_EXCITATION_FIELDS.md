@@ -7,7 +7,7 @@ This experiment investigates Action Quanta (AQ) as **quasiparticle field excitat
 ## Core Hypothesis
 
 ```
-WEIGHTS = The field (energy landscape, crystallized AQ structure)
+WEIGHTS = The field (energy surface, crystallized AQ structure)
 INPUT + CONTEXT = Perturbation to the field  
 AQ = Quasiparticle excitations that emerge when resonance conditions are met
 
@@ -57,7 +57,7 @@ Gradient descent shapes weights
     ↓
 AQ CRYSTALLIZE into the connection structure
     ↓
-Weights = Energy landscape with crystallized AQ as stable modes
+Weights = Energy surface with crystallized AQ as stable modes
 
 The weights don't just store "patterns"
 The weights ARE the crystallized AQ field
@@ -436,4 +436,4 @@ The model's blindness to hallucination is structural, not a measurement limitati
 ---
 
 AKIRA Project - Experiment 035
-*Oscar Goldman — Shogu Research Group @ Datamutant.ai subsidiary of 温心重工業*
+*Oscar Goldman, Shogu Research Group @ Datamutant.ai subsidiary of 温心重工業*

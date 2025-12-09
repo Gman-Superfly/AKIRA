@@ -11,7 +11,7 @@ The belief‑geometry results on HMMs give a clean Bayesian underpinning for thi
 Mapping that story into AKIRA’s setting suggests that:
 
 - the **wavefront of error** we see in embedding/output space should be interpreted as the **projection of a branching belief process**, and  
-- the **collapse moments** studied in EXP_007 should correspond to belief trajectories snapping into **low‑entropy, single‑hypothesis regions** of that process—just as in the HMM case.
+- the **collapse moments** studied in EXP_007 should correspond to belief trajectories snapping into **low‑entropy, single‑hypothesis regions** of that process, just as in the HMM case.
 
 ## Primary References
 
@@ -37,7 +37,7 @@ Mapping that story into AKIRA’s setting suggests that:
 **Why this paper supports EXP_007**
 
 - Recasts the Bayesian belief update for an HMM as a **chaos game**: at each timestep, the observation picks one of several affine maps on the belief simplex, and iterating this procedure generates a **fractal belief attractor**.  
-- In that picture, the belief trajectory naturally exhibits **branching exploration of possibilities** (as different update maps are sampled) and **occasional entries into narrow regions** corresponding to strong commitment to a particular hidden state—exactly the “lightning” pattern EXP_007 aims to observe.  
+- In that picture, the belief trajectory naturally exhibits **branching exploration of possibilities** (as different update maps are sampled) and **occasional entries into narrow regions** corresponding to strong commitment to a particular hidden state, exactly the “lightning” pattern EXP_007 aims to observe.  
 - The authors explicitly point out that, in more realistic networks, we should expect to find **self‑similar sets of activations** corresponding to distributions over latent variables, and that understanding these sets and their symmetries is central for interpretability. EXP_007 is an instance of this agenda focused on **temporal prediction and collapse**.
 
 **How it informs architecture choices**
@@ -53,4 +53,4 @@ Mapping that story into AKIRA’s setting suggests that:
   Explains how Bayesian belief updates implement a chaos game with fractal belief attractors, providing a concrete model for branching and collapse in belief dynamics.
 
 
-*Oscar Goldman — Shogu Research Group @ Datamutant.ai subsidiary of 温心重工業*
+*Oscar Goldman, Shogu Research Group @ Datamutant.ai subsidiary of 温心重工業*

@@ -149,4 +149,4 @@ If wave tokens don't work for language but AKIRA works for signals:
 - [ ] Ablation experiments
 - [ ] Analysis of coherence patterns
 
-*Oscar Goldman — Shogu Research Group @ Datamutant.ai subsidiary of 温心重工業*
+*Oscar Goldman, Shogu Research Group @ Datamutant.ai subsidiary of 温心重工業*

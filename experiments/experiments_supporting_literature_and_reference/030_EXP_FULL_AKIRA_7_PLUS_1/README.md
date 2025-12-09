@@ -12,7 +12,7 @@ The REAL AKIRA architecture from `architecture_theoretical/`:
 - **7 Spectral Bands**: Decompose input by frequency (DC through high-freq)
 - **1 Temporal Band**: Causal attention over SEQUENCE (not cross-batch)
 - **Spectral Wormhole**: Cross-band communication with **coherence/entropy-based gating**
-- **Complementary Pairs**: (0-6), (1-5), (2-4), Bridge(3), Temporal(7)->all
+- **Complementary Pairs**: (0-6), (1-5), (2-4), Bridge (3), Temporal (7)->all
 
 ## What This Does NOT Include
 
@@ -86,4 +86,4 @@ If AKIRA 7+1 does NOT outperform baseline, the theory needs revision.
 
 ---
 
-*Oscar Goldman — Shogu Research Group @ Datamutant.ai subsidiary of 温心重工業*
+*Oscar Goldman, Shogu Research Group @ Datamutant.ai subsidiary of 温心重工業*

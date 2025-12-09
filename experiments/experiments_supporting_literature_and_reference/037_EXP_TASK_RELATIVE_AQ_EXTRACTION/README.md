@@ -48,4 +48,4 @@ This experiment tests the claim from `ACTION_QUANTA.md`:
 If validated, this supports the pragmatist view that meaning = action-enablement, not intrinsic signal property.
 
 
-*Oscar Goldman — Shogu Research Group @ Datamutant.ai subsidiary of 温心重工業*
+*Oscar Goldman, Shogu Research Group @ Datamutant.ai subsidiary of 温心重工業*

@@ -570,6 +570,7 @@ WHAT WOULD PROVE US WRONG
 
 ---
 
-*Oscar Goldman - Shogu Research Group @ Datamutant.ai*
 
 *"Control is belief collapse toward desired futures. The architecture that best represents belief should best enable control. This experiment tests that claim directly."*
+
+*Oscar Goldman, Shogu Research Group @ Datamutant.ai subsidiary of 温心重工業*

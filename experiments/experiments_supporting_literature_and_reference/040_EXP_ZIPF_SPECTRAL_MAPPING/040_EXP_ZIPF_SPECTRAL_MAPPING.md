@@ -706,17 +706,17 @@ Separation p-value = ____
 
 ## References
 
-1. **Zipf, G.K. (1949).** *Human Behavior and the Principle of Least Effort.* — Foundation of Zipf's law.
+1. **Zipf, G.K. (1949).** *Human Behavior and the Principle of Least Effort.*, Foundation of Zipf's law.
 
-2. **Shannon, C.E. (1948).** *A Mathematical Theory of Communication.* — Information theory.
+2. **Shannon, C.E. (1948).** *A Mathematical Theory of Communication.*, Information theory.
 
-3. **Mandelbrot, B. (1953).** *An Informational Theory of the Statistical Structure of Language.* — Information-theoretic derivation of Zipf.
+3. **Mandelbrot, B. (1953).** *An Informational Theory of the Statistical Structure of Language.*, Information-theoretic derivation of Zipf.
 
-4. **AKIRA Internal:** `THE_LANGUAGE_OF_INFORMATION.md` Section 2.4 — Zipf and spectral structure.
+4. **AKIRA Internal:** `THE_LANGUAGE_OF_INFORMATION.md` Section 2.4, Zipf and spectral structure.
 
-5. **AKIRA Internal:** `LANGUAGE_ACTION_CONTEXT.md` Section 10.4-10.5 — Zipf and AQ.
+5. **AKIRA Internal:** `LANGUAGE_ACTION_CONTEXT.md` Section 10.4-10.5, Zipf and AQ.
 
-6. **AKIRA Internal:** `034_EXP_ZIPF_WAVE_TOKENIZER` — Zipf-grounded wave embeddings.
+6. **AKIRA Internal:** `034_EXP_ZIPF_WAVE_TOKENIZER`, Zipf-grounded wave embeddings.
 
 ---
 
@@ -724,5 +724,5 @@ Separation p-value = ____
 
 *"Language has a frequency structure given by Zipf's law. Common words are DC components; rare words are high-frequency detail. The spectrum of language is the spectrum of meaning."*
 
-*Oscar Goldman — Shogu Research Group @ Datamutant.ai subsidiary of 温心重工業*
+*Oscar Goldman, Shogu Research Group @ Datamutant.ai subsidiary of 温心重工業*
 

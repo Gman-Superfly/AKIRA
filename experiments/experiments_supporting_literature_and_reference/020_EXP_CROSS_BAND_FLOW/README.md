@@ -2,7 +2,7 @@
 
 ## Evidence for architecture experiment choices
 
-This experiment tests whether information flows asymmetrically between spectral bands (Low→High early, High→Low late) and whether symmetric band pairs (0↔6, 1↔5, 2↔4) have special status. Standard mutual information I(Band_i; Band_j) tells you *how much* information is shared, but not *how* — whether bands carry the same information redundantly, unique information, or synergistic information that emerges only when combined. **Partial Information Decomposition (PID)** provides the correct mathematical framework to answer these questions.
+This experiment tests whether information flows asymmetrically between spectral bands (Low→High early, High→Low late) and whether symmetric band pairs (0↔6, 1↔5, 2↔4) have special status. Standard mutual information I(Band_i; Band_j) tells you *how much* information is shared, but not *how*; whether bands carry the same information redundantly, unique information, or synergistic information that emerges only when combined. **Partial Information Decomposition (PID)** provides the correct mathematical framework to answer these questions.
 
 ---
 
@@ -20,7 +20,7 @@ This experiment tests whether information flows asymmetrically between spectral 
 | Atom | Definition | Cross-Band Meaning |
 |------|------------|-------------------|
 | **Redundancy** | Information any single source could provide | Both bands encode the same thing (e.g., both know "it's a ring") |
-| **Unique** | Information only one source provides | Band 0 knows identity, Band 6 knows position — non-overlapping |
+| **Unique** | Information only one source provides | Band 0 knows identity, Band 6 knows position, non-overlapping |
 | **Synergy** | Information that emerges only when sources combine | Prediction accuracy requires *both* coarse structure AND fine detail |
 
 **Why PID matters for EXP_020:**
@@ -30,19 +30,19 @@ This experiment tests whether information flows asymmetrically between spectral 
    - (a) They encode the *same* information (high redundancy)
    - (b) They encode *complementary* information that together enables prediction (high synergy)
    
-   PID separates these. The experiment's H2 (symmetric pairs have strongest connections) is ambiguous without PID — "strongest" could mean redundant or synergistic.
+   PID separates these. The experiment's H2 (symmetric pairs have strongest connections) is ambiguous without PID; "strongest" could mean redundant or synergistic.
 
 2. **Collapse converts synergy to redundancy**  
-   Before collapse: bands hold different hypotheses (high synergy — need all bands to predict).  
-   After collapse: all bands agree on winner (high redundancy — any band suffices).  
+   Before collapse: bands hold different hypotheses (high synergy, need all bands to predict).  
+   After collapse: all bands agree on winner (high redundancy, any band suffices).  
    PID can track this conversion during the collapse event (H3: cross-band flow precedes within-band collapse).
 
 3. **Asymmetric flow (H1) has a PID interpretation**  
-   - **Low→High (top-down):** Coarse identity (Band 0) *constrains* fine localization (Band 6). This is redundancy injection — Band 6's uncertainty should decrease because Band 0's information propagates.
-   - **High→Low (bottom-up):** Fine details (Band 6) provide evidence that updates coarse hypothesis (Band 0). This is synergy resolution — combining local evidence across positions enables identity inference.
+   - **Low→High (top-down):** Coarse identity (Band 0) *constrains* fine localization (Band 6). This is redundancy injection, Band 6's uncertainty should decrease because Band 0's information propagates.
+   - **High→Low (bottom-up):** Fine details (Band 6) provide evidence that updates coarse hypothesis (Band 0). This is synergy resolution, combining local evidence across positions enables identity inference.
 
-4. **Interaction information can be negative — PID explains why**  
-   Williams & Beer show that negative interaction information (McGill's measure) occurs when synergy > redundancy. If you observe negative interaction between bands, that's not "negative information" — it's a signature that combining bands provides *more* than the sum of parts. EXP_020 may observe this during the interference phase (EXP 007 terminology).
+4. **Interaction information can be negative; PID explains why**  
+   Williams & Beer show that negative interaction information (McGill's measure) occurs when synergy > redundancy. If you observe negative interaction between bands, that is not "negative information"; it is a signature that combining bands provides *more* than the sum of parts. EXP_020 may observe this during the interference phase (EXP 007 terminology).
 
 ### Implementation Implications
 
@@ -85,9 +85,9 @@ U_j  = Unique(Target; Band_j \ Band_i)      # Info only Band_j has
 
 **To AKIRA Theory:**
 
-1. **WHAT↔WHERE Wormholes:** PID formalizes the intuition. Band 0 (WHAT) and Band 6 (WHERE) should have high *synergy* — identity alone doesn't predict pixel, position alone doesn't identify object, but together they do.
+1. **WHAT↔WHERE Wormholes:** PID formalizes the intuition. Band 0 (WHAT) and Band 6 (WHERE) should have high *synergy*; identity alone does not predict pixel, position alone does not identify object, but together they do.
 
-2. **Collapse as Redundancy Emergence:** Pre-collapse belief is distributed (synergistic — need all bands). Post-collapse belief is concentrated (redundant — any band suffices). PID tracks this transition.
+2. **Collapse as Redundancy Emergence:** Pre-collapse belief is distributed (synergistic, need all bands). Post-collapse belief is concentrated (redundant, any band suffices). PID tracks this transition.
 
 3. **Conservation Laws (EXP 005):** Total information I(Target; All Bands) is conserved. PID decomposes *how* it's distributed: does collapse destroy synergy or convert it to redundancy?
 
@@ -114,4 +114,4 @@ Williams, P.L., & Beer, R.D. (2010). Nonnegative Decomposition of Multivariate I
 
 ---
 
-*Oscar Goldman — Shogu Research Group @ Datamutant.ai subsidiary of 温心重工業*
+*Oscar Goldman, Shogu Research Group @ Datamutant.ai subsidiary of 温心重工業*

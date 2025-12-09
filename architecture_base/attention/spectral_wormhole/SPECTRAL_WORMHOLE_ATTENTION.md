@@ -274,12 +274,12 @@ PID EXPLAINS WHY WORMHOLES ARE VALUABLE:
 │  ──────────────────────────────────                                     │
 │  Adjacent bands (e.g., 0↔1, 5↔6) have HIGH REDUNDANCY:                │
 │  • Similar frequency content → similar information                    │
-│  • Low synergy — combining them adds little                           │
+│  • Low synergy, combining them adds little                            │
 │  • Wormhole would be wasteful                                          │
 │                                                                         │
 │  Complementary bands (0↔6, 1↔5, 2↔4) have HIGH SYNERGY:               │
 │  • Opposite frequency content → complementary information             │
-│  • High synergy — combining them enables new predictions              │
+│  • High synergy, combining them enables new predictions               │
 │  • Wormhole is VALUABLE                                                │
 │                                                                         │
 │  PID justifies the pairing structure: connect HIGH-SYNERGY pairs.     │
@@ -1081,13 +1081,13 @@ INFORMATION FLOW BY BAND PAIR:
 │                                                                         │
 │  BAND 0 → BAND 6 (Identity queries Position):                         │
 │  ─────────────────────────────────────────────                          │
-│  Query:  "I know this is a 'cat' — where exactly is it?"              │
+│  Query:  "I know this is a 'cat', where exactly is it?"               │
 │  Answer: Position/edge information from Band 6                         │
 │  Result: Band 0 now knows WHAT at specific WHERE                      │
 │                                                                         │
 │  BAND 6 → BAND 0 (Position queries Identity):                         │
 │  ─────────────────────────────────────────────                          │
-│  Query:  "I see edges at (x,y) — what is this thing?"                 │
+│  Query:  "I see edges at (x,y), what is this thing?"                  │
 │  Answer: Identity/category information from Band 0                     │
 │  Result: Band 6 now knows WHERE has specific WHAT                     │
 │                                                                         │
@@ -1350,6 +1350,6 @@ SPECTRAL WORMHOLE ATTENTION, SUMMARY
 
 *Oscar Goldman, Shogu Research Group @ Datamutant.ai*
 
-*"The wormhole is not a bridge — it is a question across frequency domains. WHAT asks WHERE; WHERE asks WHAT. The answer preserves both while informing both."*
+*"The wormhole is not a bridge, it is a question across frequency domains. WHAT asks WHERE; WHERE asks WHAT. The answer preserves both while informing both."*
 
 

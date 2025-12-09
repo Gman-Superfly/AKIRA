@@ -55,7 +55,7 @@ THE SYNERGY-REDUNDANCY HYPOTHESIS:
 │  DURING COLLAPSE:                                                       │
 │  ─────────────────                                                      │
 │  • Synergy converts to redundancy                                      │
-│  • Information "crystallizes" — becomes available in each band        │
+│  • Information "crystallizes", becomes available in each band         │
 │  • This IS the mechanism, not just a correlate                        │
 │                                                                         │
 │  AFTER COLLAPSE:                                                        │
@@ -561,17 +561,17 @@ Non-complementary pairs:
 
 ## References
 
-1. **Williams, P. L., & Beer, R. D. (2010).** *Nonnegative Decomposition of Multivariate Information.* arXiv:1004.2515. — The foundational PID paper.
+1. **Williams, P. L., & Beer, R. D. (2010).** *Nonnegative Decomposition of Multivariate Information.* arXiv:1004.2515., The foundational PID paper.
 
-2. **Mediano, P. A. M., Rosas, F. E., Luppi, A. I., Carhart-Harris, R. L., Bor, D., Seth, A. K., & Barrett, A. B. (2021).** *Towards an Extended Taxonomy of Information Dynamics via Integrated Information Decomposition.* [arXiv:2109.13186](https://arxiv.org/abs/2109.13186) — Introduces ΦID, combining PID with Integrated Information Theory. Provides framework for "whole > sum of parts" dynamics and collective information flow modes.
+2. **Mediano, P. A. M., Rosas, F. E., Luppi, A. I., Carhart-Harris, R. L., Bor, D., Seth, A. K., & Barrett, A. B. (2021).** *Towards an Extended Taxonomy of Information Dynamics via Integrated Information Decomposition.* [arXiv:2109.13186](https://arxiv.org/abs/2109.13186), Introduces ΦID, combining PID with Integrated Information Theory. Provides framework for "whole > sum of parts" dynamics and collective information flow modes.
 
-3. **Sparacino, L., Mijatovic, G., Antonacci, Y., Ricci, L., Marinazzo, D., Stramaglia, S., & Faes, L. (2025).** *Partial Information Rate Decomposition.* Physical Review Letters, 135, 187401. [arXiv:2502.04550](https://arxiv.org/pdf/2502.04550) — Extends PID to information RATES, directly applicable to temporal dynamics of synergy/redundancy conversion.
+3. **Sparacino, L., Mijatovic, G., Antonacci, Y., Ricci, L., Marinazzo, D., Stramaglia, S., & Faes, L. (2025).** *Partial Information Rate Decomposition.* Physical Review Letters, 135, 187401. [arXiv:2502.04550](https://arxiv.org/pdf/2502.04550), Extends PID to information RATES, directly applicable to temporal dynamics of synergy/redundancy conversion.
 
-4. **Bertschinger, N., Rauh, J., Olbrich, E., Jost, J., & Ay, N. (2014).** *Quantifying Unique Information.* Entropy, 16(4), 2161-2183. — The BROJA measure for PID.
+4. **Bertschinger, N., Rauh, J., Olbrich, E., Jost, J., & Ay, N. (2014).** *Quantifying Unique Information.* Entropy, 16(4), 2161-2183., The BROJA measure for PID.
 
-5. **Griffith, V., & Koch, C. (2014).** *Quantifying synergistic mutual information.* In Guided Self-Organization: Inception. — Context for synergy in neural systems.
+5. **Griffith, V., & Koch, C. (2014).** *Quantifying synergistic mutual information.* In Guided Self-Organization: Inception., Context for synergy in neural systems.
 
-6. **Tononi, G. (2004).** *An information integration theory of consciousness.* BMC Neuroscience, 5(1), 42. — Related concept of integrated information (Phi).
+6. **Tononi, G. (2004).** *An information integration theory of consciousness.* BMC Neuroscience, 5(1), 42., Related concept of integrated information (Phi).
 
 ---
 
@@ -579,4 +579,4 @@ Non-complementary pairs:
 
 *"The mechanism matters. Correlation is observation; causation is understanding. If collapse IS synergy→redundancy conversion, we can engineer it. If it merely correlates, we must look elsewhere for the true mechanism."*
 
-*Oscar Goldman — Shogu Research Group @ Datamutant.ai subsidiary of 温心重工業*
+*Oscar Goldman, Shogu Research Group @ Datamutant.ai subsidiary of 温心重工業*

@@ -56,7 +56,7 @@ Cognitive science shows memory is reconstructive:
 • Current context affects past interpretation
 • "False memories" are coherent constructions
 
-This is not a bug — it's a feature.
+This is not a bug; it is a feature.
 It maintains narrative coherence.
 ```
 

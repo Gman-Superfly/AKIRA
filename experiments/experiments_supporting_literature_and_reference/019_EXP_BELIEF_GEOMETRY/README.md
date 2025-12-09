@@ -52,4 +52,4 @@ Combined, these results motivate EXP_019’s architecture choices:
   Explains why Bayesian belief dynamics for HMMs generically yield fractal belief geometry and argues for using self‑similar activation sets to infer a model’s latent variables, aligning with EXP_019’s belief‑geometry agenda.
 
 
-*Oscar Goldman — Shogu Research Group @ Datamutant.ai subsidiary of 温心重工業*
+*Oscar Goldman, Shogu Research Group @ Datamutant.ai subsidiary of 温心重工業*

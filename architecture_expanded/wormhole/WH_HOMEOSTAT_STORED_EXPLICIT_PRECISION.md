@@ -444,7 +444,7 @@ NON-LOCAL GEOMETRIC TRIGGER:
 │  • It breaks the "zero gradient deadlock"                     │
 │  • A low-similarity but high-benefit connection can open     │
 │                                                                 │
-│  This is like Equilibrium Propagation's "nudge" —             │
+│  This is like Equilibrium Propagation's "nudge",              │
 │  credit assignment without backprop through inactive paths.   │
 │                                                                 │
 └─────────────────────────────────────────────────────────────────┘
@@ -486,8 +486,8 @@ EXPLORATION-BASED GEOMETRIC TRIGGER:
 │                                                                 │
 │  The null-space of precision IS the set of uncertain beliefs. │
 │  PSON explores THIS SPACE specifically.                        │
-│  It's not random noise everywhere —                           │
-│  it's TARGETED exploration of geometric uncertainty.          │
+│  It is not random noise everywhere,                          │
+│  it is TARGETED exploration of geometric uncertainty.         │
 │                                                                 │
 └─────────────────────────────────────────────────────────────────┘
 ```

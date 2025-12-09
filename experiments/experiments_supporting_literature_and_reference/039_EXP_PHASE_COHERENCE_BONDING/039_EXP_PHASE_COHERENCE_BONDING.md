@@ -71,7 +71,7 @@ THE HYPOTHESIS:
 
 3. **Transformer Representations** - Embeddings can be decomposed into magnitude and phase components. Relative phase affects combination.
 
-**Bridge to AKIRA:**
+**Connection to AKIRA:**
 
 If AQ behave like wave-like patterns (as claimed), then their combination should follow superposition rules:
 - Aligned phase → constructive interference → amplified combined representation
@@ -759,15 +759,15 @@ Layer 20: coherence separation = ____
 
 ## References
 
-1. **Fries, P. (2005).** *A mechanism for cognitive dynamics: neuronal communication through neuronal coherence.* Trends in Cognitive Sciences. — Phase synchrony in neural binding.
+1. **Fries, P. (2005).** *A mechanism for cognitive dynamics: neuronal communication through neuronal coherence.* Trends in Cognitive Sciences., Phase synchrony in neural binding.
 
-2. **Singer, W. (1999).** *Neuronal synchrony: A versatile code for the definition of relations?* Neuron. — Phase as binding mechanism.
+2. **Singer, W. (1999).** *Neuronal synchrony: A versatile code for the definition of relations?* Neuron., Phase as binding mechanism.
 
-3. **AKIRA Internal:** `THE_LANGUAGE_OF_INFORMATION.md` Section 3 — Grammatical rules of AQ bonding.
+3. **AKIRA Internal:** `THE_LANGUAGE_OF_INFORMATION.md` Section 3, Grammatical rules of AQ bonding.
 
-4. **AKIRA Internal:** `ACTION_QUANTA.md` Section 6 — Types of AQ bonds.
+4. **AKIRA Internal:** `ACTION_QUANTA.md` Section 6, Types of AQ bonds.
 
-5. **AKIRA Internal:** `HARMONY_AND_COHERENCE.md` — Phase alignment as harmony.
+5. **AKIRA Internal:** `HARMONY_AND_COHERENCE.md`, Phase alignment as harmony.
 
 ---
 
@@ -776,5 +776,5 @@ Layer 20: coherence separation = ____
 *"Meaning composes like waves. In-phase concepts reinforce; out-of-phase concepts cancel. The grammar of thought is the physics of interference."*
 
 
-*Oscar Goldman — Shogu Research Group @ Datamutant.ai subsidiary of 温心重工業*
+*Oscar Goldman, Shogu Research Group @ Datamutant.ai subsidiary of 温心重工業*
 

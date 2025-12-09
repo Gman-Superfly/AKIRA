@@ -755,15 +755,15 @@ k=4 failures - constraint violation pattern:
 
 ## References
 
-1. **Mao, J., Lozano-Perez, T., Tenenbaum, J.B., & Kaelbling, L.P. (2023).** *What Planning Problems Can A Relational Neural Network Solve?* ICLR 2024. arXiv:2312.03682v2. — The foundational paper for SOS width and circuit complexity in neural networks.
+1. **Mao, J., Lozano-Perez, T., Tenenbaum, J.B., & Kaelbling, L.P. (2023).** *What Planning Problems Can A Relational Neural Network Solve?* ICLR 2024. arXiv:2312.03682v2., The foundational paper for SOS width and circuit complexity in neural networks.
 
-2. **Arora, S., & Barak, B. (2009).** *Computational Complexity: A Modern Approach.* Cambridge University Press. — General circuit complexity theory.
+2. **Arora, S., & Barak, B. (2009).** *Computational Complexity: A Modern Approach.* Cambridge University Press., General circuit complexity theory.
 
-3. **Lipovetzky, N., & Geffner, H. (2012).** *Width and Serialization of Classical Planning Problems.* ECAI. — Precursor to SOS width.
+3. **Lipovetzky, N., & Geffner, H. (2012).** *Width and Serialization of Classical Planning Problems.* ECAI., Precursor to SOS width.
 
-4. **AKIRA Internal:** `CIRCUIT_COMPLEXITY.md` — Full treatment of circuit complexity for AKIRA.
+4. **AKIRA Internal:** `CIRCUIT_COMPLEXITY.md`, Full treatment of circuit complexity for AKIRA.
 
-5. **AKIRA Internal:** `TERMINOLOGY_FRAMEWORK_OVERVIEW.md` — Architecture breadth = (k+1) x β.
+5. **AKIRA Internal:** `TERMINOLOGY_FRAMEWORK_OVERVIEW.md`, Architecture breadth = (k+1) x β.
 
 ---
 
@@ -771,4 +771,4 @@ k=4 failures - constraint violation pattern:
 
 *"Architecture is destiny. A network with 8 bands can track 3 constraints. Ask it to track 4, and it will fail - not from lack of training, but from mathematical impossibility. Know your limits."*
 
-*Oscar Goldman — Shogu Research Group @ Datamutant.ai subsidiary of 温心重工業*
+*Oscar Goldman, Shogu Research Group @ Datamutant.ai subsidiary of 温心重工業*

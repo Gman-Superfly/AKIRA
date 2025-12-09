@@ -64,5 +64,5 @@ From `THE_LANGUAGE_OF_INFORMATION.md`:
 > "Coherent bonds (Constructive Interference): Atoms with aligned phase combine to reinforce.
 > The whole is MORE than the sum of parts. Energy increases."
 
-*Oscar Goldman — Shogu Research Group @ Datamutant.ai subsidiary of 温心重工業*
+*Oscar Goldman, Shogu Research Group @ Datamutant.ai subsidiary of 温心重工業*
 

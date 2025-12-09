@@ -776,15 +776,15 @@ Ratio: ____
 
 ## References
 
-1. **Alain, G., & Bengio, Y. (2016).** *Understanding intermediate layers using linear classifier probes.* — Foundation for probing methodology.
+1. **Alain, G., & Bengio, Y. (2016).** *Understanding intermediate layers using linear classifier probes.*, Foundation for probing methodology.
 
-2. **Meng, K., et al. (2022).** *Locating and Editing Factual Associations in GPT.* — Causal tracing for load-bearing features.
+2. **Meng, K., et al. (2022).** *Locating and Editing Factual Associations in GPT.*, Causal tracing for load-bearing features.
 
-3. **AKIRA Internal:** `ACTION_QUANTA.md` Section 5.4 — Three-level distinction (Radar example).
+3. **AKIRA Internal:** `ACTION_QUANTA.md` Section 5.4, Three-level distinction (Radar example).
 
-4. **AKIRA Internal:** `RADAR_ARRAY.md` Section 5.2.1-5.2.2 — Measurement vs Inference vs AQ detailed breakdown.
+4. **AKIRA Internal:** `RADAR_ARRAY.md` Section 5.2.1-5.2.2, Measurement vs Inference vs AQ detailed breakdown.
 
-5. **AKIRA Internal:** `TERMINOLOGY_FRAMEWORK_OVERVIEW.md` — Structural vs Functional terminology.
+5. **AKIRA Internal:** `TERMINOLOGY_FRAMEWORK_OVERVIEW.md`, Structural vs Functional terminology.
 
 ---
 
@@ -793,5 +793,5 @@ Ratio: ____
 *"The model measures many things, infers some things, but acts on few things. Action Quanta are the bottleneck between understanding and doing. Everything else is scaffolding."*
 
 
-*Oscar Goldman — Shogu Research Group @ Datamutant.ai subsidiary of 温心重工業*
+*Oscar Goldman, Shogu Research Group @ Datamutant.ai subsidiary of 温心重工業*
 

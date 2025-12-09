@@ -163,4 +163,4 @@ This experiment tests whether AKIRA's spectral framework can be grounded in info
 - [ ] Language model experiments
 - [ ] Analysis of spectral patterns
 
-*Oscar Goldman — Shogu Research Group @ Datamutant.ai subsidiary of 温心重工業*
+*Oscar Goldman, Shogu Research Group @ Datamutant.ai subsidiary of 温心重工業*

@@ -68,4 +68,4 @@ From `CIRCUIT_COMPLEXITY.md`:
 > Less breadth → Cannot solve the problem (mathematical impossibility)"
 
 
-*Oscar Goldman — Shogu Research Group @ Datamutant.ai subsidiary of 温心重工業*
+*Oscar Goldman, Shogu Research Group @ Datamutant.ai subsidiary of 温心重工業*

@@ -16,7 +16,7 @@
 
 ### 1.1 The Question
 
-We have "free information assets" — data computed during forward passes that we typically discard:
+We have "free information assets," data computed during forward passes that we typically discard:
 
 **Can we use these cheap probes to predict model behavior without full inference?**
 
@@ -151,5 +151,5 @@ Tickling is USEFUL / NOT USEFUL for practical speedup.
 
 ---
 
-*Oscar Goldman — Shogu Research Group @ Datamutant.ai subsidiary of 温心重工業*
+*Oscar Goldman, Shogu Research Group @ Datamutant.ai subsidiary of 温心重工業*
 

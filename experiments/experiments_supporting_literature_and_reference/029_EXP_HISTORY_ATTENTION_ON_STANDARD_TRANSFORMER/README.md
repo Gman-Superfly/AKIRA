@@ -230,4 +230,4 @@ This is WHY spectral decomposition matters - it creates meaningful positions (fr
 
 
 
-*Oscar Goldman — Shogu Research Group @ Datamutant.ai subsidiary of 温心重工業*
+*Oscar Goldman, Shogu Research Group @ Datamutant.ai subsidiary of 温心重工業*

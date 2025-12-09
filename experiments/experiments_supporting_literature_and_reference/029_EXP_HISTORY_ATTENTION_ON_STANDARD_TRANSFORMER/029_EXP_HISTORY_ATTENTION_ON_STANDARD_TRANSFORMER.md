@@ -132,4 +132,4 @@ See `results/029_RESULTS.md` for full analysis.
 ---
 
 AKIRA Project - Experiment 029
-*Oscar Goldman — Shogu Research Group @ Datamutant.ai subsidiary of 温心重工業*
+*Oscar Goldman, Shogu Research Group @ Datamutant.ai subsidiary of 温心重工業*

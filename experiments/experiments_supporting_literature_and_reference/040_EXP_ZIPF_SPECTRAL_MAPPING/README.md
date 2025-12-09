@@ -61,4 +61,4 @@ From `THE_LANGUAGE_OF_INFORMATION.md`:
 > Band 4-5: domain-specific - Med-High information, Content  
 > Band 6 (HF): rare/technical - High information, Specifics"
 
-*Oscar Goldman — Shogu Research Group @ Datamutant.ai subsidiary of 温心重工業*
+*Oscar Goldman, Shogu Research Group @ Datamutant.ai subsidiary of 温心重工業*

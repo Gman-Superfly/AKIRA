@@ -84,4 +84,4 @@ If AKIRA 7+1 does NOT outperform baseline, the theory needs revision.
 
 ---
 
-**Oscar Goldman - Shogu Research Group @ Datamutant.ai**
+*Oscar Goldman, Shogu Research Group @ Datamutant.ai subsidiary of 温心重工業*

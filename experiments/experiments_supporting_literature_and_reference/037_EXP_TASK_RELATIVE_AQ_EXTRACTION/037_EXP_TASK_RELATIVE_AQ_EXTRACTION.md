@@ -65,7 +65,7 @@ THE HYPOTHESIS:
 
 3. **Gibson's Affordances** - The meaning of an object IS what actions it affords. Different tasks reveal different affordances of the same object.
 
-**Bridge to AKIRA:**
+**Connection to AKIRA:**
 
 If AQ are "the minimum pattern that enables correct action," then changing the task changes what counts as "correct action," which should change which patterns qualify as AQ.
 
@@ -654,17 +654,17 @@ Jaccard similarity: ____
 
 ## References
 
-1. **Gibson, J.J. (1979).** *The Ecological Approach to Visual Perception.* — Affordances: meaning is action-possibility, task-relative.
+1. **Gibson, J.J. (1979).** *The Ecological Approach to Visual Perception.*, Affordances: meaning is action-possibility, task-relative.
 
-2. **Peirce, C.S.** — Pragmatic maxim: meaning is practical consequence.
+2. **Peirce, C.S.** Pragmatic maxim: meaning is practical consequence.
 
-3. **Vaswani, A. et al. (2017).** *Attention Is All You Need.* — Attention as task-guided feature selection.
+3. **Vaswani, A. et al. (2017).** *Attention Is All You Need.*, Attention as task-guided feature selection.
 
-4. **AKIRA Internal:** `ACTION_QUANTA.md` Section 1.3 — Task-relativity of AQ.
+4. **AKIRA Internal:** `ACTION_QUANTA.md` Section 1.3, Task-relativity of AQ.
 
-5. **AKIRA Internal:** `RADAR_ARRAY.md` Section 8 — Same signal, different AQ for different tasks (radar example).
+5. **AKIRA Internal:** `RADAR_ARRAY.md` Section 8, Same signal, different AQ for different tasks (radar example).
 
-6. **AKIRA Internal:** `LANGUAGE_ACTION_CONTEXT.md` — Context determines AQ crystallization.
+6. **AKIRA Internal:** `LANGUAGE_ACTION_CONTEXT.md`, Context determines AQ crystallization.
 
 ---
 
@@ -673,4 +673,4 @@ Jaccard similarity: ____
 *"The same signal carries different meaning for different tasks. The ball is RED when you ask about color, but ON THE TABLE when you ask about location. Action Quanta are not discovered; they are crystallized from the signal-task interaction."*
 
 
-*Oscar Goldman — Shogu Research Group @ Datamutant.ai subsidiary of 温心重工業*
+*Oscar Goldman, Shogu Research Group @ Datamutant.ai subsidiary of 温心重工業*
