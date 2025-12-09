@@ -9,13 +9,13 @@
 
 ## What Is This?
 
-AKIRA is a project to study how beliefs shape and transform information.
+AKIRA is an experimental real-time spectral belief system.
 
-Not just "how transformers work" in a mechanical sense, but something deeper: *what happens when many possibilities collapse into one certainty?* When ML models "know" something, what changed? When understanding crystallizes from confusion, what was the transformation?
+We study how streaming models maintain and update beliefs under latency and bandwidth constraints. Action Quanta (AQ) are the crystallized beliefs that enable action and teaching; they are the units that let a running system discriminate and reconstruct behavior from weights when joined with the live context window. AQ are not the final product, but without them the system cannot decide what to do or reteach itself from stored parameters. The primary focus is building and testing a real-time spectral architecture grounded in literature on belief updating, information theory, computational mechanics, and control.
 
-We base our work from observations and standards in Information Theory, Computational Mechanics, Physics, there are links under every document and we will be adding inline references as the project matures.
+We base the work on established results in information theory, computational mechanics, and physics. There are links under every document, and we will add inline references as the project matures.
 
-We don't have all the answers. We have hypotheses, experiments, and a framework for thinking about these questions. This repository is a working document of that exploration.
+We don't have all the answers. We have hypotheses, experiments, and a framework for thinking about these questions while the system runs in real time. This repository is a working document of that exploration.
 
 ```
 THE FUNDAMENTAL OBSERVATION
@@ -23,28 +23,29 @@ THE FUNDAMENTAL OBSERVATION
   Before: Many hypotheses, distributed belief, high uncertainty
   After:  One answer, concentrated belief, certainty
   
-  THE QUESTION: What is the nature of this transition?
+  THE QUESTION: What does this transition create, and what enables reconstruction and teaching of the correct action to take?
   
-  Our approach: Treat it like a phase transition.
-  When water freezes, molecules don't disappear, they crystallize.
-  When beliefs collapse, information doesn't vanish, it transforms.
+  Our approach: Treat it like a phase transition observed in-flight.
+  The system must keep generating while we measure the change.
+  When beliefs collapse, information does not vanish, it transforms.
+  Training is the compression step: many detailed beliefs collapse into fewer generalized concepts that remain actionable.
+  We trade precision and memorization for generalization and actionability in real time.
   
-  We call the crystallized patterns "Action Quanta":
-  Irreducible units of actionable information.
-  The atoms of thought that survive the collapse.
+  Action Quanta (AQ) are the crystallized beliefs that enable discrimination and action.
+  They are what let the system teach and reconstruct from weights when joined with the context window.
 ```
 
 ---
 
 ## The Core Ideas (In Plain Language)
 
-### 1. Prediction Is Belief
+### 1. Prediction is belief in motion
 
-When a model predicts the next token, it expresses its belief about what should come next. The error isn't just "wrong output", it is uncertainty made visible. Training isn't just "optimization", it is learning when to be certain and when to doubt.
+In a live system each token updates the belief state that lives across weights and the context window. The error is uncertainty made visible while the system continues to run. Training is learning when to commit and when to hold probability mass in reserve so the stream stays stable.
 
 ### 2. Attention Has Structure
 
-The mathematics of attention (`softmax(QK^T/sqrt(d))V`) has a particular form: *self-interaction times state*. This form appears elsewhere in physics, in systems that undergo phase transitions, that exhibit collective behavior, that produce emergent patterns.
+The mathematics of attention (`softmax(QK^T/sqrt(d))V`) has a particular form: *self-interaction times state*. This form appears elsewhere in physics, in systems that undergo phase transitions, that exhibit collective behavior, that produce emergent patterns. We adapt attention with temporal, neighbor, and wormhole variants so signals can move across bands without breaking real-time budgets.
 
 We don't claim attention "is" physics. We observe that attention *has similar mathematical structure* to systems we understand well. This similarity may be superficial, or it may be deep. We're investigating.
 
@@ -54,15 +55,17 @@ Different frequency bands capture different kinds of structure:
 - Low frequencies: What persists (identity, categories, the slow-changing)
 - High frequencies: What's transient (details, textures, the fast-changing)
 
-AKIRA decomposes representations spectrally, processes each band differently, and asks: how does information flow between scales?
+AKIRA decomposes representations spectrally, processes each band differently, and asks how information flows between scales when the system is running continuously.
 
-### 4. Collapse Is Not Destruction
+### 4. Collapse is an event, not the product
 
 When uncertainty resolves, where does it go?
 
-Our hypothesis: Collapse converts *distributed* information (synergy, patterns that only exist when sources combine) into *shared* information (redundancy, patterns repeated across components). The total information is conserved. Its *form* changes.
+Our hypothesis: Collapse converts *distributed* information (synergy, patterns that only exist when sources combine) into *shared* information (redundancy, patterns repeated across components). The total information is conserved and its *form* changes.
 
-This is why we call the result "Action Quanta"; they are the irreducible patterns that enable action. Not lost information, but *crystallized* information.
+Action Quanta are the crystallized beliefs that enable discrimination and teaching. They are how the system can act, and how it can reconstruct behavior from weights when combined with the live context window. The system remains focused on maintaining responsive belief under real-time constraints; AQ make that possible.
+
+For detailed parallels on how AQ emerge from language and physical sensing, see `foundations/parallels/LANGUAGE_ACTION_CONTEXT.md` and `foundations/parallels/RADAR_ARRAY.md`.
 
 ---
 
@@ -100,7 +103,7 @@ We run experiments. We measure. We look for what we predicted and what surprises
 The theoretical framework: what we mean by our terms, what's established science vs. what's hypothesis, what connects to what.
 
 ### Architecture
-The design: 7+1 spectral bands, three attention mechanisms (temporal, neighbor, wormhole), differential learning rates, collapse dynamics.
+The design: 7+1 spectral bands, three attention mechanisms (temporal, neighbor, wormhole), differential learning rates, and collapse dynamics, all built for real-time inference and online updates.
 
 ### Experiments  
 The validation: 40+ experiments designed to test specific predictions. Some complete, most in progress.
