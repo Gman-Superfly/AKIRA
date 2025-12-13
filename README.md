@@ -136,7 +136,7 @@ The framing: Pandora (action as transformation), Praxis (theory vs. practice), t
 
 ---
 
-## Status, honest assessment
+## Status
 
 **What we have:**
 - A coherent theoretical framework connecting information theory, signal processing, and attention
@@ -145,9 +145,9 @@ The framing: Pandora (action as transformation), Praxis (theory vs. practice), t
 - A few runnable experiment implementations, plus documented measurements and falsification criteria
 
 **What we don't have:**
-- Proof that the physics analogies are more than superficial
+- Proof that the physics analogies are more than superficial (we aren't searching for them)
 - Complete experimental validation
-- A working implementation that clearly outperforms baselines
+- A working implementation outside of toy models that clearly outperforms baselines
 - Certainty that we're on the right track
 
 This is research in progress. The hypotheses are falsifiable. Some may turn out to be wrong. That's the point.
