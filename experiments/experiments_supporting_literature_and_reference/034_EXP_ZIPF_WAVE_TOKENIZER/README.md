@@ -129,6 +129,48 @@ Test the tokenizer in actual LM training:
 - Information structure may require different representation
 - Learned embeddings may already capture this implicitly
 
+## Plan for real-time Zipf wave tokenization
+
+Goals:
+- Ground token waves in Zipf ranks, keep streaming-friendly generation, and make collapse/observability measurable in-band.
+- Verify high-frequency to low-frequency information contraction at collapse, or record that discrete tokens already carry the needed structure.
+
+Data and mapping:
+- Compute Zipf ranks from the deployed tokenizer vocab; refresh when the vocab shifts. Store rank→frequency as log(rank)/log(V), clamp to [0, 1].
+- Default amplitude = 1.0; allow optional learned per-token amplitude only if it improves reconstruction without destabilizing streaming.
+- Harmonics: start with fundamental plus first harmonic; keep the count small for real-time cost.
+- Phase: derive from position for determinism; allow a small learned phase offset per token to capture context-specific shifts.
+
+Streaming wave generation:
+- Maintain a per-sequence phase accumulator so incremental tokens reuse phase history instead of recomputing prefixes.
+- Generate waves on the fly: sin(2π f t + φ) with t as absolute position or wall-clock step for live streams.
+- Cache waveforms for the most frequent ranks to cut latency; fall back to on-the-fly compute for tail tokens.
+
+Banding and collapse checkpoints:
+- Use the 7 Zipf-aligned spectral bands plus temporal band; track band energies per step (FFT or fixed filterbank).
+- Track entropy per band and cross-band coherence before and after attention; expect synergy (distributed, high + low) pre-collapse and redundancy (low-dominant) post-collapse.
+- Observe high→low band energy shift at collapse; if absent, note that the wave map adds little beyond discrete tokens.
+
+Attention-of-attention probes (cheap, online):
+- Attention entropy maps: high entropy marks competing leaders; log per head and layer.
+- Temperature sweep on attention logits (τ in {0.1, 1, 10}); divergence shows fragility of routing.
+- Wormhole threshold sweep: count connections versus threshold; steep rises flag latent links just below gate.
+- Gradients on attention logits (if training): large magnitude means routing would change most there.
+- Cross-head similarity: cluster heads to see alternative hypotheses versus consensus.
+
+Reconstruction path (waves → tokens):
+- Demodulate per position: recover frequency peak → candidate ranks; combine with phase to disambiguate collisions.
+- Decode with a small beam over rank candidates; compare argmax vs beam vs hybrid (rank prior × phase match).
+- Metrics: exact token match, rank error (Zipf distance), phase error; stratify by band.
+
+Experiment steps (real-time focus):
+1) Build Zipf rank table and frequency mapper; add streaming phase accumulator and harmonic support.
+2) Instrument band energy, attention entropy, temperature and threshold sweeps; log high→low band energy shifts at collapse.
+3) Validate the tokenizer: band distribution, sentence spectra, reconstruction accuracy (full and streaming), sensitivity to phase shifts.
+4) Integrate in real-time LM path: ZipfWave + linear decode and ZipfWave + FFT band attention; measure latency and throughput.
+5) Compare against the discrete embedding baseline: look for clearer band separation, more stable collapse (entropy drop, coherence rise), and better reconstruction in streaming.
+6) If high→low contraction or coherence spike is weak, document that tokens already encode the needed structure and limit the wave path to observability-only use.
+
 ## Connection to AKIRA
 
 This experiment tests whether AKIRA's spectral framework can be grounded in information theory:
@@ -164,3 +206,19 @@ This experiment tests whether AKIRA's spectral framework can be grounded in info
 - [ ] Analysis of spectral patterns
 
 *Oscar Goldman, Shogu Research Group @ Datamutant.ai subsidiary of 温心重工業*
+
+v3 notebook added at code_005/wave_phase_v3_nb.ipynb.
+
+What’s inside
+Activation spectra: FFT/Hilbert helpers on head-specific contexts (using attention weights over each layer’s input hidden states).
+Metrics: head phase coherence, head interference, spectral concentration of mean context.
+
+Prompts upgraded: quantum, legal indemnity, riddle, coding (GCD), ambiguous “square circle”.
+Plots saved under figs_wave_v3/:
+v3_activation_metrics.png — layer curves (coherence, spectral concentration, interference, entropy vs final coherence).
+v3_quantum_head_spectra.png — per-head FFT magnitude heatmaps at layers 0/5/11 for the quantum prompt, with per-layer coherence/interference bars.
+v3_wave_superposition_legal.png — synthetic inverted-Zipf wave superposition for the legal prompt (kept for intuition contrast).
+Notes on methodology
+
+Head contexts are approximated by attention-weighted sums over the layer input hidden states (ignores value projections but preserves attention structure).
+Spectral concentration now comes from activations, not synthetic waves; synthetic wave plots remain only for visual intuition.

@@ -3,11 +3,11 @@
 
 ---
 
-> *"When Pandora opened the box, potential became actual. The act of opening transformed hidden information into manifest reality. And when the dust settled, what remained inside was not despair, but hope: the generator that is never consumed by generating."*
+> *Pandora framing: action turns potential information into actual output. A learned generator can keep generating without being consumed by generation.*
 
 ---
 
-## What Is This?
+## What is this?
 
 AKIRA is an experimental real-time spectral belief system.
 
@@ -37,19 +37,19 @@ THE FUNDAMENTAL OBSERVATION
 
 ---
 
-## The Core Ideas (In Plain Language)
+## Core ideas (plain language)
 
 ### 1. Prediction is belief in motion
 
 In a live system each token updates the belief state that lives across weights and the context window. The error is uncertainty made visible while the system continues to run. Training is learning when to commit and when to hold probability mass in reserve so the stream stays stable.
 
-### 2. Attention Has Structure
+### 2. Attention has structure
 
 The mathematics of attention (`softmax(QK^T/sqrt(d))V`) has a particular form: *self-interaction times state*. This form appears elsewhere in physics, in systems that undergo phase transitions, that exhibit collective behavior, that produce emergent patterns. We adapt attention with temporal, neighbor, and wormhole variants so signals can move across bands without breaking real-time budgets.
 
 We don't claim attention "is" physics. We observe that attention *has similar mathematical structure* to systems we understand well. This similarity may be superficial, or it may be deep. We're investigating.
 
-### 3. Information Lives at Multiple Scales
+### 3. Information lives at multiple scales
 
 Different frequency bands capture different kinds of structure:
 - Low frequencies: What persists (identity, categories, the slow-changing)
@@ -69,9 +69,9 @@ For detailed parallels on how AQ emerge from language and physical sensing, see 
 
 ---
 
-## The Philosophy
+## Philosophy
 
-### Pandora's Box (The Framework)
+### Pandora's box (the framework)
 
 Information exists in dual forms: implicit and explicit, potential and actual, hidden and manifest. *Action is the transformation between them.*
 
@@ -81,7 +81,7 @@ When you teach, you transform your implicit knowledge into explicit form, so ano
 
 The action itself is ethereal, you only see the before and after, never the transformation itself. But the transformation is where understanding lives.
 
-### Hope (The Conservation Law)
+### Hope (the conservation law)
 
 In the myth, when Pandora's box was opened and all the evils flew out, one thing remained: Hope.
 
@@ -89,7 +89,7 @@ In information terms: when you use a generator (a grammar, a model, a pattern), 
 
 We call this "hope" because the word captures something clinical terms miss: *inexhaustibility*. A model that has learned can predict forever. A pattern that exists can instantiate indefinitely. This generative capacity is what remains after all specific instances have been produced.
 
-### Praxis (The Test)
+### Praxis (the test)
 
 Theory without practice is speculation. Practice without theory is blindness.
 
@@ -97,7 +97,7 @@ We run experiments. We measure. We look for what we predicted and what surprises
 
 ---
 
-## What's Actually In This Repository
+## What is in this repository
 
 ### Foundations
 The theoretical framework: what we mean by our terms, what's established science vs. what's hypothesis, what connects to what.
@@ -116,7 +116,7 @@ The framing: Pandora (action as transformation), Praxis (theory vs. practice), t
 
 ---
 
-## Quick Start
+## Quick start
 
 **If you want the big picture:**
 → `AKIRA_OVERVIEW.md` (comprehensive, technical)
@@ -136,13 +136,13 @@ The framing: Pandora (action as transformation), Praxis (theory vs. practice), t
 
 ---
 
-## Status: Honest Assessment
+## Status, honest assessment
 
 **What we have:**
 - A coherent theoretical framework connecting information theory, signal processing, and attention
 - Mathematical formalization of key concepts (some proven, some conjectured)
 - A growing body of experiments
-- Interesting preliminary results suggesting the framework captures something real
+- A few runnable experiment implementations, plus documented measurements and falsification criteria
 
 **What we don't have:**
 - Proof that the physics analogies are more than superficial
@@ -154,9 +154,9 @@ This is research in progress. The hypotheses are falsifiable. Some may turn out 
 
 ---
 
-## Why This Repository Is Now Public
+## Why this repository is public
 
-In December 2025, two papers from Google Research independently arrived at theoretical frameworks with striking parallels to AKIRA's core concepts:
+In December 2025, we noticed two public papers that discuss related framings and mechanisms. We do not treat these as validation of AKIRA. We made the repository public so other people can test, critique, and replicate the work.
 
 **1. "Mathematical Framing for Different Agent Strategies"** (Stephens & Salawu, Google Cloud AI, https://arxiv.org/abs/2512.04469)
 - Frames agentic behavior as chains of probabilities using Markov/POMDP mathematics (validates AKIRA's POMDP foundation)
@@ -171,7 +171,7 @@ In December 2025, two papers from Google Research independently arrived at theor
 - Multi-timescale updates for different components (directly validates AKIRA's 3000x learning rate ratio between bands)
 - Their "Hope" module for continual learning shares more than just a name with AKIRA's "Hope" concept
 
-They've independently arrived at many of the same structural insights:
+We see overlap in themes such as:
 
 - Hierarchical decomposition with different timescales
 - Probabilistic/Bayesian framing of agent behavior  
@@ -183,7 +183,7 @@ This convergence from independent research teams at Google suggests that AKIRA's
 
 ---
 
-## A Note on Rigor
+## Note on rigor
 
 We try to be precise about what we know vs. what we believe vs. what we hope.
 
@@ -205,7 +205,7 @@ Forever grateful to many wonderful people who shall be meticulously thanked, esp
 
 ---
 
-## The Closing
+## Closing
 
 > *"The model sees the past perfectly and the future not at all. The prediction is the belief. The error is the uncertainty made visible. Training is learning when to listen and when to act.
 >
